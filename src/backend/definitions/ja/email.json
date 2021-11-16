@@ -1,0 +1,115 @@
+{
+  "subscribed_quest_notifications": {
+    "on_started": {
+      "subject": "[QUEST] {performer.name} がクエストを開始しました。",
+      "body_text": [
+        "{recipient.name} 様",
+        "",
+        "フォロー中の {performer.name} が以下のクエストを開始しました。",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "本メールはユーザーの通知設定に基づき自動送信されています。送信設定は下記URLより行えます。",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST運営 - ※本メールに返信することはできません。"
+      ]
+    }
+  },
+  "involved_quest_notifications": {
+    "on_completed": {
+      "subject": "[QUEST](アクションが必要) 投票が開始されました。",
+      "body_text": [
+        "{recipient.name} 様",
+        "",
+        "以下のクエストで投票が開始されました。QUESTサイトで投票を行ってください。",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "本メールはユーザーの通知設定に基づき自動送信されています。送信設定は下記URLより行えます。",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST運営 - ※本メールに返信することはできません。"
+      ]
+    },
+    "on_succeeded": {
+      "subject": "[QUEST](アクションが必要) 投票結果についてあなたの判断が必要です。",
+      "body_text": [
+        "{recipient.name} 様",
+        "",
+        "以下のクエストで投票が終了し、結果についてあなたの判断が必要です。QUESTサイトで判断を送信してください。",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "本メールはユーザーの通知設定に基づき自動送信されています。送信設定は下記URLより行えます。",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST運営 - ※本メールに返信することはできません。"
+      ]
+    }
+  },
+  "performers_quest_notifications": {
+    "on_requested": {
+      "subject": "[QUEST](重要) {promoter.name} からReQUESTが届きました。",
+      "body_text": [
+        "{recipient.name} 様",
+        "",
+        "{promoter.name} から以下のReQUESTが届きました。QUESTサイトで詳細を確認してください。",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "本メールはユーザーの通知設定に基づき自動送信されています。送信設定は下記URLより行えます。",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST運営 - ※本メールに返信することはできません。"
+      ]
+    },
+    "on_reaching_deadline": {
+      "subject": "[QUEST](重要) 実行中のクエストが期限間近（あと1日）です。",
+      "body_text": [
+        "{recipient.name} 様",
+        "",
+        "以下のクエストが間もなく締切日時となります。",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "クエストが完了した場合、QUESTサイトで締切日時までに完了ボタンを押してください。",
+        "",
+        "本メールはユーザーの通知設定に基づき自動送信されています。送信設定は下記URLより行えます。",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST運営 - ※本メールに返信することはできません。"
+      ]
+    }
+  },
+  "promoters_quest_notifications": {
+    "on_started": {
+      "subject": "[QUEST](重要) あなたのオファーに実行者が現れました!",
+      "body_text": [
+        "{recipient.name} 様",
+        "",
+        "あなたの以下のオファーが実行されています。",
+        "",
+        "{template.title}",
+        "",
+        "実行者のクエストは以下の通りです。",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "本メールはユーザーの通知設定に基づき自動送信されています。送信設定は下記URLより行えます。",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST運営 - ※本メールに返信することはできません。"
+      ]
+    }
+  },
+  "str": {
+    "datetime": "YYYY-MM-DD HH:mm:ssZ"
+  }
+}
