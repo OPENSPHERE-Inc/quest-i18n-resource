@@ -18,7 +18,7 @@ export const Translator = () => {
         return names.map((name, index) => ({ name, url: urls[index] }));
     }, []);
 
-    return language !== 'ja' && language !== 'en' && translators.length ? <div className="content has-text-centered my-6">
+    return translators.length ? <div className="content has-text-centered my-6">
         <h3 className="title is-5">{ str('translator_title', 'Translated by') }</h3>
 
         <ul className="osi-url-links">
