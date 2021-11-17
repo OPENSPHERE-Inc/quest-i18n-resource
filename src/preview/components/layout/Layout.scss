@@ -1,0 +1,24 @@
+
+.osi-main {
+  min-height: calc(100vh - 168px - 52px);
+
+  section.section {
+    //overflow: hidden;
+  }
+}
+
+.osi-testnet-notification {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 39;
+  text-align: center;
+  padding: 8px;
+}
+
+@include mobile() {
+  .osi-testnet-notification {
+    font-size: 0.75em;
+  }
+}

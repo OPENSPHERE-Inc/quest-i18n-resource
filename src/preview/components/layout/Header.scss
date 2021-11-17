@@ -1,0 +1,44 @@
+
+
+.osi-notifications-dropdown {
+  margin-left: auto;
+}
+
+.navbar-burger {
+  margin-left: unset;
+}
+
+.navbar-menu {
+  box-shadow: none;
+}
+
+.navbar-item {
+  select {
+    color: $primary;
+    border: none;
+  }
+}
+
+@include desktop {
+  .navbar-item img.osi-quest-logo {
+    width: 111.42px;
+    height: 20px;
+  }
+
+  .navbar-item img.osi-questest-logo {
+    width: 159.75px;
+    height: 20px;
+  }
+}
+
+@include touch {
+  .navbar-item img.osi-quest-logo {
+    width: 89.14px;
+    height: 16px;
+  }
+
+  .navbar-item img.osi-questest-logo {
+    width: 127.8px;
+    height: 16px;
+  }
+}
