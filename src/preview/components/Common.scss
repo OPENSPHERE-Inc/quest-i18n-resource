@@ -1,0 +1,237 @@
+
+.osi-no-overflow {
+  overflow-x: hidden;
+}
+
+.osi-nowrap {
+  white-space: nowrap;
+}
+
+.osi-sticky {
+  position: sticky;
+  top: 0;
+}
+
+input.is-static {
+  color: #dee5ed;
+}
+
+h1.title.osi-hero-title {
+  font-family: 'Press Start 2P', cursive;
+  text-transform: uppercase;
+}
+
+figure.osi-user-avatar {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: black;
+
+  img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-50%);
+    object-fit: cover;
+    max-height: initial;
+  }
+}
+
+figure.image {
+  &.osi-is-256x256 {
+    width: 256px;
+    height: 256px;
+  }
+
+  &.osi-is-128x128 {
+    width: 128px;
+    height: 128px;
+  }
+
+  &.osi-is-64x64 {
+    width: 64px;
+    height: 64px;
+  }
+
+  &.osi-is-40x40 {
+    width: 40px;
+    height: 40px;
+  }
+
+  img.osi-now-loading {
+    transform: scale(0.25, 0.25);
+  }
+}
+
+ul.osi-url-links {
+  list-style-type: none;
+  margin-left: 0;
+
+  li:not(:last-child) {
+    margin-bottom: 0.5em;
+  }
+}
+
+.osi-symbol-address {
+  word-break: break-word;
+}
+
+.icon-text {
+  flex-wrap: nowrap;
+}
+
+table {
+  th {
+    white-space: nowrap;
+    text-align: left !important;
+  }
+}
+
+select.osi-no-border-select {
+  border: none;
+  background: none;
+  color: $link;
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.osi-no-border-input {
+  input {
+    border-top: none;
+    border-bottom: 1px solid $input-border-color;
+    border-left: none;
+    border-right: none;
+    background-color: $body-background-color;
+    color: $text;
+
+    &:focus {
+      box-shadow: none;
+    }
+
+    &::placeholder {
+      color: $grey-dark;
+    }
+  }
+}
+
+.osi-no-border-tags-input {
+  .tags-input {
+    border-top: none;
+    border-bottom: 1px solid $input-border-color;
+    border-left: none;
+    border-right: none;
+    background-color: $body-background-color;
+
+    &.is-focused {
+      box-shadow: none;
+    }
+
+    input {
+      background-color: $body-background-color;
+      color: $text;
+
+      &::placeholder {
+        color: $grey-dark;
+      }
+    }
+  }
+}
+
+.content {
+  word-break: break-word;
+}
+
+.tag.osi-is-text {
+  background: none;
+}
+
+// Fix wrap problem
+.radio + .radio {
+  margin-left: 0;
+}
+.radio {
+  margin-right: 0.5em;
+}
+
+// Fix for unwanted margin of modal dialog title
+p.modal-card-title:not(:last-child) {
+  margin-bottom: 0;
+}
+
+ul.osi-ul-without-dot {
+  list-style: none;
+}
+
+.navbar-divider {
+  background-color: $border;
+}
+
+.button.is-text.osi-button {
+  height: unset;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.tags.osi-tags-narrow .tag {
+  height: 1.7em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.osi-quest-progress {
+  progress.progress {
+    width: 50px;
+  }
+}
+
+.osi-plus-block {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button.button.is-ghost.osi-noborder-button {
+    &:hover {
+      box-shadow: none;
+      background: none;
+    }
+
+    &:focus {
+      box-shadow: none;
+    }
+}
+
+@include touch() {
+  table {
+    font-size: 0.8em;
+
+    tbody {
+      th {
+        white-space: break-spaces;
+        min-width: 8em;
+      }
+    }
+  }
+
+  h1.title.osi-hero-title {
+    font-size: 1.2rem;
+  }
+
+  .buttons.is-centered.osi-buttons > .button:not(.is-fullwidth) {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .modal .modal-card .modal-card-title {
+    font-size: 1.0em;
+  }
+}

@@ -1,0 +1,14 @@
+
+
+figure.image.osi-quest-figure {
+  overflow-x: auto;
+  margin-left: 0;
+  margin-right: 0;
+
+  img {
+    width: revert;
+    height: revert;
+    max-width: revert;
+    min-width: 896px;
+  }
+}

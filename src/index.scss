@@ -1,0 +1,34 @@
+//@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+
+/*
+@import "~bulma/sass/utilities/initial-variables";
+
+$family-sans-serif: 'Noto Sans JP';
+$footer-background-color: #fff;
+
+@import "~bulma";
+*/
+
+@import "~bulmaswatch/superhero/variables";
+
+$code: $primary;
+$button-text-decoration: none;
+$button-text-hover-background-color: rgb(0, 0, 0, 0.2);
+$navbar-bottom-box-shadow-size: 0 0 0 0;
+$input-icon-active-color: $text;
+
+@import "~bulma";
+@import "~bulmaswatch/superhero/overrides";
+@import '~@creativebulma/bulma-tagsinput';
+@import '~bulma-slider';
+
+@import "./preview/components/Common.scss";
+@import "./preview/components/layout/Header.scss";
+@import "./preview/components/layout/Layout.scss";
+@import "./preview/components/localized/IntroductionI18N.scss";
+@import "./preview/pages/Index.scss";
