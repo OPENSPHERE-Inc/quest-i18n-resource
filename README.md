@@ -1,46 +1,121 @@
-# Getting Started with Create React App
+# QUEST Internationalization Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Source Tree
 
-## Available Scripts
+- src/
+  - backend/ - (Backend resource files)
+    - definitions/ - (There are sub-directories which have 2 chars language id)
+      - en/ - (English resources)
+        - email.json - (email template)
+        - localize.json - (string resources)
+      - ja/ - (Japanese resources)
+        - [Same files above]
+  - frontend/ - (Frontend resource files)
+    - definitions/ - (There are sub-directories which have 2 chars language id)
+      - en/ - (English resources)
+        - localize.json - (string resources)
+      - ja/ - (Japanese resources)
+        - [Same files above]
+      - languages.json - (Language code list we can use) **\* DO NOT MODIFY**
+    - components/ - (There are sub-directories which have 2 chars language id)
+      - en/ - (English resources)
+        - Instruction.tsx
+        - Introduction.tsx
+        - ListOfExchanges.tsx
+      - ja/ - (Japanese resources)
+        - [Same files above]
+      - parameters.ts - (Template parameters definition) **\* DO NOT MODIFY**
 
-In the project directory, you can run:
+**Please DO NOT MODIFY any files other than those listed above**
 
-### `yarn start`
+## How to add language
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 1. Clone repository and install packages
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Clone this repository and cd root of source tree.
 
-### `yarn test`
+Then execute following command.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+$ yarn
+```
 
-### `yarn build`
+or
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+$ node install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2. Create directory and copy files
 
-### `yarn eject`
+Create following directories
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- src/backend/definitions/`[2 chars language id]`/
+  - Copy files from `src/backend/definitions/en/*`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- src/frontend/definitions/`[2 chars language id]`/
+  - Copy files from `src/frontend/definitions/en/*`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- src/frontend/pages/`[2 chars language id]`/
+  - Copy files from `src/frontend/pages/en/*`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+`[2 chars language id]` can be grabbed from `src/frontend/languages.json`
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 3. Translate files
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- src/backend/definitions/`[2 chars language id]`/*
+- src/frontend/definitions/`[2 chars language id]`/*
+- src/frontend/pages/`[2 chars language id]`/*
+
+**For contributors:** You can credit your name and url in `localize.json` located here:
+
+- src/frontend/definitions/`[2 chars language id]`/`localize.json`
+
+#### .json format
+
+The value accepts string array.
+
+Generally the value doesn't accept html code except properties which begin with `html_`.
+
+`%d` or `%s` is a printf style placeholder, so it'll be replaced by parameters.
+Don't remove them.
+
+
+#### DON'T DO
+
+- Change page layout/style
+- Add medias (internal/external)
+- Add external link (Except allowed)
+- Add commercial of unrelated company.
+- Add malicious code.
+- Modify files that disallowed modification
+- Add files to disallowed location
+
+These contents will be revoked when marge.
+
+### 4. Preview
+
+```
+$ yarn start
+```
+
+or
+
+```
+$ node run start
+```
+
+Now you can preview pages on http://localhost:3000
+
+It doesn't have complete contents, so you can preview limited pages only.
+
+
+### 5. Pull request and reviewed by official
+
+Push voluntary branch (except 'master', 'staging' and 'preview') and create pull request.
+
+Official member will possibly modify / delete your content without prior notice.
+
+After the marge, your language will be enabled on the live site!

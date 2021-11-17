@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "moment-duration-format";
+
 
 ReactDOM.render(
   <React.StrictMode>
