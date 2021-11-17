@@ -16,7 +16,7 @@
         - localize.json - (string resources)
       - ja/ - (Japanese resources)
         - [Same files above]
-      - languages.json - (Language code list we can use) **\* DO NOT MODIFY**
+      - languages.json - (Language id list we can use) **\* DO NOT MODIFY**
     - components/ - (There are sub-directories which have 2 chars language id)
       - en/ - (English resources)
         - Instruction.tsx
@@ -47,7 +47,7 @@ $ node install
 ```
 
 
-### 2. Create directory and copy files
+### 2. Create directories and copy files
 
 Create following directories
 
@@ -72,6 +72,7 @@ Create following directories
 **For contributors:** You can credit your name and url in `localize.json` located here:
 
 - src/frontend/definitions/`[2 chars language id]`/`localize.json`
+  - `translator_credit_names` and `translator_credit_urls` (These accept string array)
 
 #### .json format
 
