@@ -72,7 +72,7 @@ Create following directories
 **For contributors:** You can credit your name and url in `localize.json` located here:
 
 - src/frontend/definitions/`[2 chars language id]`/`localize.json`
-  - `translator_credit_names` and `translator_credit_urls` (These accept string array)
+  - `translator_names` and `translator_urls` (These accept string array)
 
 #### .json format
 
