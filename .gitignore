@@ -108,3 +108,5 @@ dist
 
 # yarn
 yarn.lock
+
+build
