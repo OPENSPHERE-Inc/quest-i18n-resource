@@ -10,10 +10,10 @@
         "{quest.title}",
         "{origin}/quest/{quest.id}",
         "",
-        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "This email was sent automatically according to the user's notification settings. You can manage the subscription of this QUEST site below.",
         "{origin}/user/settings/notifications",
         "",
-        "QUEST Official - *This mail cannot be replied."
+        "QUEST Official - *You do not need to reply to this letter."
       ]
     }
   },
@@ -28,10 +28,10 @@
         "{quest.title}",
         "{origin}/quest/{quest.id}",
         "",
-        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "This email was sent automatically according to the user's notification settings. You can manage the subscription of this QUEST site below.",
         "{origin}/user/settings/notifications",
         "",
-        "QUEST Official - *This mail cannot be replied."
+        "QUEST Official - *You do not need to reply to this letter."
       ]
     },
     "on_succeeded": {
@@ -44,10 +44,10 @@
         "{quest.title}",
         "{origin}/quest/{quest.id}",
         "",
-        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "This email was sent automatically according to the user's notification settings. You can manage the subscription of this QUEST site below.",
         "{origin}/user/settings/notifications",
         "",
-        "QUEST Official - *This mail cannot be replied."
+        "QUEST Official - *You do not need to reply to this letter."
       ]
     }
   },
@@ -62,10 +62,10 @@
         "{quest.title}",
         "{origin}/quest/{quest.id}",
         "",
-        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "This email was sent automatically according to the user's notification settings. You can manage the subscription of this QUEST site below.",
         "{origin}/user/settings/notifications",
         "",
-        "QUEST Official - *This mail cannot be replied."
+        "QUEST Official - *You do not need to reply to this letter."
       ]
     },
     "on_reaching_deadline": {
@@ -78,12 +78,12 @@
         "{quest.title}",
         "{origin}/quest/{quest.id}",
         "",
-        "Press the complete button until deadline if you've completed the quest.",
+        "When the quest is completed, please click the «Done» button on the QUEST website.",
         "",
-        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "This email was sent automatically according to the user's notification settings. You can manage the subscription of this QUEST site below.",
         "{origin}/user/settings/notifications",
         "",
-        "QUEST Official - *This mail cannot be replied."
+        "QUEST Official - *You do not need to reply to this letter."
       ]
     }
   },
@@ -102,10 +102,10 @@
         "{quest.title}",
         "{origin}/quest/{quest.id}",
         "",
-        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "This email was sent automatically according to the user's notification settings. You can manage the subscription of this QUEST site below.",
         "{origin}/user/settings/notifications",
         "",
-        "QUEST Official - *This mail cannot be replied."
+        "QUEST Official - *You do not need to reply to this letter."
       ]
     }
   }
