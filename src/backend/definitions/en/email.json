@@ -78,7 +78,7 @@
         "{quest.title}",
         "{origin}/quest/{quest.id}",
         "",
-        "When the quest is completed, please click the «Done» button on the QUEST website.",
+        "When the quest is completed, please click the «Complete» button on the QUEST website.",
         "",
         "This email was sent automatically according to the user's notification settings. You can manage the subscription of this QUEST site below.",
         "{origin}/user/settings/notifications",
