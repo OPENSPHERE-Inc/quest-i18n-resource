@@ -1,0 +1,112 @@
+{
+  "subscribed_quest_notifications": {
+    "on_started": {
+      "subject": "[QUEST] {performer.name} started a quest.",
+      "body_text": [
+        "Dear, {recipient.name}",
+        "",
+        "{performer.name} has started a quest below.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST Official - *This mail cannot be replied."
+      ]
+    }
+  },
+  "involved_quest_notifications": {
+    "on_completed": {
+      "subject": "[QUEST](Action Required) Voting has began.",
+      "body_text": [
+        "Dear {recipient.name}",
+        "",
+        "Following quest has began voting. Please vote via QUEST site.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST Official - *This mail cannot be replied."
+      ]
+    },
+    "on_succeeded": {
+      "subject": "[QUEST](Action Required) Your decision is needed.",
+      "body_text": [
+        "Dear {recipient.name}",
+        "",
+        "Voting has been ended and your boost requires final decision. Please send back your decision via QUEST site below.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST Official - *This mail cannot be replied."
+      ]
+    }
+  },
+  "performers_quest_notifications": {
+    "on_requested": {
+      "subject": "[QUEST](Important) {promoter.name} sent a ReQUEST to you.",
+      "body_text": [
+        "Dear {recipient.name}",
+        "",
+        "{promoter.name} sent a ReQUEST below. Please check detail in QUEST site.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST Official - *This mail cannot be replied."
+      ]
+    },
+    "on_reaching_deadline": {
+      "subject": "[QUEST](Important) The performing quest reaches deadline soon (1 day left)",
+      "body_text": [
+        "Dear {recipient.name}",
+        "",
+        "Below quest reaches its deadline soon.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "Press the complete button until deadline if you've completed the quest.",
+        "",
+        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST Official - *This mail cannot be replied."
+      ]
+    }
+  },
+  "promoters_quest_notifications": {
+    "on_started": {
+      "subject": "[QUEST](Important) Your offer got a performer!",
+      "body_text": [
+        "Dear {recipient.name}",
+        "",
+        "A performer started to perform your offer below.",
+        "",
+        "{template.title}",
+        "",
+        "Performer's quest is below.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST Official - *This mail cannot be replied."
+      ]
+    }
+  }
+}

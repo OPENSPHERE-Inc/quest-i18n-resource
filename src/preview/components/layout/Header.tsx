@@ -97,6 +97,7 @@ export const Header = ({noSignIn}: Props) => {
                                             onChange={onLanguageChange}>
                                         <option value="en">EN</option>
                                         <option value="ja">JP</option>
+										<option value="ru">RU</option>
                                     </select>
                                 </div>
                                 <div className="select is-hidden-desktop is-fullwidth">
@@ -104,6 +105,7 @@ export const Header = ({noSignIn}: Props) => {
                                             onChange={onLanguageChange}>
                                         <option value="en">English</option>
                                         <option value="ja">日本語</option>
+										<option value="ru">Russian</option>
                                     </select>
                                 </div>
                             </div>

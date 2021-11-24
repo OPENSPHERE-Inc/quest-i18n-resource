@@ -1,17 +1,34 @@
 import React, {createContext, useCallback, useContext, useState} from "react";
 import ja from "../../../frontend/definitions/ja/localize.json";
 import en from "../../../frontend/definitions/en/localize.json";
+import ru from "../../../frontend/definitions/ru/localize.json";
 import {format} from "util";
 import {getDefaultLanguage} from "../../libs/utils";
 import {useMedia} from "use-media";
 
 
-export type SupportedLanguages = 'en' | 'ja';
-const defaultLanguage = getDefaultLanguage() === 'ja' ? 'ja' : 'en';
+export enum SupportedLanguages {
+    ENGLISH = 'en',
+    JAPANESE = 'ja',
+    RUSSIAN = 'ru',
+}
+
+const isSupportedLanguage = (value: any): value is SupportedLanguages =>
+    Object.values(SupportedLanguages).includes(value);
+
+const defaultLanguage = (() => {
+    const language = getDefaultLanguage();
+    if (isSupportedLanguage(language)) {
+        return language;
+    } else {
+        return SupportedLanguages.ENGLISH;
+    }
+})();
 
 const resources: { [language: string]: { [id: string]: string | string[] } } = {
     "ja": ja,
     "en": en,
+	"ru": ru,
 }
 
 interface PageContextStore {

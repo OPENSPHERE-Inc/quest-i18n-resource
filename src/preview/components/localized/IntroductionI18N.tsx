@@ -2,6 +2,7 @@ import React from "react";
 import {usePage} from "../context/Page";
 import { Introduction as Ja } from "../../../frontend/components/ja/Introduction";
 import { Introduction as En } from "../../../frontend/components/en/Introduction";
+import { Introduction as Ru } from "../../../frontend/components/ru/Introduction";
 import {useParameters} from "./ParametersBuilder";
 
 
@@ -12,6 +13,8 @@ export const IntroductionI18N = () => {
     switch (language) {
         case 'ja':
             return <Ja params={params} />;
+        case 'ru':
+            return <Ru params={params} />;
         case 'en':
         default:
             return <En params={params} />;
