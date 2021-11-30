@@ -1,111 +1,111 @@
 {
   "subscribed_quest_notifications": {
     "on_started": {
-      "subject": "[QUEST] {performer.name} started a quest.",
+      "subject": "[QUEST] {performer.name} Начать КВЕСТ (QUEST).",
       "body_text": [
-        "Dear, {recipient.name}",
+        "Уважаемый, {recipient.name}",
         "",
-        "{performer.name} has started a quest below.",
+        "{performer.name} Квест начался ниже.",
         "",
         "{quest.title}",
         "{origin}/quest/{quest.id}",
         "",
-        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "Это электронное письмо было отправлено автоматически в соответствии с настройками уведомлений пользователя. Вы можете управлять подпиской этого сайта КВЕСТ (QUEST) ниже.",
         "{origin}/user/settings/notifications",
         "",
-        "QUEST Official - *This mail cannot be replied."
+        "QUEST Official - *На это письмо не нужно отвечать."
       ]
     }
   },
   "involved_quest_notifications": {
     "on_completed": {
-      "subject": "[QUEST](Action Required) Voting has began.",
+      "subject": "[QUEST](Требуется Действие) Голосование началось.",
       "body_text": [
-        "Dear {recipient.name}",
+        "Уважаемый {recipient.name}",
         "",
-        "Following quest has began voting. Please vote via QUEST site.",
+        "По итогам квеста началось голосование. Пожалуйста, проголосуйте на сайте QUEST.",
         "",
         "{quest.title}",
         "{origin}/quest/{quest.id}",
         "",
-        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "Это электронное письмо было отправлено автоматически в соответствии с настройками уведомлений пользователя. Вы можете управлять подпиской этого сайта КВЕСТ (QUEST) ниже.",
         "{origin}/user/settings/notifications",
         "",
-        "QUEST Official - *This mail cannot be replied."
+        "QUEST Official - *На это письмо не нужно отвечать."
       ]
     },
     "on_succeeded": {
-      "subject": "[QUEST](Action Required) Your decision is needed.",
+      "subject": "[QUEST](Требуется Действие) Необходимо ваше действие.",
       "body_text": [
-        "Dear {recipient.name}",
+        "Уважаемый {recipient.name}",
         "",
-        "Voting has been ended and your boost requires final decision. Please send back your decision via QUEST site below.",
+        "Голосование за следующие квесты завершено, и вам нужно сделать свой отзыв о результатах. Пожалуйста, отправьте нам свое мнение, через сайт QUEST.",
         "",
         "{quest.title}",
         "{origin}/quest/{quest.id}",
         "",
-        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "Это электронное письмо было отправлено автоматически в соответствии с настройками уведомлений пользователя. Вы можете управлять подпиской этого сайта КВЕСТ (QUEST) ниже.",
         "{origin}/user/settings/notifications",
         "",
-        "QUEST Official - *This mail cannot be replied."
+        "QUEST Official - *На это письмо не нужно отвечать."
       ]
     }
   },
   "performers_quest_notifications": {
     "on_requested": {
-      "subject": "[QUEST](Important) {promoter.name} sent a ReQUEST to you.",
+      "subject": "[QUEST](Важно) {promoter.name} отправил вам ЗАПРОС на квест.",
       "body_text": [
-        "Dear {recipient.name}",
+        "Уважаемый {recipient.name}",
         "",
-        "{promoter.name} sent a ReQUEST below. Please check detail in QUEST site.",
+        "{promoter.name} отправил ЗАПРОС ниже. Пожалуйста, проверьте на сайте QUEST.",
         "",
         "{quest.title}",
         "{origin}/quest/{quest.id}",
         "",
-        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "Это электронное письмо было отправлено автоматически в соответствии с настройками уведомлений пользователя. Вы можете управлять подпиской этого сайта КВЕСТ (QUEST) ниже.",
         "{origin}/user/settings/notifications",
         "",
-        "QUEST Official - *This mail cannot be replied."
+        "QUEST Official - *На это письмо не нужно отвечать."
       ]
     },
     "on_reaching_deadline": {
-      "subject": "[QUEST](Important) The performing quest reaches deadline soon (1 day left)",
+      "subject": "[QUEST](Важно) Срок выполнения квеста скоро истечет (остался 1 день)",
       "body_text": [
-        "Dear {recipient.name}",
+        "Уважаемый {recipient.name}",
         "",
-        "Below quest reaches its deadline soon.",
+        "Квест, указанный ниже, скоро исчезнет.",
         "",
         "{quest.title}",
         "{origin}/quest/{quest.id}",
         "",
-        "Press the complete button until deadline if you've completed the quest.",
+        "Когда квест будет завершен, пожалуйста, нажмите кнопку «Готово» на сайте QUEST.",
         "",
-        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "Это электронное письмо было отправлено автоматически в соответствии с настройками уведомлений пользователя. Вы можете управлять подпиской этого сайта КВЕСТ (QUEST) ниже.",
         "{origin}/user/settings/notifications",
         "",
-        "QUEST Official - *This mail cannot be replied."
+        "QUEST Official - *На это письмо не нужно отвечать."
       ]
     }
   },
   "promoters_quest_notifications": {
     "on_started": {
-      "subject": "[QUEST](Important) Your offer got a performer!",
+      "subject": "[QUEST](Важно) Ваше предложение нашло исполнителя!",
       "body_text": [
-        "Dear {recipient.name}",
+        "Уважаемый {recipient.name}",
         "",
-        "A performer started to perform your offer below.",
+        "Исполнитель начал выполнять ваш квест.",
         "",
         "{template.title}",
         "",
-        "Performer's quest is below.",
+        "Квест исполнителя находится ниже.",
         "",
         "{quest.title}",
         "{origin}/quest/{quest.id}",
         "",
-        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "Это электронное письмо было отправлено автоматически в соответствии с настройками уведомлений пользователя. Вы можете управлять подпиской этого сайта КВЕСТ (QUEST) ниже.",
         "{origin}/user/settings/notifications",
         "",
-        "QUEST Official - *This mail cannot be replied."
+        "QUEST Official - *На это письмо не нужно отвечать."
       ]
     }
   }
