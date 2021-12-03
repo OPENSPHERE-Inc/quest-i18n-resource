@@ -6,16 +6,16 @@ export const Instruction = ({params}: {params: Parameters}) => {
     const fees = params.fees;
 
     return <div className="content">
-        <h1 className="title is-3">How to use QUEST</h1>
+        <h1 className="title is-3">Как использовать сайт QUEST</h1>
 
-        <h2 className="title is-4" id="environment">1. System requirements</h2>
+        <h2 className="title is-4" id="environment">1. Системные требования</h2>
         <p>
-            Internet connection is required.<br />
+            Требуется подключение к Интернету.<br />
         </p>
 
-        <h3 className="title is-5">Web browser</h3>
+        <h3 className="title is-5">Веб-браузер</h3>
         <p>
-            * Below browsers are confirmed on our hand.
+            * Приведенные ниже браузеры подтверждены с нашей стороны.
         </p>
 
         <h4 className="title is-6">On desktop</h4>
@@ -40,61 +40,61 @@ export const Instruction = ({params}: {params: Parameters}) => {
             <li>Microsoft Edge 46.3.23</li>
         </ul>
 
-        <h3 className="title is-5">Symbol Desktop Wallet or Mobile Wallet</h3>
+        <h3 className="title is-5">Десктопный или мобильный кошелек Symbol</h3>
         <p>
-            To manage account or receive XYM by quests, you should install
-            Symbol <a href="https://docs.symbolplatform.com/wallets.html" target="_blank" rel="noreferrer">Desktop Wallet</a> or
-            Mobile Wallet (
+            Чтобы управлять аккаунтом или получать XYM с помощью сайта QUEST, вам необходимо установить
+            Symbol <a href="https://docs.symbolplatform.com/wallets.html" target="_blank" rel="noreferrer">Десктопный кошелек</a> или
+            мобильный кошелек (
             <a href="https://play.google.com/store/apps/details?id=nem.group.symbol.wallet&hl=en&gl=US" target="_blank" rel="noreferrer">
-                for Android
+                для Android
             </a> / <a href="https://apps.apple.com/us/app/symbol-wallet/id1528741845" target="_blank" rel="noreferrer">
-                for iOS
+                для iOS
             </a>)
         </p>
 
-        <h2 className="title is-4 mt-6">2. Signup and link existing or create new Symbol account.</h2>
+        <h2 className="title is-4 mt-6">2. Зарегистрируйтесь здесь и свяжите ваш актуальный аккаунт Symbol с нашим сайтом.</h2>
         <p>
-            Signup will be done just few step with e-mail and password.<br />
-            After signed up, you need to link existing Symbol account (if you already have one) or generate new one.
-            That account will be used both of payment and receive XYM.
+            Регистрация будет выполнена всего за несколько этапов с помощью электронной почты и пароля.<br />
+            После регистрации на нашем сайте, вам необходимо связать ваш существующий аккаунт Symbol с сайтом QUEST.
+            Этот аккаунт будет использоваться как для оплаты, так и для получения XYM.
         </p>
         <p>
-            To link account, you can choose one of 3 methods.
+            Чтобы связать аккаунт, вы можете выбрать один из 3 способов.
         </p>
         <ol>
             <li>
-                Input public key and transfer <code>0 XYM</code> + activation code (Most secure but require small
-                transaction cost)
+                Введите публичный ключ и отправьте транзакцию <code>0 XYM</code> + Кроме того, привязка вашего адреса Symbol к веб-сайту является самым безопасным,
+              но требует небольшой комиссии.
             </li>
             <li>
-                Input private key (The key will be encrypted and stored into browser storage only. No transaction cost)
+                Введите ваш приватный ключ, ваш ключ будет зашифрован и сохранен только в хранилище ващего браузера.
             </li>
             <li>
-                Generate new one (No transaction cost. Assets transfers needed to payment)
+                Создать другой метод связки аккаунта, без транзакционных затрат. Для оплаты требуется, самостоятельный перевод ваших XYM)
             </li>
         </ol>
         <p>
-            Finally, input your profile then ready to use QUEST.
+            Поздравляем, теперь вы можете войти в свой аккаунт.
         </p>
 
-        <h2 className="title is-4 mt-6">3. For performer: Create new quest and perform it.</h2>
+        <h2 className="title is-4 mt-6">3. Для исполнителя: Создайте новый квест и выполните его.</h2>
         <p>
-            Click “New Quest” to begin your quest.<br />
-            At least, Input category, title, description and deadline of quest.<br />
-            It’s important that deadline should be necessary and sufficient term.
-            Too long deadline may be thought burden by viewer because XYM possibly be locked until deadline plus 48
-            hours has been reached.<br />
-            Deadline must be
+            Нажмите “Новый квест”, чтобы начать свой квест (задание).<br />
+            Введите категорию, название, описание и срок выполнения вашего квеста.<br />
+            Важно, выставить оптимальные даты, для того чтобы вы успели выполнить свой квест.
+            Не устанавливайте крайний срок слишком долго, поскольку это может показаться слишком утомительным для пользователей, так как XYM будет заморожен на весь срок квеста
+            + будут добавлены 48 часов, для дополнительной безопасности.<br />
+            Крайний срок по выполнению квесту должен быть реализован
             <span> { params.deadline_duration_min } </span>
-            at the shortest, and can be set up to
+            в кратчайшие сроки, и может быть продлен до
             <span> { params.deadline_duration_max } </span>
-            future longest.
+            самого долгого времени.
         </p>
         <blockquote>
-            "Deadline" couldn't be changed after started the quest.
+            "Крайний срок" не может быть изменен, после запуска задания.
         </blockquote>
         <p>
-            Once you created quest, share it with your viewers and click “Perform” button.
+            Как только вы создали квест, поделитесь им со своими зрителями и нажмите кнопку “Выполнить”.
         </p>
         <blockquote>
             { params.quest_runnings_max
@@ -102,76 +102,76 @@ export const Instruction = ({params}: {params: Parameters}) => {
                 : `Maximum number of performing is unlimited.` }
         </blockquote>
         <p>
-            When you’ve completed the quest, don’t forget click “Complete” button.<br />
-            If you want to abort the quest  for any reason, click “Abort” then all contents of vault will be refunded.
+            По завершении квеста не забудьте нажать кнопку «Завершить».<br />
+            Если вы хотите отменить свой квест по какой-либо причине, нажмите кнопку «Отменить КВЕСТ», после чего все собранные XYM будут возвращены их владельцам.
         </p>
 
-        <h2 className="title is-4 mt-6">4. For viewer: Boost quest.</h2>
+        <h2 className="title is-4 mt-6">4. Для зрителя: Поддержать Квест</h2>
         <p>
-            Open the quest page that has been shared by performer and click “Boost” button.<br />
-            Input amount you’ll boost, also attach thoughtful message.<br />
+            Откройте страницу квеста, которой поделился ее исполнитель, и нажмите кнопку «Поддержать».<br />
+            Введите сумму в XYM, которую вы хотите пожертвовать, для поддержки исполнителя квеста, а также вы можете добавить свое сообщение.<br />
         </p>
         <blockquote>
-            You can deposit {  params.deposit_amount_max } XYM maximum per boost,
-            a quest can receive { params.deposit_balance_max } XYM maximum in total.<br />
-            Attached message can be maximum { params.deposit_message_len_max } characters long.<br />
-            You can boost many times unless exceeding the quest's maximum XYM limitation.
+            Вы можете внести { params.deposit_amount_max } максимум XYM за поддержку
+            а квест может получить { params.deposit_balance_max } XYM в этом максимальном значении.<br />
+            Сообщение может содержать не более { params.deposit_message_len_max } символов.<br />
+            Вы можете делать пожертвования много раз, но если вы не превысите максимальный лимит XYM, для этого сайта.
         </blockquote>
 
-        <h3 className="title is-5" id="fees">Boost strategy and platform fee.</h3>
+        <h3 className="title is-5" id="fees">Основная стратегия, для поддержки исполнителей квеста и комиссия для сайта QUEST.</h3>
         <p>
-            There’re 3 strategies until your boosts are awarded to the performer and you can choose one of them.
+            Есть 3 стратегии, пока ваши бонусы не будут получены исполнителем, и вы можете выбрать одну из них.
         </p>
         <table className="table">
             <thead>
             <tr>
-                <th>Boost Strategy</th>
-                <th>Boost Fee<br />(Incl. tax)</th>
+                <th>Стратегия поддержки</th>
+                <th>Комиссия<br />(Incl. tax)</th>
             </tr>
             </thead>
             <tbody>
             <tr>
                 <td>
-                    <strong>[Type.A] Trust the performer (Cheapest fee)</strong><br />
-                    After end of voting, your boosts will be awarded to performer regardless of voting result
-                    (Except aborted or deadline reached)
+                    <strong>[Тип.A] Поверить исполнителю квеста (Самая дешевая плата)</strong><br />
+                  По окончании голосования ваши XYM будут вручены исполнителю вне зависимости от результата голосования.
+                    (За исключением случаев прекращения или завершения срока выполнения квеста)
                 </td>
                 <td className="osi-nowrap">
                     <strong>
                         { fees.deposit[2] } XYM
                         { fees.deposit_rate[2]
-                            ? <><br /> + {fees.deposit_rate[2] * 100}% of amount</>
+                            ? <><br /> + {fees.deposit_rate[2] * 100}% от суммы</>
                             : null }
                     </strong>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <strong>[Type.B] Trust the vote result (Recommended)</strong><br />
-                    After approved the quest completion via voting,
-                    your boosts will be automatically awarded to performer.
+                    <strong>[Тип.B] Доверяйте результату голосования (Рекомендуется)</strong><br />
+                    После положительного голосования за выполнения квеста,
+                    ваши XYM будут автоматически переданы исполнителю.
                 </td>
                 <td className="osi-nowrap">
                     <strong>
                         { fees.deposit[0] } XYM
                         { fees.deposit_rate[0]
-                            ? <><br /> + {fees.deposit_rate[0] * 100}% of amount</>
+                            ? <><br /> + {fees.deposit_rate[0] * 100}% от суммы</>
                             : null }
                     </strong>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <strong>[Type.C] Require a final decision (More safety)</strong><br />
-                    After approved the quest completion via voting,
-                    you can decide for yourself whether you want to award or receive a refund.
-                    Your boosts will be locked until a decision is made.
+                    <strong>[Тип.C] Требовать окончательного решения (Для большей безопасности)</strong><br />
+                    После утверждения завершения квеста путем голосования,
+                    вы можете решить для себя, хотите ли вы наградить исполнителя или получить получить XYM обратно.
+                    Ваши донаты будут заблокированы до принятия окончательного решения.
                 </td>
                 <td className="osi-nowrap">
                     <strong>
                         { fees.deposit[1] } XYM
                         { fees.deposit_rate[1]
-                            ? <><br /> + {fees.deposit_rate[1] * 100}% of amount</>
+                            ? <><br /> + {fees.deposit_rate[1] * 100}% от суммы</>
                             : null }
                     </strong>
                 </td>
@@ -179,77 +179,75 @@ export const Instruction = ({params}: {params: Parameters}) => {
             </tbody>
         </table>
         <blockquote>
-            Once done the boost cannot modify the strategy (New boost can be chosen another strategy)<br />
-            Whichever strategy you choose, you’ll have vote power on the quest.
-            You'll have one ballot regardless boost times or amount.
+            После этого вы не можете изменить сумму доната (если вы хотите сделать еще один донат тому же создателю квеста, это можно сделать с помощью другой стратегии)<br />
+            Какую бы стратегию вы ни выбрали, у вас будет право голоса в задании.
+            У вас будет один бюллетень, независимо от времени или суммы доната.
         </blockquote>
 
         <h3 className="title is-5">Payment</h3>
         <p>
-            You can done the payment either of inputting private key every transactions or QUEST's browser wallet.
+            Вы можете производить оплату, вводя приватный ключ при каждой транзакции или используя браузерный кошелек от сайта QUEST.
         </p>
         <p>
-            Latter needs some settings on the site before use. Open "Symbol account" settings from settings page.
-            Choose "I use browser wallet" then register your private key and passphrase.<br />
-            Browser wallet will encrypts and saves your private key to the browser storage only.
-            Therefore you can use the wallet on registered browser only.
-        </p>
-
-        <h4 className="title is-6">Payment with inputting private key</h4>
-        <p>
-            Open issued boost invoice then you can get payment form.
-            Input your private key of Symbol account.<br />
-            Also choose transaction fee which you want use.
-            Higher fee can make faster the speed of transaction confirmation.
-            If it unnecessary, you can keep lower fee by longer waiting time.
+            Последнее требует дополнительных настроек на сайте перед использованием. Откройте настройки "Symbol аккаунт" со страницы настроек.
+            Выберите «Я использую браузерный кошелек», затем зарегистрируйте свой приватный ключ и кодовую фразу.<br />
+            Это позволит зашифровать и сохранить ваш приватный ключ в вашем браузере.
+            Таким образом, вы можете использовать кошелек сайта QUEST, только в зарегистрированном браузере.
         </p>
 
-        <h4 className="title is-6">Payment with browser wallet</h4>
+        <h4 className="title is-6">Оплата с вводом приватного ключа</h4>
         <p>
-            Same as above, open boost invoice then you'll get browser wallet payment form.<br />
-            Done the payment by inputting transaction fee and passphrase of your private key.
+            Откройте выставленный инвойс, и получите форму оплаты.
+            Введите свой приватный ключ аккаунта Symbol.<br />
+            Также выберите оптимальную комиссию за транзакцию
+            Более высокая комиссия может ускорить подтверждение транзакции.
+            Если в этом нет необходимости, вы можете сохранить более низкую плату за счет более длительного времени ожидания.
         </p>
 
-        <h2 className="title is-4 mt-6">5. For viewer: Vote</h2>
+        <h4 className="title is-6">Оплата через кошелек браузера</h4>
         <p>
-            Once performer has completed the quest,
-            viewers who boosted can vote either the quest is succeeded or failed.<br />
-            Open the quest page and click “Vote acknowledge” or “Vote denial”.<br />
+            Откройте выставленный инвойс, и получите форму оплаты.<br />
+            Произведите оплату, указав комиссию за транзакцию, пароль и приватный ключ
+        </p>
+
+        <h2 className="title is-4 mt-6">5. Зрителю: Голосовать</h2>
+        <p>
+            После того, как исполнитель завершит квест,
+            зрители (донатеры), могут проголосовать либо за успешное выполнение квеста, либо за его провал.<br />
+            Откройте страницу квеста и нажмите "Подтвердить голосование" или "Отклонить голосование".<br />
         </p>
         <blockquote>
-            You can change your vote at any time until the voting period has end.<br />
-            Voting period is 24h from the quest completion.
+            Вы можете изменить свой голос в любое время до окончания периода голосования.<br />
+            Период голосования - 24 часа с момента завершения квеста
         </blockquote>
         <p>
-            It’ll succeed if acknowledge is majority, as a result, boosts will be awarded to performer.<br />
-            On the other hand, failed to vote means you’ll get a refund.
+            Голосование будет признано успешным, если будет большинство голосов, с положительным результатом и исполнитель получит вознаграждение.<br />
+            С другой стороны, если вы не проголосовали, вам вернут деньги.
         </p>
 
-        <h2 className="title is-4 mt-6">6. For viewer(who chose “Require a final decision”) : Final decision</h2>
+        <h2 className="title is-4 mt-6">6. Для зрителя, который выбрал "Требовать окончательного решения".</h2>
         <p>
-            After the voting period has end with succeed, open the quest page and click “Award” or “Get a Refund”.
+            После успешного завершения периода голосования откройте страницу квеста и нажмите «Награда» или «Получить возврат».
         </p>
         <blockquote>
-            You should decide in 24 hours after voting end.
-            If you didn't make decision by the deadline, it's same as you chose "Get a Refund".
+            Вы должны принять решение в течение 24 часов после окончания голосования.
+            Если вы не приняли решение к крайнему сроку, это то же самое, что вы выбрали «Получить возврат».
         </blockquote>
 
-        <h2 className="title is-4 mt-6">7. For performer：Earn vault contents</h2>
+        <h2 className="title is-4 mt-6">7. Исполнителю квеста：Заработок за счет донатов</h2>
         <p>
-            Once quest has been completed and approved it by voting, the vault contents is yours.
-            It's possible that transaction process take around 1 day from voting end to transfer finish.
-            Furthermore, depending on boost payment status, it may late individually.<br />
-            Also, the total amount get changed depending on payer's boost strategy choice.
-            For more detail, See the <a href="#fees">Boost strategy and platform fee</a>.
+            После того, как квест будет завершен и одобрен голосованием, полученный XYM будет вашим.
+            Вполне возможно, получение вашего XYM, займет около 1 дня.<br />
+            Подробнее см.<a href="#fees">Стратегия донатов и комиссия за платформу</a>.
         </p>
 
-        <h2 className="title is-4 mt-6">8. For viewer：Get a refund</h2>
+        <h2 className="title is-4 mt-6">8. Для зрителя: Получение Возврата</h2>
         <p>
-            Refunding the boosted XYM will be happen when any one of these cases: quest was aborted, expired,
-            denied by voting (except chose type.A as boost strategy), chose "Get a Refund" as final decision.<br />
-            Refunding always occurs at 48 hours later (72 hours later in Type.C) of quest deadline even if it had been decided early.
-            It's impossible to bring the date forward,
-            because this is limitation of blockchain which QUEST is using.
+            Возврат XYM произойдет в любом из следующих случаев: задание было прервано, истекло,
+            отклонено голосованием (кроме выбора типа A), или за счет «Получения возврата» в качестве окончательного решения.<br />
+            Возврат всегда поступает, через 48 часов (или 72 часа для Типа.C).
+            Перенести дату выполнения квеста невозможно,
+            так как сайт QUEST, использует блокчейн Symbol, для хранения данных.
         </p>
     </div>;
 }
