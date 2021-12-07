@@ -22,7 +22,7 @@ export const ListOfExchanges = () => {
            target="_blank"
            rel="noreferrer"
         >
-            Full exchanges list
+            Полный список бирж
         </a>
     </div>;
 }
