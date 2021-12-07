@@ -1027,5 +1027,14 @@
 	"your_templates_empty": "You have no offers.",
 	"achievements": "Achievements",
 	"achievements_empty": "No achievements found.",
-	"continuing_quest": "Continuing quest"
+	"continuing_quest": "Continuing quest",
+	"button_continue": "Continue",
+	"quest_continue_title_default": "Continuation of %s",
+	"button_continue_can_apply": "You can retry this offer!",
+	"button_continue_cannot_apply": "You cannot apply because the offer reached its limitation.",
+	"button_continue_title": "You can continue your quest!",
+	"notification_quest_continue": [
+		"You can continue this quest.",
+		"Press \"Continue\" button then create new quest to continue your journey."
+	]
 }

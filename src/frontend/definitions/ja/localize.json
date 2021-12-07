@@ -1005,5 +1005,14 @@
 	"your_templates_empty": "オファーは未だありません。",
 	"achievements": "実績",
 	"achievements_empty": "実績が未だ1件もありません。",
-	"continuing_quest": "コンテニューするクエスト"
+	"continuing_quest": "コンティニューするクエスト",
+	"button_continue": "コンティニュー",
+	"quest_continue_title_default": "続・%s",
+	"button_continue_can_apply": "オファーをリトライ可能です！",
+	"button_continue_cannot_apply": "オファーが制限に達しているため応募することが出来ません。",
+	"button_continue_title": "クエストをコンティニュー可能です！",
+	"notification_quest_continue": [
+		"このクエストをコンティニューすることができます。",
+		"「コンティニュー」ボタンを押して新しいクエストを作成し、旅を続けてください！"
+	]
 }
