@@ -1026,5 +1026,7 @@
 	"your_quests_empty": "You have no quests.",
 	"your_requests": "Your ReQUESTs",
 	"your_requests_empty": "You have no ReQUESTs.",
-	"your_templates_empty": "You have no offers."
+	"your_templates_empty": "You have no offers.",
+	"achievements": "Achievements",
+	"achievements_empty": "No achievements found."
 }

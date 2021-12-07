@@ -1002,5 +1002,7 @@
 	"your_quests_empty": "クエストは未だありません。",
 	"your_requests": "あなたのReQUEST",
 	"your_requests_empty": "あなたは未だReQUESTしていません。",
-	"your_templates_empty": "オファーは未だありません。"
+	"your_templates_empty": "オファーは未だありません。",
+	"achievements": "実績",
+	"achievements_empty": "実績が未だ1件もありません。"
 }
