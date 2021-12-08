@@ -65,7 +65,7 @@ export const PageProvider: React.FC = (props) => {
 
     const strRaw = useCallback((id: string, defaultStr: string | string[]) => {
         return resources[language]?.[id] || defaultStr;
-    }, []);
+    }, [language]);
 
     const siteTitle = useCallback((subTitle?: string) => {
         if (process.env.REACT_APP_NETWORK_TYPE === '152') {

@@ -26,7 +26,7 @@ export const Translator = () => {
                 <li key={index}>
                     { translator.name }
                     { translator.url
-                        ? <span> - <a href={translator.url} target="_blank" rel="noreferrer">{translator.url}</a></span>
+                        ? <span> - <a href={translator.url} target="_blank" rel="noreferrer">{new URL(translator.url).host}</a></span>
                         : null
                     }
                 </li>
