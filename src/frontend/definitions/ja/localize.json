@@ -1014,5 +1014,21 @@
 	"notification_quest_continue": [
 		"このクエストをコンティニューすることができます。",
 		"「コンティニュー」ボタンを押して新しいクエストを作成し、旅を続けてください！"
-	]
+	],
+	"previous_quest": "前回のクエスト",
+	"deposit_capacity_unlimited": "無制限",
+	"limit_break": "リミットブレイク (試験運用中)",
+	"limit_break_notification": [
+		"リミットブレイクはリミッターを超えたブーストを実現します。",
+		"最大20倍まで引き上げることができます。"
+	],
+	"dialog_limit_break_title": "リミットブレイクの確認",
+	"dialog_limit_break_confirmation_message": [
+		"リミットブレイクを発動してもよいですか？",
+		"リミッターを解除するとあなたのお財布に負担をかける可能性があります。",
+		"これは試験運用中の機能です。"
+	],
+	"button_limit_break": "ブレイク発動！",
+	"button_advance_break_level": "ブレイクレベルを上昇",
+	"limit_break_indicator": "ブレイクレベル x%d"
 }
