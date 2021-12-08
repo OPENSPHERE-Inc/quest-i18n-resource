@@ -3,9 +3,9 @@
 	"translator_names": [
 		"Klim Geran",
 		"Symbol Node 👉 NIS2.host"
-		],
+	],
 	"translator_urls": [
-		"https://nis2.host:3001/node/info"
+		"https://nis2.host:3001/node/info",
 		"https://symbol-tools.com/symbolTools/view/tool/nodeDetails.html?inputHostName=nis2.host"
 	],
 	"accepting_templates": "Принимаются Предложения",
@@ -221,7 +221,7 @@
 		"Это действие не может быть отменено."
 	],
 	"dialog_deposit_cancel_title": "Подтверждение Отмены",
-	"dialog_deposit_confirmation_message": "Инвойс будет выставлен после нажатия кнопки "ОК".",
+	"dialog_deposit_confirmation_message": "Инвойс будет выставлен после нажатия кнопки \"ОК\".",
 	"dialog_deposit_confirmation_title": "Подтверждение Буста",
 	"dialog_privacy_policy_title": "Политика Конфиденциальности",
 	"dialog_private_key_delete_confirmation_message": [
@@ -1026,7 +1026,7 @@
 	"your_quests_empty": "У вас нет квестов.",
 	"your_requests": "Ваши запросы",
 	"your_requests_empty": "У вас нет запросов.",
-	"your_templates_empty": "У вас нет предложений."
+	"your_templates_empty": "У вас нет предложений.",
 	"achievements": "Достижения",
 	"achievements_empty": "Достижения не найдены.",
 	"continuing_quest": "Продолжение квеста",
