@@ -1036,5 +1036,21 @@
 	"notification_quest_continue": [
 		"You can continue this quest.",
 		"Press \"Continue\" button then create new quest to continue your journey."
-	]
+	],
+	"previous_quest": "Previous quest",
+	"deposit_capacity_unlimited": "Unlimited",
+	"limit_break": "Limit Break (Experimental)",
+	"limit_break_notification": [
+		"Limit Break realize to boost beyond the limiter.",
+		"Break level can be up to x20"
+	],
+	"dialog_limit_break_title": "Limit Break Confirmation",
+	"dialog_limit_break_confirmation_message": [
+		"Are you sure to break the limiter?",
+		"Breaking the limiter could affect your pocketbook.",
+		"This is an experimental feature."
+	],
+	"button_limit_break": "Do It!",
+	"button_advance_break_level": "Advance break level",
+	"limit_break_indicator": "Limiter break level x%d"
 }
