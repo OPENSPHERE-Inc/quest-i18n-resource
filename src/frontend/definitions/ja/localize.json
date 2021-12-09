@@ -1030,5 +1030,5 @@
 	],
 	"button_limit_break": "ブレイク発動！",
 	"button_advance_break_level": "ブレイクレベルを上昇",
-	"limit_break_indicator": "ブレイクレベル x%d"
+	"limit_break_indicator": "ブレイクLv x%d"
 }

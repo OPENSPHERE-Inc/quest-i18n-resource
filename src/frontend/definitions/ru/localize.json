@@ -1054,5 +1054,5 @@
 	],
 	"button_limit_break": "Do It!",
 	"button_advance_break_level": "Advance break level",
-	"limit_break_indicator": "Limiter break level x%d"
+	"limit_break_indicator": "Break Lv x%d"
 }
