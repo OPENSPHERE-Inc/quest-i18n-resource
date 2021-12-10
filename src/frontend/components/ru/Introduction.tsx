@@ -11,7 +11,7 @@ export const Introduction = ({params}: {params: Parameters}) => {
         </p>
         <div className="block my-6">
             <figure className="image osi-quest-figure">
-                <img src="/quest_mechanism.svg" alt="QUEST mechanism" />
+                <img src="/quest_mechanism_ru.svg" alt="QUEST mechanism" />
             </figure>
         </div>
         { !params.isSignedIn ? <>
