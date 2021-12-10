@@ -1055,5 +1055,12 @@
 	],
 	"button_limit_break": "Do It!",
 	"button_advance_break_level": "Advance break level",
-	"limit_break_indicator": "Break Lv x%d"
+	"limit_break_indicator": "Break Lv x%d",
+	"vault_balance_max": "Capacity of vault",
+	"vault_balance_max_hint": [
+		"You can limit total amount of boosts.",
+		"'Blank' means unlimited."
+	],
+	"vault_balance_max_placeholder": "Total amount",
+	"vault_statistics_balance_max": "Capacity"
 }

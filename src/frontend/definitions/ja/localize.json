@@ -1031,5 +1031,12 @@
 	],
 	"button_limit_break": "ブレイク発動！",
 	"button_advance_break_level": "ブレイクレベルを上昇",
-	"limit_break_indicator": "ブレイクLv x%d"
+	"limit_break_indicator": "ブレイクLv x%d",
+	"vault_balance_max": "金庫の最大容量",
+	"vault_balance_max_hint": [
+		"ブーストの合計額を制限することができます。",
+		"「空欄」は無制限として扱われます。"
+	],
+	"vault_balance_max_placeholder": "合計金額",
+	"vault_statistics_balance_max": "最大容量"
 }
