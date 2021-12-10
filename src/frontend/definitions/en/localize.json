@@ -515,7 +515,8 @@
 	],
 	"html_howto_symbol_confirmation_note_1": "Please make transfer transaction above exactly.",
 	"html_howto_symbol_confirmation_note_2": [
-		"<strong>PLEASE NOTE:</strong> Wrong address or activation code causes wasting transaction fee."
+		"<strong>PLEASE NOTE:</strong> Wrong address or activation code causes wasting transaction fee.",
+		"<strong>Mosaic amount also must be <code>0</code>. Any amount results to be lost your money.</strong>"
 	],
 	"html_notice_delete_wallet": [
 		"<strong>You are still having builtin wallet. Please export private key from ",

@@ -515,7 +515,8 @@
 	],
 	"html_howto_symbol_confirmation_note_1": "Пожалуйста, сделайте перевод транзакции в точности, как указано выше.",
 	"html_howto_symbol_confirmation_note_2": [
-		"<strong>ПОЖАЛУЙСТА, ОБРАТИТЕ ВНИМАНИЕ:</strong> Неверный адрес или код активации приводят к потере комиссии за транзакцию."
+		"<strong>ПОЖАЛУЙСТА, ОБРАТИТЕ ВНИМАНИЕ:</strong> Неверный адрес или код активации приводят к потере комиссии за транзакцию.",
+		"<strong>Mosaic amount also must be <code>0</code>. Any amount results to be lost your money.</strong>"
 	],
 	"html_notice_delete_wallet": [
 		"<strong>У вас все еще есть встроенный кошелек. Пожалуйста, экспортируйте приватный ключ из",

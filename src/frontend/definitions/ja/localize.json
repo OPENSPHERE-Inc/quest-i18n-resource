@@ -490,7 +490,8 @@
 	"howto_symbol_confirmation_tx_fee_notice": "\"手数料なし\" はトランザクションが拒否される可能性が有ります",
 	"html_howto_symbol_confirmation_note_1": "上記の通り、正確に送信トランザクションを実行してください。",
 	"html_howto_symbol_confirmation_note_2": [
-		"<strong>ご注意:</strong> 間違ったアドレス、アクティベーションコードで行った送信は、掛かるトランザクション手数料を無駄にする結果となります。"
+		"<strong>ご注意:</strong> 間違ったアドレス、アクティベーションコードで行った送信は、掛かるトランザクション手数料を無駄にする結果となります。",
+		"<strong>また、モザイクの量も <code>0</code> にしなければなりません。それ以外の額を設定すると、その資金を失う結果となります。</strong>"
 	],
 	"html_notice_delete_wallet": [
 		"<strong>現在、ブラウザウォレットを利用中です。",
