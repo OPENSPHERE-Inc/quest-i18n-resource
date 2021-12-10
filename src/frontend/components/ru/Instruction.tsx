@@ -112,8 +112,9 @@ export const Instruction = ({params}: {params: Parameters}) => {
             Введите сумму в XYM, которую вы хотите пожертвовать, для поддержки исполнителя квеста, а также вы можете добавить свое сообщение.<br />
         </p>
         <blockquote>
-            Вы можете внести { params.deposit_amount_max } максимум XYM за поддержку
-            а квест может получить { params.deposit_balance_max } XYM в этом максимальном значении.<br />
+            You can deposit {  params.deposit_amount_max } XYM maximum per boost, but when you activate <code>Limit Break</code>,
+            maximum amount is gained up to x20.<br />
+            Also the performer can set maximum amount that can be received in total.<br />
             Сообщение может содержать не более { params.deposit_message_len_max } символов.<br />
             Вы можете делать пожертвования много раз, но если вы не превысите максимальный лимит XYM, для этого сайта.
         </blockquote>

@@ -113,8 +113,9 @@ export const Instruction = ({params}: {params: Parameters}) => {
             ブーストしたい金額を入力し、更に気の利いたメッセージを添付しましょう。
         </p>
         <blockquote>
-            ブーストは1回につき { params.deposit_amount_max } XYM までで、
-            クエスト全体で合計 { params.deposit_balance_max } XYM まで入金することが可能です。<br />
+            ブーストは1回につき { params.deposit_amount_max } XYM までですが、
+            リミットブレイクを有効化すると、最大20倍まで増やすことができます。<br />
+            また、実行者はクエスト全体で入金できる合計金額を設定する事が可能です。<br />
             ブーストに添付できるメッセージの長さは最大 { params.deposit_message_len_max } 文字までです。<br />
             ブーストはクエスト全体の合計 XYM 制限を越えなければ一人で何度でも行うことが出来ます。
         </blockquote>

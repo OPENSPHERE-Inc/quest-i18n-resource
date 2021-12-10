@@ -112,8 +112,9 @@ export const Instruction = ({params}: {params: Parameters}) => {
             Input amount you’ll boost, also attach thoughtful message.<br />
         </p>
         <blockquote>
-            You can deposit {  params.deposit_amount_max } XYM maximum per boost,
-            a quest can receive { params.deposit_balance_max } XYM maximum in total.<br />
+            You can deposit {  params.deposit_amount_max } XYM maximum per boost, but when you activate <code>Limit Break</code>,
+            maximum amount is gained up to x20.<br />
+            Also the performer can set maximum amount that can be received in total.<br />
             Attached message can be maximum { params.deposit_message_len_max } characters long.<br />
             You can boost many times unless exceeding the quest's maximum XYM limitation.
         </blockquote>
