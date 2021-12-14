@@ -96,7 +96,7 @@
 	"button_send_email_verification": "Отправить подтверждение по электронной почте",
 	"button_settings": "Настройки",
 	"button_settings_auth": "Аутентификация",
-	"button_settings_avatar": "Аватар",
+	"button_settings_avatar": "Ваш Аватар",
 	"button_settings_basic": "Базовый профиль",
 	"button_settings_delete_user": "Удалить свой профиль",
 	"button_settings_node": " URL Нод Symbol",
@@ -138,7 +138,7 @@
 	"checkbox_delete_private_key": "Удалить приватный ключ из браузера",
 	"checkbox_delete_private_key_help": "Вы должны убедиться, что приватный ключ был сохранен, чтобы предотвратить потерю активов.",
 	"checkbox_deposit_amount_includes_fee": "Сумма включает плату за буст",
-	"checkbox_symbol_account_generate": "Я хочу создать новый.",
+	"checkbox_symbol_account_generate": "Я хочу создать новый кошелек Symbol",
 	"checkbox_user_open_request": "Включить получение запроса",
 	"comment_created_at": "Размещено в",
 	"comments": "Комментарии",
@@ -203,7 +203,7 @@
 	"deposit_quest_performer": "Исполнитель",
 	"deposit_spend_total": "Всего",
 	"deposit_succeed": [
-		"Создан ивойс на буст. Пожалуйста, подпишите этот инвойс, через свой кошелек.",
+		"Создан ивойс на буст. Пожалуйста, подпишите этот инвойс, через ваш браузер.",
 		"(Никакие активы не будут потрачены без вашей подписи)"
 	],
 	"deposits": "Бусты",
@@ -503,7 +503,7 @@
 	"home": "Главная",
 	"howto_symbol_confirmation_import_qrcode": "Или импортируйте QR-код транзакции ниже",
 	"howto_symbol_confirmation_import_txuri": "Импортировать URI транзакции вместо ручного ввода",
-	"howto_symbol_confirmation_title": "Как подтвердить свой аккаунт Symbol через приложения-кошелек",
+	"howto_symbol_confirmation_title": "Подтвердите свой аккаунт Symbol, через Symbol Wallet",
 	"howto_symbol_confirmation_tx_fee": "ВНИМАНИЕ: УСТАНОВИТЕ КОМИССИЮ ЗА СДЕЛКУ",
 	"howto_symbol_confirmation_tx_fee_figure": "/signup_transaction_fee_en.png",
 	"howto_symbol_confirmation_tx_fee_notice": "\"Отсутствие комиссии\" может вызвать отклонение транзакции.",
@@ -515,8 +515,8 @@
 	],
 	"html_howto_symbol_confirmation_note_1": "Пожалуйста, сделайте перевод транзакции в точности, как указано выше.",
 	"html_howto_symbol_confirmation_note_2": [
-		"<strong>ПОЖАЛУЙСТА, ОБРАТИТЕ ВНИМАНИЕ:</strong> Неверный адрес или код активации приводят к потере комиссии за транзакцию.",
-		"<strong>Mosaic amount also must be <code>0</code>. Any amount results to be lost your money.</strong>"
+		"<strong>ПОЖАЛУЙСТА, ОБРАТИТЕ ВНИМАНИЕ:</strong> Неверный адрес или код активации (мемо) приводят к потере комиссии за транзакцию.",
+		"<strong>Вы должны отправить нулевую транзакцию <code>0</code>. Любая отправленная сумма приведет к потере ваших денег..</strong>"
 	],
 	"html_notice_delete_wallet": [
 		"<strong>У вас все еще есть встроенный кошелек. Пожалуйста, экспортируйте приватный ключ из",
@@ -528,7 +528,7 @@
 	],
 	"html_payment_wallet_apps_note_1": "Пожалуйста, сделайте транзакцию перевода.",
 	"html_payment_wallet_apps_note_2": [
-		"<strong>ПОЖАЛУЙСТА, ОБРАТИТЕ ВНИМАНИЕ:</strong> Неверный адрес или код активации приводят к потере комиссии за транзакцию."
+		"<strong>ПОЖАЛУЙСТА, ОБРАТИТЕ ВНИМАНИЕ:</strong> Неверный адрес или код активации (мемо) приводят к потере комиссии за транзакцию."
 	],
 	"html_symbol_account_note_1": [
 		"Встроенный кошелек сохраняет ваш приватный ключ только в хранилище браузера. ",
@@ -632,7 +632,7 @@
 	"payment_wallet_app_encrypt": "Зашифровать сообщение",
 	"payment_wallet_app_encrypt_value": "Не ставить галочку",
 	"payment_wallet_app_from": "От",
-	"payment_wallet_app_from_address": "(Выберите аккаунт с этим адресом)",
+	"payment_wallet_app_from_address": "(Войдите в аккаунт с этим адресом)",
 	"payment_wallet_app_import_qrcode": "Или импортируйте QR-код транзакции ниже",
 	"payment_wallet_app_import_txuri": "Импортировать URI транзакции вместо ручного ввода",
 	"payment_wallet_app_message": "Сообщение",
@@ -789,7 +789,7 @@
 	"radio_node_url_use_custom": "Используйте кастомный URL-адрес ноды (для опытного пользователя)",
 	"radio_node_url_use_default": "Использовать URL-адрес ноды по умолчанию",
 	"radio_symbol_account_use_builtin_wallet": "Я использую браузерную версию кошелька.",
-	"radio_symbol_account_use_onetime_wallet": "Я использую одноразовый кошелек (вводите закрытый ключ при каждой транзакции)",
+	"radio_symbol_account_use_onetime_wallet": "Использовать одноразовый кошелек Symbol (Необходимо постоянно, вводить приватный ключ)",
 	"re-signin_needed": "Пожалуйста, войдите повторно",
 	"re-signin_succeed": "Вы успешно вошли в систему.",
 	"re-signup_notification": "Ваша регистрация не завершена. Пожалуйста, заполните следующую форму.",
@@ -946,7 +946,7 @@
 	"terms_of_use": "Условия Использования",
 	"terms_of_use_agree": "Я прочитал и согласен с Условиями использования.",
 	"terms_of_use_read": "Пожалуйста, прочитайте и согласитесь с Условиями использования.",
-	"testnet_notification": "Это ТЕСТОВЫЙ САЙТ, подключенный к тестовой сети. Вы не можете использовать активы майннет.",
+	"testnet_notification": "Это ТЕСТОВЫЙ САЙТ, подключенный к тестовой сети Symbol. Вы не можете использовать активы из сети майннет (основной сети Symbol).",
 	"transaction_fee": "Транзакционная комиссия",
 	"txuri_copy_clipboard_succeed": "URI транзакции скопированы!",
 	"unpaid_invoices": "Неоплаченные бонусы",
@@ -1001,16 +1001,16 @@
 	"votes_statistics_positive_count": "Положительные голоса",
 	"votes_statistics_result": "Результат голосования",
 	"votes_statistics_result_acknowledge": "Одобрение",
-	"votes_statistics_result_denial": "Отрицание",
+	"votes_statistics_result_denial": "Неодобрение",
 	"votes_statistics_total_count": "Всего голосов",
 	"votes_statistics_vote_end_at": "Окончание голосования в",
 	"votes_statistics_you_voted": "Вы проголосовали",
 	"votes_statistics_you_voted_none": "Еще не проголосовал.",
 	"voting_quests": "Голосование в процессе",
-	"wait_for_confirmation": "Ждите подтверждения ...",
+	"wait_for_confirmation": "Ожидайте подтверждение ...",
 	"wait_for_confirmation_notification": [
 		"О транзакции объявлено в блокчейне. Ждите подтверждения ...",
-		"(Это может занять 5–10 минут. Вы можете покинуть с этой страницы)"
+		"(Это может занять 5–10 минут. Вы можете покинуть эту страницу)"
 	],
 	"waiting_symbol_confirmation": "Ожидание отправки и подтверждения (может занять около 5 минут) ...",
 	"wallet_address": "Адрес встроенного кошелька",
@@ -1040,27 +1040,27 @@
 		"Вы можете продолжить этот квест!",
 		"Нажмите кнопку  \"Продолжить\" затем создайте новый квест."
 	],
-	"previous_quest": "Previous quest",
-	"deposit_capacity_unlimited": "Unlimited",
-	"limit_break": "Limit Break (Experimental)",
+	"previous_quest": "Предыдущий квест",
+	"deposit_capacity_unlimited": "неограниченный",
+	"limit_break": "Limit Break (экспериментальный)",
 	"limit_break_notification": [
-		"Limit Break realize to boost beyond the limiter.",
-		"Break level can be up to x20"
+		"Limit Break реализует буст за пределы ограничителя.",
+		"Можно увеличить до 20 раз"
 	],
-	"dialog_limit_break_title": "Limit Break Confirmation",
+	"dialog_limit_break_title": "Подтверждение превышения лимита",
 	"dialog_limit_break_confirmation_message": [
-		"Are you sure to break the limiter?",
-		"Breaking the limiter could affect your pocketbook.",
-		"This is an experimental feature."
+		"Могу ли я активировать ограничение лимита?",
+		"Нарушение ограничителя может повлиять на ваш кошелек.",
+		"Это экспериментальная функция."
 	],
-	"button_limit_break": "Do It!",
-	"button_advance_break_level": "Advance break level",
+	"button_limit_break": "Сделай это!",
+	"button_advance_break_level": "Увеличить Limit Break",
 	"limit_break_indicator": "Break Lv x%d",
-	"vault_balance_max": "Capacity of vault",
+	"vault_balance_max": "Максимальная вместимость хранилища",
 	"vault_balance_max_hint": [
-		"You can limit total amount of boosts.",
-		"'Blank' means unlimited."
+		"Вы можете ограничить общее количество бустов.",
+		"'Незаполненный' означает неограниченно."
 	],
-	"vault_balance_max_placeholder": "Total amount",
-	"vault_statistics_balance_max": "Capacity"
+	"vault_balance_max_placeholder": "Общее количество",
+	"vault_statistics_balance_max": "Вместимость"
 }
