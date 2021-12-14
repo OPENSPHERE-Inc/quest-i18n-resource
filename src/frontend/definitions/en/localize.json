@@ -138,7 +138,7 @@
 	"checkbox_delete_private_key": "Delete private key from the browser storage",
 	"checkbox_delete_private_key_help": "You should ensure private key has been saved to prevent lose of assets.",
 	"checkbox_deposit_amount_includes_fee": "Amount includes boost fee",
-	"checkbox_symbol_account_generate": "I want to generate new one.",
+	"checkbox_symbol_account_generate": "I want to create a new Symbol wallet",
 	"checkbox_user_open_request": "Enable ReQUEST receiving",
 	"comment_created_at": "Posted at",
 	"comments": "Comments",
@@ -225,8 +225,8 @@
 	"dialog_deposit_confirmation_title": "Boost Confirmation",
 	"dialog_privacy_policy_title": "Privacy Policy",
 	"dialog_private_key_delete_confirmation_message": [
-		"Are you sure delete private key from the browser wallet? ",
-		"Once lost private key, you'll lost any assets in the account."
+		"Are you sure you want to remove the private key from your browser wallet?",
+		"If you lose your private key, you will lose all assets in your Symbol account."
 	],
 	"dialog_private_key_delete_confirmation_title": "Deletion of Private Key Confirmation",
 	"dialog_private_key_download_title": "Export Private Key",
@@ -251,11 +251,11 @@
 	],
 	"dialog_quest_decision_accept_confirmation_title": "Decision Confirmation",
 	"dialog_quest_decision_refund_confirmation_message": [
-		"You are sure to decide that reject vote result? Your boosts will be refunded. ",
+		"You can - reject the vote! Your boost will be returned to you after making a decision.",
 		"This action cannot be rollback."
 	],
 	"dialog_quest_decision_refund_confirmation_title": "Decision Confirmation",
-	"dialog_quest_decline_confirmation_message": "Are you sure to decline the ReQUEST?. This action cannot rollback.",
+	"dialog_quest_decline_confirmation_message": "Are you sure you want to decline the request? This action cannot be changed.",
 	"dialog_quest_decline_confirmation_title": "Declining Confirmation",
 	"dialog_quest_run_confirmation_message": "You are about to start the quest. Deadline is %s. Are you ready?",
 	"dialog_quest_run_confirmation_title": "Performance Confirmation",
@@ -281,7 +281,7 @@
 		"When the offer reached its limitation, you may cannot perform the quest."
 	],
 	"dialog_template_apply_confirmation_title": "Please Note",
-	"dialog_template_delete_confirmation_message": "Are you sure to delete the offer? This action cannot rollback.",
+	"dialog_template_delete_confirmation_message": "Are you sure you want to delete this offer? This action cannot be undone.",
 	"dialog_template_delete_confirmation_title": "Delete Confirmation",
 	"dialog_template_start_confirmation_message": "You are about to start the offer. Expiry date is %s. Are you ready?",
 	"dialog_template_start_confirmation_title": "Start Confirmation",
@@ -382,7 +382,7 @@
 	"error_send_email_verification_failed": "An error occurred when send verification E-Mail. Please try again later.",
 	"error_signer_address_mismatch": [
 		"Currently, you have different Symbol account from the invoice.",
-		"The transaction may failed even if you sign and announce it.",
+		"The transaction will not be initiated even if you sign it.",
 		"Please link proper Symbol account to done the transaction."
 	],
 	"error_signin_failed": "Failed to sign in. Please double check your E-Mail and password.",
@@ -503,7 +503,7 @@
 	"home": "Home",
 	"howto_symbol_confirmation_import_qrcode": "Or import transaction QR code below",
 	"howto_symbol_confirmation_import_txuri": "Import transaction URI instead of manual input",
-	"howto_symbol_confirmation_title": "How to confirm your Symbol account via wallet apps",
+	"howto_symbol_confirmation_title": "Verify your Symbol account via Symbol Wallet",
 	"howto_symbol_confirmation_tx_fee": "NOTICE: PLEASE SET TRANSACTION FEE",
 	"howto_symbol_confirmation_tx_fee_figure": "/signup_transaction_fee_en.png",
 	"howto_symbol_confirmation_tx_fee_notice": "\"No Fee\" may causes rejection of the transaction.",
@@ -515,7 +515,7 @@
 	],
 	"html_howto_symbol_confirmation_note_1": "Please make transfer transaction above exactly.",
 	"html_howto_symbol_confirmation_note_2": [
-		"<strong>PLEASE NOTE:</strong> Wrong address or activation code causes wasting transaction fee.",
+		"<strong>PLEASE NOTE:</strong> Wrong address or activation code (memo) causes wasting transaction fee.",
 		"<strong>Mosaic amount also must be <code>0</code>. Any amount results to be lost your money.</strong>"
 	],
 	"html_notice_delete_wallet": [
@@ -528,7 +528,7 @@
 	],
 	"html_payment_wallet_apps_note_1": "Please make the transfer transaction above exactly.",
 	"html_payment_wallet_apps_note_2": [
-		"<strong>PLEASE NOTE:</strong> Wrong amount, address or transaction code causes wasting money."
+		"<strong>PLEASE NOTE:</strong> Wrong amount, address or transaction code (memo) causes wasting money."
 	],
 	"html_symbol_account_note_1": [
 		"Built-in wallet saves your private key to browser storage only. ",
@@ -632,7 +632,7 @@
 	"payment_wallet_app_encrypt": "Encrypt message",
 	"payment_wallet_app_encrypt_value": "Leave unchecked",
 	"payment_wallet_app_from": "From",
-	"payment_wallet_app_from_address": "(Choose account which has this address)",
+	"payment_wallet_app_from_address": "(Sign in with this address)",
 	"payment_wallet_app_import_qrcode": "Or import transaction QR code below",
 	"payment_wallet_app_import_txuri": "Import transaction URI instead of manual input",
 	"payment_wallet_app_message": "Message",
@@ -788,8 +788,8 @@
 	"quests_not_found": "No quests found.",
 	"radio_node_url_use_custom": "Use custom node URL (for expert user)",
 	"radio_node_url_use_default": "Use default node URL",
-	"radio_symbol_account_use_builtin_wallet": "I use browser wallet.",
-	"radio_symbol_account_use_onetime_wallet": "I use one-time wallet (Input private key every transactions)",
+	"radio_symbol_account_use_builtin_wallet": "Use browser wallet.",
+	"radio_symbol_account_use_onetime_wallet": "Use one-time wallet (Input private key every transactions)",
 	"re-signin_needed": "Please re-sign in",
 	"re-signin_succeed": "You've signed in successfully.",
 	"re-signup_notification": "Your signup is incomplete. Please proceed to the following form.",
