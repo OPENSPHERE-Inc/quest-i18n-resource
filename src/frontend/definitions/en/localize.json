@@ -182,15 +182,15 @@
 		"After end of voting, your boost will be awarded to performer regardless of voting result ",
 		"(Except aborted or deadline reached)"
 	],
-	"deposit_policy_decide_after_vote_succeed": "C. Require a final decision",
-	"deposit_policy_decide_after_vote_succeed_description": [
+	"deposit_policy_1": "C. Require a final decision",
+	"deposit_policy_1_description": [
 		"After approved the quest completion via voting, ",
 		"you can decide for yourself whether you want to award or receive a refund. ",
 		"The boosts will be locked until a decision is made."
 	],
-	"deposit_policy_default_award": "A. Trust the performer",
-	"deposit_policy_follow_vote_result": "B. Trust the vote result",
-	"deposit_policy_follow_vote_result_description": [
+	"deposit_policy_2": "A. Trust the performer",
+	"deposit_policy_0": "B. Trust the vote result",
+	"deposit_policy_0_description": [
 		"After approved the quest completion via voting, your boost will be automatically awarded to performer."
 	],
 	"deposit_policy_note": [
@@ -739,13 +739,13 @@
 	"quest_receipt_request": "ReQUEST",
 	"quest_receipt_status": "Status",
 	"quest_receipt_status_all": "All",
-	"quest_receipt_status_asked": "Waiting decision",
-	"quest_receipt_status_awarded": "Awarded",
-	"quest_receipt_status_canceled": "Canceled",
-	"quest_receipt_status_paid": "Paid",
-	"quest_receipt_status_pending": "Unpaid",
-	"quest_receipt_status_refunded": "Refunded",
-	"quest_receipt_status_voting": "Voting",
+	"quest_receipt_status_3": "Waiting decision",
+	"quest_receipt_status_4": "Awarded",
+	"quest_receipt_status_6": "Canceled",
+	"quest_receipt_status_1": "Paid",
+	"quest_receipt_status_0": "Unpaid",
+	"quest_receipt_status_5": "Refunded",
+	"quest_receipt_status_2": "Voting",
 	"quest_receipt_total_spend": "Total",
 	"quest_receipt_tx_fee": "Transaction fee",
 	"quest_receipt_tx_quest-award": "Award",

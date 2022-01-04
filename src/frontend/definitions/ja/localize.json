@@ -172,14 +172,14 @@
 	"deposit_policy_always_description": [
 		"投票終了後、投票結果に関わらず、あなたのブーストは実行者に授与されます（ただしクエスト中止や期限切れを除きます）"
 	],
-	"deposit_policy_decide_after_vote_succeed": "C. 最終判断が必要",
-	"deposit_policy_decide_after_vote_succeed_description": [
+	"deposit_policy_1": "C. 最終判断が必要",
+	"deposit_policy_1_description": [
 		"クエストの達成が投票で承認された後に、あなた自身で授与するか返金を受けるかを判断することが出来ます。",
 		"ブーストはあなたが判断を行うまでクエスト金庫に維持されます。"
 	],
-	"deposit_policy_default_award": "A. 実行者を信頼",
-	"deposit_policy_follow_vote_result": "B. 投票結果を信頼",
-	"deposit_policy_follow_vote_result_description": "クエストの完了が投票により承認されると、あなたのブーストは自動的に実行者へ授与されます。",
+	"deposit_policy_2": "A. 実行者を信頼",
+	"deposit_policy_0": "B. 投票結果を信頼",
+	"deposit_policy_0_description": "クエストの完了が投票により承認されると、あなたのブーストは自動的に実行者へ授与されます。",
 	"deposit_policy_note": [
 		"クエストが中止されるか、期限が過ぎる、または達成が投票で否認された場合、プラットフォームはブーストの返金を実行します（手数料は除きます）"
 	],
@@ -718,13 +718,13 @@
 	"quest_receipt_request": "ReQUEST",
 	"quest_receipt_status": "ステータス",
 	"quest_receipt_status_all": "全て",
-	"quest_receipt_status_asked": "判断待ち",
-	"quest_receipt_status_awarded": "授与",
-	"quest_receipt_status_canceled": "キャンセル",
-	"quest_receipt_status_paid": "支払済",
-	"quest_receipt_status_pending": "未払",
-	"quest_receipt_status_refunded": "返金",
-	"quest_receipt_status_voting": "投票中",
+	"quest_receipt_status_3": "判断待ち",
+	"quest_receipt_status_4": "授与",
+	"quest_receipt_status_6": "キャンセル",
+	"quest_receipt_status_1": "支払済",
+	"quest_receipt_status_0": "未払",
+	"quest_receipt_status_5": "返金",
+	"quest_receipt_status_2": "投票中",
 	"quest_receipt_total_spend": "合計",
 	"quest_receipt_tx_fee": "トランザクション手数料",
 	"quest_receipt_tx_quest-award": "授与",

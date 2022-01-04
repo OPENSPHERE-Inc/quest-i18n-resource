@@ -182,15 +182,15 @@
 		"По окончании голосования ваш буст будет вручен исполнителю вне зависимости от результата голосования.",
 		"(За исключением случаев прерывания или достижения крайнего срока)"
 	],
-	"deposit_policy_decide_after_vote_succeed": "C. Требовать окончательного решения",
-	"deposit_policy_decide_after_vote_succeed_description": [
+	"deposit_policy_1": "C. Требовать окончательного решения",
+	"deposit_policy_1_description": [
 		"После утверждения завершения квеста путем голосования, ",
 		"Вы можете решить для себя, хотите ли вы наградить или получить возмещение.",
 		"Бусты будут заблокированы до тех пор, пока не будет принято решение."
 	],
-	"deposit_policy_default_award": "А. Довериться исполнителю",
-	"deposit_policy_follow_vote_result": "B. Довериться результатам голосования",
-	"deposit_policy_follow_vote_result_description": [
+	"deposit_policy_2": "А. Довериться исполнителю",
+	"deposit_policy_0": "B. Довериться результатам голосования",
+	"deposit_policy_0_description": [
 		"После одобрения выполнения квеста голосованием ваш буст будет автоматически присужден исполнителю."
 	],
 	"deposit_policy_note": [
@@ -739,13 +739,13 @@
 	"quest_receipt_request": "Запрос",
 	"quest_receipt_status": "Статус",
 	"quest_receipt_status_all": "Все",
-	"quest_receipt_status_asked": "Ожидание решения",
-	"quest_receipt_status_awarded": "Награжден",
-	"quest_receipt_status_canceled": "Отменен",
-	"quest_receipt_status_paid": "Оплаченный",
-	"quest_receipt_status_pending": "Неоплаченный",
-	"quest_receipt_status_refunded": "Возвращено",
-	"quest_receipt_status_voting": "Голосование",
+	"quest_receipt_status_3": "Ожидание решения",
+	"quest_receipt_status_4": "Награжден",
+	"quest_receipt_status_6": "Отменен",
+	"quest_receipt_status_1": "Оплаченный",
+	"quest_receipt_status_0": "Неоплаченный",
+	"quest_receipt_status_5": "Возвращено",
+	"quest_receipt_status_2": "Голосование",
 	"quest_receipt_total_spend": "Всего",
 	"quest_receipt_tx_fee": "Комиссия на транзакцию",
 	"quest_receipt_tx_quest-award": "Награда",
