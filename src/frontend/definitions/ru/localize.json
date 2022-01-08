@@ -1100,5 +1100,10 @@
 	"incoming_deposits_csv_exporter": "Incoming boosts CSV exporter",
 	"outgoing_deposits_csv_exporter": "Outgoing boosts CSV exporter",
 	"csv_export_succeeded": "The CSV has been exported successfully.",
-	"fetch_error": "Fetch Error!"
+	"fetch_error": "Fetch Error!",
+	"quest_receipt_csv_lock_expire_at": "Lock Expire Height",
+	"csv_exporter_notification": [
+		"We cannot answer questions about tax law treatment, ",
+		"so please consult with a specialist to ensure proper tax filing and payment."
+	]
 }

@@ -1076,5 +1076,10 @@
 	"incoming_deposits_csv_exporter": "かけられたブーストCSVエクスポーター",
 	"outgoing_deposits_csv_exporter": "かけたブーストCSVエクスポーター",
 	"csv_export_succeeded": "CSVのエクスポートが正常に行われました。",
-	"fetch_error": "取得に失敗!"
+	"fetch_error": "取得に失敗!",
+	"quest_receipt_csv_lock_expire_at": "ロック期限ブロック高",
+	"csv_exporter_notification": [
+		"税法上の取り扱いについてのご質問にはお答えできませんので、",
+		"専門家とご相談の上、適切な申告と納税をお願いします。"
+	]
 }
