@@ -241,10 +241,10 @@
 	],
 	"dialog_quest_cancel_confirmation_title": "Cancellation Confirmation",
 	"dialog_quest_complete_confirmation_message": [
-		"Are you sure to report completion of the quest? ",
+		"Are you sure you want to complete the quest?",
 		"This action cannot rollback. Vote will be began after completion."
 	],
-	"dialog_quest_complete_confirmation_title": "Completion Confirmation",
+	"dialog_quest_complete_confirmation_title": "Completing your Quest",
 	"dialog_quest_decision_accept_confirmation_message": [
 		"Are you sure to decide that accept vote result? Your boosts will be awarded to performer. ",
 		"This action cannot be rollback."
@@ -1097,9 +1097,9 @@
 	"end_date": "End date",
 	"csv_exporter_end_date_placeholder": "End date",
 	"button_export": "Export",
-	"incoming_deposits_csv_exporter": "Incoming boosts CSV exporter",
-	"outgoing_deposits_csv_exporter": "Outgoing boosts CSV exporter",
-	"csv_export_succeeded": "The CSV has been exported successfully.",
+	"incoming_deposits_csv_exporter": "Export of incoming boosts in CSV format",
+	"outgoing_deposits_csv_exporter": "Export of outgoing boosts in CSV format",
+	"csv_export_succeeded": "CSV file exported successfully.",
 	"fetch_error": "Fetch Error!",
 	"quest_receipt_csv_lock_expire_at": "Lock Expire Height",
 	"csv_exporter_notification": [
