@@ -1101,7 +1101,7 @@
 	"outgoing_deposits_csv_exporter": "Export of outgoing boosts in CSV format",
 	"csv_export_succeeded": "CSV file exported successfully.",
 	"fetch_error": "Fetch Error!",
-	"quest_receipt_csv_lock_expire_at": "Lock Expire Height",
+	"quest_receipt_csv_lock_expire_at": "Lock Expire Date",
 	"csv_exporter_notification": [
 		"We cannot answer questions about tax law treatment, ",
 		"so please consult with a specialist to ensure proper tax filing and payment."
