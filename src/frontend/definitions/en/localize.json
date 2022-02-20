@@ -679,7 +679,6 @@
 	"quest_description_placeholder": "Quest description",
 	"quest_disabled_deadline_hint": "* Deadline cannot be modified after creation.",
 	"quest_event_on_involved_quest_completed": "When boosted quest has started voting",
-	"quest_event_on_involved_quest_succeeded": "When boosted quest has required final decision",
 	"quest_event_on_performing_quest_reaching_deadline": "When performing quest is reaching its deadline (1 day left)",
 	"quest_event_on_request_received": "When received a ReQUEST",
 	"quest_event_on_subscribed_quest_started": "When following user has started a quest",
@@ -1105,5 +1104,35 @@
 	"csv_exporter_notification": [
 		"We cannot answer questions about tax law treatment, ",
 		"so please consult with a specialist to ensure proper tax filing and payment."
-	]
+	],
+	"quest_receipt_csv_hash_lock": "Tx Hash (Locked)",
+	"quest_receipt_csv_hash_complete": "Tx Hash (Completed)",
+	"notification_quest_aborted": "%s aborted the quest. Your boost will be refunded.",
+	"notification_mark_all_as_read": "Mark all as read",
+	"quest_event_on_involved_quest_aborted": "When boosted quest has been aborted",
+	"quest_event_on_involved_quest_failed": "When boosted quest has been ended without approval",
+	"quest_event_on_involved_quest_succeeded": "When boosted quest has been approved (Incl. final decision notification)",
+	"notification_awarded": "Your boost has been awarded to %s.",
+	"notification_quest_failed_refund": "%s ended the quest without approval. Your boost will be refunded.",
+	"notification_quest_failed_award": "%s ended the quest without approval. Your Type.A boost will be awarded.",
+	"quest_journal_empty": "There is no journal yet. Wait for good news!",
+	"button_journal_add": "Post journal",
+	"quest_journal_add": "Post new journal",
+	"write_down_journal": "Write down what's happening in the quest.",
+	"quest_journal_placeholder": "Journal",
+	"error_quest_journal_max_length": "Journal max length is %d characters long.",
+	"quest_journal_create_succeed": "A journal has been posted.",
+	"error_quest_journal_create_failed": "An error occurred during posting a journal. Please try again later.",
+	"quest_journal_empty_performer": "There is no journal yet. Let's report what happened in the quest.",
+	"explore_all": "Explore all",
+	"quest_image_help": [
+		"The image will be cropped by 16:9",
+		"and must has 10MB or smaller size and to be allowed JPEG or PNG format."
+	],
+	"error_quest_image_file_upload_failed": "An error occurred during image upload. Please try again later.",
+	"text_overlay_switch_label": "Text",
+	"notification_quest_succeeded": "Congratulations! Your quest has been approved!",
+	"notification_quest_failed": "Your quest has been finished.",
+	"quest_event_on_performing_quest_succeeded": "When performing quest has been approved.",
+	"quest_event_on_performing_quest_failed": "When performing quest has been ended without approval."
 }
