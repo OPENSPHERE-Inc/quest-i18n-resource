@@ -23,6 +23,13 @@ export const ListOfExchanges = () => {
         >
             GMOコイン
         </a>
+        <a className="navbar-item"
+           href="https://www.huobi.co.jp/ja-jp/exchange/xym_jpy/"
+           target="_blank"
+           rel="noreferrer"
+        >
+            Huobi Japan
+        </a>
         <hr className="navbar-divider" />
         <a className="navbar-item"
            href="https://symbolplatform.com/xym"

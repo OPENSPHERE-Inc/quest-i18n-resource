@@ -77,7 +77,8 @@ export const Introduction = ({params}: {params: Parameters}) => {
                     XYMの購入は取引所で行えます。国内では
                     <a href="https://zaif.jp/" target="_blank" rel="noreferrer">Zaif</a>、
                     <a href="https://app.bitbank.cc/" target="_blank" rel="noreferrer">bitbank</a>、
-                    <a href="https://coin.z.com/" target="_blank" rel="noreferrer">GMOコイン</a>
+                    <a href="https://coin.z.com/" target="_blank" rel="noreferrer">GMOコイン</a>、
+                    <a href="https://www.huobi.co.jp/" target="_blank" rel="noreferrer">Huobi Japan</a>
                     で取り扱いがあります。
                     海外も含めて、XYMを取り扱っている取引所一覧は<a href="https://symbolplatform.com/xym" target="_blank" rel="noreferrer">こちら</a>で確認してください。
                 </p> }
