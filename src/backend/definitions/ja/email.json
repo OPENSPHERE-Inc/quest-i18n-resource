@@ -18,6 +18,22 @@
     }
   },
   "involved_quest_notifications": {
+    "on_aborted": {
+      "subject": "[QUEST] クエストが中止されました。",
+      "body_text": [
+        "{recipient.name} 様",
+        "",
+        "以下のクエストが中止になりました。あなたのブーストはロック期限に達した後、返金されます。",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "本メールはユーザーの通知設定に基づき自動送信されています。送信設定は下記URLより行えます。",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST運営 - ※本メールに返信することはできません。"
+      ]
+    },
     "on_completed": {
       "subject": "[QUEST](アクションが必要) 投票が開始されました。",
       "body_text": [
@@ -34,7 +50,7 @@
         "QUEST運営 - ※本メールに返信することはできません。"
       ]
     },
-    "on_succeeded": {
+    "on_succeeded_decision": {
       "subject": "[QUEST](アクションが必要) 投票結果についてあなたの判断が必要です。",
       "body_text": [
         "{recipient.name} 様",
@@ -49,15 +65,66 @@
         "",
         "QUEST運営 - ※本メールに返信することはできません。"
       ]
+    },
+    "on_succeeded_award": {
+      "subject": "[QUEST] {performer.name} のクエストが承認されました。",
+      "body_text": [
+        "{recipient.name} 様",
+        "",
+        "以下のクエストが承認されました！",
+        "あなたのブーストは程なくして {performer.name} に授与されます。",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "本メールはユーザーの通知設定に基づき自動送信されています。送信設定は下記URLより行えます。",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST運営 - ※本メールに返信することはできません。"
+      ]
+    },
+    "on_failed_refund": {
+      "subject": "[QUEST] {performer.name} は未承認のままクエストを終了しました。タイプAを除くブーストは返金されます。",
+      "body_text": [
+        "{recipient.name} 様",
+        "",
+        "以下のクエストが未承認のまま終了しました。",
+        "ブースト戦略のタイプAを除き、あなたのブーストはロック期限に達した後、返金されます。",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "本メールはユーザーの通知設定に基づき自動送信されています。送信設定は下記URLより行えます。",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST運営 - ※本メールに返信することはできません。"
+      ]
+    },
+    "on_failed_award": {
+      "subject": "[QUEST] {performer.name} は未承認のままクエストを終了しました。タイプAブーストは授与されます。",
+      "body_text": [
+        "{recipient.name} 様",
+        "",
+        "以下のクエストが未承認のまま終了しました。",
+        "あなたのタイプAブーストは、程なくして {performer.name} に授与されます。",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "本メールはユーザーの通知設定に基づき自動送信されています。送信設定は下記URLより行えます。",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST運営 - ※本メールに返信することはできません。"
+      ]
     }
   },
   "performers_quest_notifications": {
     "on_requested": {
-      "subject": "[QUEST](重要) {promoter.name} からReQUESTが届きました。",
+      "subject": "[QUEST](重要) {promoter.name} からリクエストが届きました。",
       "body_text": [
         "{recipient.name} 様",
         "",
-        "{promoter.name} から以下のReQUESTが届きました。QUESTサイトで詳細を確認してください。",
+        "{promoter.name} から以下のリクエストが届きました。QUESTサイトで詳細を確認してください。",
         "",
         "{quest.title}",
         "{origin}/quest/{quest.id}",
@@ -79,6 +146,38 @@
         "{origin}/quest/{quest.id}",
         "",
         "クエストが完了した場合、QUESTサイトで締切日時までに完了ボタンを押してください。",
+        "",
+        "本メールはユーザーの通知設定に基づき自動送信されています。送信設定は下記URLより行えます。",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST運営 - ※本メールに返信することはできません。"
+      ]
+    },
+    "on_succeeded": {
+      "subject": "[QUEST] クエストが承認されました。",
+      "body_text": [
+        "{recipient.name} 様",
+        "",
+        "おめでとうございます！以下のクエストが承認されました！",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "本メールはユーザーの通知設定に基づき自動送信されています。送信設定は下記URLより行えます。",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST運営 - ※本メールに返信することはできません。"
+      ]
+    },
+    "on_failed": {
+      "subject": "[QUEST] クエストが終了しました。",
+      "body_text": [
+        "{recipient.name} 様",
+        "",
+        "以下のクエストが終了しました。",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
         "",
         "本メールはユーザーの通知設定に基づき自動送信されています。送信設定は下記URLより行えます。",
         "{origin}/user/settings/notifications",

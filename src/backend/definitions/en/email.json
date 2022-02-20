@@ -18,6 +18,22 @@
     }
   },
   "involved_quest_notifications": {
+    "on_aborted": {
+      "subject": "[QUEST] The quest has been aborted.",
+      "body_text": [
+        "Dear {recipient.name}",
+        "",
+        "Following quest has been aborted. Your boost(s) will be refund after reached lock expire. ",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST Official - *This mail cannot be replied."
+      ]
+    },
     "on_completed": {
       "subject": "[QUEST](Action Required) Voting has began.",
       "body_text": [
@@ -34,7 +50,7 @@
         "QUEST Official - *You do not need to reply to this letter."
       ]
     },
-    "on_succeeded": {
+    "on_succeeded_decision": {
       "subject": "[QUEST](Action Required) Your decision is needed.",
       "body_text": [
         "Dear {recipient.name}",
@@ -48,6 +64,57 @@
         "{origin}/user/settings/notifications",
         "",
         "QUEST Official - *You do not need to reply to this letter."
+      ]
+    },
+    "on_succeeded_award": {
+      "subject": "[QUEST] {performer.name} has accomplished the quest with approval.",
+      "body_text": [
+        "Dear {recipient.name}",
+        "",
+        "Following quest has been accomplished with approval !",
+        "Your boost(s) will be awarded to {performer.name} after a short while.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST Official - *This mail cannot be replied."
+      ]
+    },
+    "on_failed_refund": {
+      "subject": "[QUEST] {performer.name} ended the quest without approval. Your boost except Type.A will be refunded.",
+      "body_text": [
+        "Dear {recipient.name}",
+        "",
+        "Following quest has been ended without approval.",
+        "Your boost(s) will be refunded after reached lock expire except boost strategy of Type.A",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST Official - *This mail cannot be replied."
+      ]
+    },
+    "on_failed_award": {
+      "subject": "[QUEST] {performer.name} has ended the quest without approval. Your Type.A boost will be awarded.",
+      "body_text": [
+        "Dear {recipient.name}",
+        "",
+        "Following quest has been ended without approval.",
+        "Your Type.A boost(s) will be awarded after a short while.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST Official - *This mail cannot be replied."
       ]
     }
   },
@@ -84,6 +151,38 @@
         "{origin}/user/settings/notifications",
         "",
         "QUEST Official - *You do not need to reply to this letter."
+      ]
+    },
+    "on_succeeded": {
+      "subject": "[QUEST] Your quest has been approved.",
+      "body_text": [
+        "Dear {recipient.name}",
+        "",
+        "Congratulations! Following quest has been approved!",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST Official - *This mail cannot be replied."
+      ]
+    },
+    "on_failed": {
+      "subject": "[QUEST] Your quest has been finished.",
+      "body_text": [
+        "Dear {recipient.name}",
+        "",
+        "Following quest has been finished.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST Official - *This mail cannot be replied."
       ]
     }
   },
