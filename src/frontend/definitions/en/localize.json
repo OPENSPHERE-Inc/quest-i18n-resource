@@ -1134,5 +1134,17 @@
 	"notification_quest_succeeded": "Congratulations! Your quest has been approved!",
 	"notification_quest_failed": "Your quest has been finished.",
 	"quest_event_on_performing_quest_succeeded": "When performing quest has been approved.",
-	"quest_event_on_performing_quest_failed": "When performing quest has been ended without approval."
+	"quest_event_on_performing_quest_failed": "When performing quest has been ended without approval.",
+	"button_journal_remove": "Delete journal",
+	"dialog_remove_journal_title": "Remove journal confirmation",
+	"dialog_remove_journal_message": [
+		"Are you sure to delete this journal? ",
+		"This action cannot rollback."
+	],
+	"quest_journal_remove_succeed": "The journal has been removed.",
+	"quest_journal_remove_failed": "An error occurred when removing the journal. Please try again later.",
+	"recently_journals": "Recently journals",
+	"quest_journals_empty": "No journals found.",
+	"recently_performers": "Performing quest",
+	"performers_empty": "No performers found."
 }

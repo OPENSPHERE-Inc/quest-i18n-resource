@@ -1110,5 +1110,17 @@
 	"notification_quest_succeeded": "おめでとうございます！あなたのクエストが承認されました！",
 	"notification_quest_failed": "クエストが終了しました。",
 	"quest_event_on_performing_quest_succeeded": "実行中のクエストが承認された時",
-	"quest_event_on_performing_quest_failed": "実行中のクエストが未承認のまま終了した時"
+	"quest_event_on_performing_quest_failed": "実行中のクエストが未承認のまま終了した時",
+	"button_journal_remove": "ジャーナルを削除",
+	"dialog_remove_journal_title": "ジャーナル削除の確認",
+	"dialog_remove_journal_message": [
+		"このジャーナルを削除してもよろしいですか？ ",
+		"この操作は元に戻すことができません。"
+	],
+	"quest_journal_remove_succeed": "ジャーナルを削除しました。",
+	"quest_journal_remove_failed": "ジャーナル削除中にエラーが発生しました。時間をおいてから再度お試しください。",
+	"recently_journals": "最新のジャーナル",
+	"quest_journals_empty": "ジャーナルは未だ１件もありません。",
+	"recently_performers": "クエスト実行中",
+	"performers_empty": "実行中のクエストはありません。"
 }
