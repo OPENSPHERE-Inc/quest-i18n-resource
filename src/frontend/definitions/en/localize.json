@@ -118,8 +118,6 @@
 	"button_user_observable_url_remove_title": "Remove this URL.",
 	"button_user_settings": "Settings",
 	"button_users_load_more": "Load More Users",
-	"button_vote_negative": "Vote Denial",
-	"button_vote_positive": "Vote Acknowledge",
 	"button_wallet_enable": "Enable Built-in Wallet",
 	"button_withdraw": "Withdraw",
 	"cancel_deposit": "Cancel Invoice",
@@ -1146,5 +1144,9 @@
 	"recently_journals": "Recently journals",
 	"quest_journals_empty": "No journals found.",
 	"recently_performers": "Performing quest",
-	"performers_empty": "No performers found."
+	"performers_empty": "No performers found.",
+	"button_vote_negative": "Vote for Negative",
+	"button_vote_positive": "Vote for Positive",
+	"button_vote_negative_early": "Early Vote for Negative",
+	"button_vote_positive_early": "Early Vote for Positive"
 }

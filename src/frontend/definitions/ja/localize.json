@@ -115,8 +115,6 @@
 	"button_user_observable_url_remove_title": "URLを削除",
 	"button_user_settings": "設定",
 	"button_users_load_more": "ユーザーを更に表示",
-	"button_vote_negative": "否認に投票",
-	"button_vote_positive": "承認に投票",
 	"button_wallet_enable": "ブラウザウォレットを有効にする",
 	"button_withdraw": "取り下げ",
 	"cancel_deposit": "請求書をキャンセルする",
@@ -1122,5 +1120,9 @@
 	"recently_journals": "最新のジャーナル",
 	"quest_journals_empty": "ジャーナルは未だ１件もありません。",
 	"recently_performers": "クエスト実行中",
-	"performers_empty": "実行中のクエストはありません。"
+	"performers_empty": "実行中のクエストはありません。",
+	"button_vote_negative": "否認に投票",
+	"button_vote_positive": "承認に投票",
+	"button_vote_negative_early": "否認に期日前投票",
+	"button_vote_positive_early": "承認に期日前投票"
 }
