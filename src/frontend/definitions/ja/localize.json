@@ -1124,5 +1124,7 @@
 	"button_vote_negative": "否認に投票",
 	"button_vote_positive": "承認に投票",
 	"button_vote_negative_early": "否認に期日前投票",
-	"button_vote_positive_early": "承認に期日前投票"
+	"button_vote_positive_early": "承認に期日前投票",
+	"quest_milestones_update_succeed": "マイルストーンを更新しました。",
+	"error_quest_milestones_update_failed": "マイルストーンの更新中にエラーが発生しました。時間をおいてから再度お試しください。"
 }

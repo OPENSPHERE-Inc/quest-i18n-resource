@@ -1113,7 +1113,7 @@
 	"notification_awarded": "Your boost has been awarded to %s.",
 	"notification_quest_failed_refund": "%s ended the quest without approval. Your boost will be refunded.",
 	"notification_quest_failed_award": "%s ended the quest without approval. Your Type.A boost will be awarded.",
-	"quest_journal_empty": "There is no journal yet. Wait for good news!",
+	"quest_journal_empty": "There are no journals yet. Wait for good news!",
 	"button_journal_add": "Post journal",
 	"quest_journal_add": "Post new journal",
 	"write_down_journal": "Write down what's happening in the quest.",
@@ -1121,7 +1121,7 @@
 	"error_quest_journal_max_length": "Journal max length is %d characters long.",
 	"quest_journal_create_succeed": "A journal has been posted.",
 	"error_quest_journal_create_failed": "An error occurred during posting a journal. Please try again later.",
-	"quest_journal_empty_performer": "There is no journal yet. Let's report what happened in the quest.",
+	"quest_journal_empty_performer": "There are no journals yet. Let's report what happened in the quest.",
 	"explore_all": "Explore all",
 	"quest_image_help": [
 		"The image will be cropped by 16:9",
@@ -1148,5 +1148,7 @@
 	"button_vote_negative": "Vote for Negative",
 	"button_vote_positive": "Vote for Positive",
 	"button_vote_negative_early": "Early Vote for Negative",
-	"button_vote_positive_early": "Early Vote for Positive"
+	"button_vote_positive_early": "Early Vote for Positive",
+	"quest_milestones_update_succeed": "Milestones has been updated.",
+	"error_quest_milestones_update_failed": "An error occurred during updating milestones. Please try again later."
 }
