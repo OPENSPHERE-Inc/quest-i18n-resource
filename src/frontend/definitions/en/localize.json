@@ -1153,5 +1153,6 @@
 	"error_quest_milestones_update_failed": "An error occurred during updating milestones. Please try again later.",
 	"templates_empty": "No offers found.",
 	"create_new_quest_template": "Create quest from offer",
-	"create_new_quest_scratch": "Create quest from scratch"
+	"create_new_quest_scratch": "Create quest from scratch",
+	"apply_no_offer": "Apply no offer"
 }

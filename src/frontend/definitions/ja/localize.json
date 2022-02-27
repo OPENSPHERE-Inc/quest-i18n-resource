@@ -1129,5 +1129,6 @@
 	"error_quest_milestones_update_failed": "マイルストーンの更新中にエラーが発生しました。時間をおいてから再度お試しください。",
 	"templates_empty": "オファーは１件もありません。",
 	"create_new_quest_template": "オファーからのクエスト作成",
-	"create_new_quest_scratch": "ゼロからのクエスト作成"
+	"create_new_quest_scratch": "ゼロからのクエスト作成",
+	"apply_no_offer": "オファー応募なし"
 }
