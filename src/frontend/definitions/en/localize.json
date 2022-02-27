@@ -1150,5 +1150,8 @@
 	"button_vote_negative_early": "Early Vote for Negative",
 	"button_vote_positive_early": "Early Vote for Positive",
 	"quest_milestones_update_succeed": "Milestones has been updated.",
-	"error_quest_milestones_update_failed": "An error occurred during updating milestones. Please try again later."
+	"error_quest_milestones_update_failed": "An error occurred during updating milestones. Please try again later.",
+	"templates_empty": "No offers found.",
+	"create_new_quest_template": "Create quest from offer",
+	"create_new_quest_scratch": "Create quest from scratch"
 }
