@@ -482,7 +482,6 @@
 	"home": "ホーム",
 	"howto_symbol_confirmation_import_qrcode": "または以下のトランザクションQRコードをインポートしてください",
 	"howto_symbol_confirmation_import_txuri": "手入力する代わりにトランザクションURIをインポートしてください",
-	"howto_symbol_confirmation_title": "ウォレットアプリを使用して Symbol アカウントの確認を実行する方法",
 	"howto_symbol_confirmation_tx_fee": "ご注意: トランザクション手数料を設定してください",
 	"howto_symbol_confirmation_tx_fee_figure": "/signup_transaction_fee_ja.png",
 	"howto_symbol_confirmation_tx_fee_notice": "\"手数料なし\" はトランザクションが拒否される可能性が有ります",
@@ -523,8 +522,9 @@
 		"<strong>絶対に</strong>他人と共有したりしないでください。"
 	],
 	"html_transfer_wallet_apps_note_1": [
-		"ウォレットに入れたい金額 <code>%s XYM</code> を、",
-		"あなたのウォレットアドレス <code className=\"osi-symbol-address\">%s</code> に送金してください。 "
+		"入金したい金額 <code>%s XYM</code> を、",
+		"あなたのSymbolアカウントアドレス <code className=\"osi-symbol-address\">%s</code> に、",
+		"デスクトップウォレット等で送金してください。"
 	],
 	"html_transfer_wallet_apps_note_2": "<strong>ご注意:</strong> アドレスの間違いは資産を失う結果となります。",
 	"html_user_address": "あなたのアドレスは <code>%s</code> です。",
@@ -986,7 +986,6 @@
 		"支払いトランザクションがブロックチェーンに送信されました。確認を待っています・・・",
 		"（5分から10分程度掛かる場合があります。このページを離れても問題ありません）"
 	],
-	"waiting_symbol_confirmation": "アクティベーションコードの送信と確認を待っています（5分間程度掛かる場合があります）・・・",
 	"wallet_address": "ブラウザウォレットアドレス",
 	"wallet_saved_note_1": [
 		"秘密鍵を紛失すると、ウォレットにアクセスが出来なくなるだけでなく、中の資産も喪失する事になりますから注意してください。"
@@ -1130,5 +1129,50 @@
 	"templates_empty": "オファーは１件もありません。",
 	"create_new_quest_template": "オファーからのクエスト作成",
 	"create_new_quest_scratch": "ゼロからのクエスト作成",
-	"apply_no_offer": "オファー応募なし"
+	"apply_no_offer": "オファー応募なし",
+	"symbol_settings_title": "Symbolアカウントの切り替え",
+	"deposit_wallet": "入金",
+	"withdraw_wallet": "出金",
+	"html_withdraw_wallet_apps_note_1": [
+		"まず、あなたのSymbolアカウントの秘密鍵を、<strong>デスクトップウォレット</strong>等にインポートしてください。",
+		"その後、そちらにて別のSymbolアカウントにXYMを送金してください。"
+	],
+	"html_withdraw_wallet_apps_note_2": [
+		"あなたのアドレスは <code className=\"osi-symbol-address\">%s</code> です（これは秘密鍵ではありません）"
+	],
+	"html_withdraw_wallet_apps_note_3": "ブラウザウォレットから秘密鍵をエクスポートすることができます。",
+	"how_to_import_private_key": "デスクトップウォレットへ秘密鍵をインポートする方法",
+	"how_to_import_private_key_figure": "/import_privatekey_ja.jpg",
+	"how_to_import_private_key_1": "① 「アカウント追加」をクリックする",
+	"how_to_import_private_key_2": "② 「既存アカウントに秘密鍵をインポート」を選択する",
+	"how_to_import_private_key_3": "③ アカウントにウォレット内で識別可能な名前を付ける",
+	"how_to_import_private_key_4": "④ 秘密鍵をコピー＆ペーストする",
+	"how_to_import_private_key_5": "⑤ デスクトップウォレットのログインパスワードを入力し「確認」をクリックする",
+	"import_private_key": "秘密鍵のインポート",
+	"how_to_import_tx_uri": "デスクトップウォレットでトランザクションURIをインポートする方法",
+	"how_to_import_tx_uri_figure_1": "/import_tx_uri_1_ja.jpg",
+	"how_to_import_tx_uri_figure_2": "/import_tx_uri_2_ja.jpg",
+	"how_to_import_tx_uri_figure_3": "/import_tx_uri_3_ja.jpg",
+	"import_tx_uri_1": "トランザクションURIのインポート (1)",
+	"import_tx_uri_2": "トランザクションURIのインポート (2)",
+	"import_tx_uri_3": "トランザクションURIのインポート (3)",
+	"how_to_import_tx_uri_1": "① ホーム画面で「送信」タブをクリックする",
+	"how_to_import_tx_uri_2": "② 「トランザクションURIをインポート」をクリックする",
+	"how_to_import_tx_uri_3": "③ トランザクションURIをコピー＆ペーストしてから「インポート」をクリックする",
+	"how_to_import_tx_uri_4": [
+		"④ 「宛先」アドレス（QUESTにリンクされたあなたのSymbolアカウントアドレス）と",
+		"「モザイク」の金額を確認する"
+	],
+	"how_to_import_tx_uri_4_signup": [
+		"④ 「宛先」、「モザイク」の金額、「メッセージ」が、表で示されたものと一致していることを確認してください。",
+		"「モザイク」の金額は必ず \"0\" にしてください。"
+	],
+	"how_to_import_tx_uri_5": [
+		"⑤ 「手数料」に「最遅」以上を選択し、最後に「送信」をクリックする"
+	],
+	"howto_symbol_confirmation_title": "デスクトップウォレットを使用してアクティベーションコードを送信する方法",
+	"waiting_symbol_confirmation": [
+		"アクティベーションコードをデスクトップウォレット等で送信してください。",
+		"完了を待っています（送信後から 5 分間程度掛かる場合があります）・・・"
+	]
 }

@@ -501,7 +501,6 @@
 	"home": "Home",
 	"howto_symbol_confirmation_import_qrcode": "Or import transaction QR code below",
 	"howto_symbol_confirmation_import_txuri": "Import transaction URI instead of manual input",
-	"howto_symbol_confirmation_title": "Verify your Symbol account via Symbol Wallet",
 	"howto_symbol_confirmation_tx_fee": "NOTICE: PLEASE SET TRANSACTION FEE",
 	"howto_symbol_confirmation_tx_fee_figure": "/signup_transaction_fee_en.png",
 	"howto_symbol_confirmation_tx_fee_notice": "\"No Fee\" may causes rejection of the transaction.",
@@ -1009,7 +1008,6 @@
 		"The transaction has been announced to blockchain. Wait for confirmation...",
 		"(This may takes 5~10 minutes. You can leave from this page)"
 	],
-	"waiting_symbol_confirmation": "Waiting for activation code transfer and confirmation(This may takes 5 minutes~) ...",
 	"wallet_address": "Built-in wallet address",
 	"wallet_saved_note_1": [
 		"Once lost the passphrase, not only you'll get unable to access the wallet but also ",
@@ -1154,5 +1152,52 @@
 	"templates_empty": "No offers found.",
 	"create_new_quest_template": "Create quest from offer",
 	"create_new_quest_scratch": "Create quest from scratch",
-	"apply_no_offer": "Apply no offer"
+	"apply_no_offer": "Apply no offer",
+	"symbol_settings_title": "Switch your symbol account",
+	"deposit_wallet": "Deposit",
+	"withdraw_wallet": "Withdraw",
+	"html_withdraw_wallet_apps_note_1": [
+		"Please import private key of your Symbol account ",
+		"into <strong>Desktop Wallet</strong> or something, ",
+		"then transfer desired amount of XYM to any other Symbol account."
+	],
+	"html_withdraw_wallet_apps_note_2": [
+		"Your address is <code className=\"osi-symbol-address\">%s</code> (This isn't a private key)"
+	],
+	"html_withdraw_wallet_apps_note_3": "You can export private key from browser wallet.",
+	"how_to_import_private_key": "How to import private key into Desktop Wallet",
+	"how_to_import_private_key_figure": "/import_privatekey_en.jpg",
+	"how_to_import_private_key_1": "(1) Click \"Add an account\"",
+	"how_to_import_private_key_2": "(2) Choose \"I want to import an existing account private key\"",
+	"how_to_import_private_key_3": "(3) Input account name which can be identified on the wallet.",
+	"how_to_import_private_key_4": "(4) Copy and paste your private key.",
+	"how_to_import_private_key_5": "(5) Enter your Desktop Wallet login password then click \"Confirm\"",
+	"import_private_key": "Import private key",
+	"how_to_import_tx_uri": "How to import transaction URI onto Desktop Wallet",
+	"how_to_import_tx_uri_figure_1": "/import_tx_uri_1_en.jpg",
+	"how_to_import_tx_uri_figure_2": "/import_tx_uri_2_en.jpg",
+	"how_to_import_tx_uri_figure_3": "/import_tx_uri_3_en.jpg",
+	"import_tx_uri_1": "Import transaction URI (1)",
+	"import_tx_uri_2": "Import transaction URI (2)",
+	"import_tx_uri_3": "Import transaction URI (3)",
+	"how_to_import_tx_uri_1": "(1) Click \"Send\" tab.",
+	"how_to_import_tx_uri_2": "(2) Click \"Import Transaction URI\"",
+	"how_to_import_tx_uri_3": "(3) Copy and paste transaction URI then click \"Import\"",
+	"how_to_import_tx_uri_4": [
+		"(4) Check \"To\" address (Your Symbol account address which is linked with QUEST) ",
+		"and \"Mosaic\" amount."
+	],
+	"how_to_import_tx_uri_4_signup": [
+		"(4) Make sure the \"To\" address, \"Mosaic\" amount, \"Message\" are exact same as displayed on the table.",
+		"The \"Mosaic\" amount definitely be \"0\"."
+	],
+	"how_to_import_tx_uri_5": [
+		"(5) Select transaction \"Fee\" that should be \"Slowest\" or higher. ",
+		"Then click \"Send\" finally."
+	],
+	"howto_symbol_confirmation_title": "How to transfer activation code via Desktop Wallet",
+	"waiting_symbol_confirmation": [
+		"Please transfer activation code via Desktop Wallet or something. ",
+		"Waiting for completion(This may takes 5 minutes after transfer~) ..."
+	]
 }
