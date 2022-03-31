@@ -30,6 +30,13 @@ export const ListOfExchanges = () => {
         >
             Huobi Japan
         </a>
+        <a className="navbar-item"
+           href="https://bitflyer.com/ja-jp/ex/buysell/xym"
+           target="_blank"
+           rel="noreferrer"
+        >
+            bitFlyer
+        </a>
         <hr className="navbar-divider" />
         <a className="navbar-item"
            href="https://symbolplatform.com/xym"

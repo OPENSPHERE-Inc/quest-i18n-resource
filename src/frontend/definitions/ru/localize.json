@@ -1199,5 +1199,7 @@
 	"waiting_symbol_confirmation": [
 		"Please transfer activation code via Desktop Wallet or something. ",
 		"Waiting for completion(This may takes 5 minutes after transfer~) ..."
-	]
+	],
+	"subscribed_journals": "Subscribed journals",
+	"subscribed_journals_empty": "No subscribed journals found."
 }

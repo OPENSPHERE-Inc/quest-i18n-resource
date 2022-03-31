@@ -123,35 +123,35 @@
 	"cancel_deposit": "Cancel Invoice",
 	"cancel_symbol_confirmation_succeed": "Symbol account confirmation has been canceled.",
 	"cannot_create_request_1": [
-		"You cannot create a ReQUEST ",
+		"You cannot create a request ",
 		"because you still have unpaid invoice."
 	],
 	"cannot_create_request_2": [
-		"You cannot create a ReQUEST for this performer ",
-		"because you have already offered ReQUESTs."
+		"You cannot create a request for this performer ",
+		"because you have already offered requests."
 	],
-	"cannot_create_request_3": "The user still hasn't enabled ReQUEST.",
+	"cannot_create_request_3": "The user still hasn't enabled request.",
 	"category_unknown": "Unknown",
 	"charge_free": "None (0 XYM)",
 	"checkbox_delete_private_key": "Delete private key from the browser storage",
 	"checkbox_delete_private_key_help": "You should ensure private key has been saved to prevent lose of assets.",
 	"checkbox_deposit_amount_includes_fee": "Amount includes boost fee",
 	"checkbox_symbol_account_generate": "I want to create a new Symbol wallet",
-	"checkbox_user_open_request": "Enable ReQUEST receiving",
+	"checkbox_user_open_request": "Enable request receiving",
 	"comment_created_at": "Posted at",
 	"comments": "Comments",
 	"copy_clipboard_succeed": "Copied to clipboard!",
 	"create": "Create",
 	"create_new_quest": "Create new quest",
-	"create_new_request": "Create new ReQUEST",
+	"create_new_request": "Create new request",
 	"creation_fee": "Creation fee (Incl. tax)",
 	"creative": "Creative",
 	"custom_node_url_notification": "We don't guarantee normal behavior of the custom node URL.",
 	"danger_zone": "Danger Zone",
 	"dashboard": "Dashboard",
 	"dashboard_notification_request": [
-		"You can enable ReQUEST now!",
-		"If you want to receive ReQUEST from requesters, please set up ReQUEST via basic profile settings."
+		"You can enable request now!",
+		"If you want to receive request from requesters, please set up request via basic profile settings."
 	],
 	"datetime_format": "YYYY-MM-DD HH:mm",
 	"days": "days",
@@ -164,7 +164,7 @@
 		"Canceling the invoice cannot be rollback.",
 		"Please note that transactions already announced will not be canceled and no refunds will be given."
 	],
-	"deposit_cancel_notification_for_request": "This is invoice of ReQUEST, so ReQUEST will be canceled as well.",
+	"deposit_cancel_notification_for_request": "This is invoice of request, so request will be canceled as well.",
 	"deposit_cancel_succeeded": "The invoice has been canceled.",
 	"deposit_capacity": "Remaining capacity of the vault",
 	"deposit_fee": "Boost fee (Incl. tax)",
@@ -258,12 +258,12 @@
 	"dialog_quest_run_confirmation_message": "You are about to start the quest. Deadline is %s. Are you ready?",
 	"dialog_quest_run_confirmation_title": "Performance Confirmation",
 	"dialog_request_confirmation_message": [
-		"QUEST and the performer don't guarantee to perform your ReQUEST.",
-		"The performer is allowed to decline or cancel performance of your ReQUEST any reason."
+		"QUEST and the performer don't guarantee to perform your request.",
+		"The performer is allowed to decline or cancel performance of your request any reason."
 	],
-	"dialog_request_confirmation_title": "ReQUEST Confirmation",
+	"dialog_request_confirmation_title": "Request Confirmation",
 	"dialog_request_withdraw_confirmation_message": [
-		"Are you sure to withdraw the pre performance ReQUEST?. This action cannot rollback."
+		"Are you sure to withdraw the pre performance request?. This action cannot rollback."
 	],
 	"dialog_request_withdraw_confirmation_title": "Withdraw Confirmation",
 	"dialog_signout_confirmation_message": "Are you sure sign out?",
@@ -292,7 +292,7 @@
 	"dialog_user_delete_confirmation_message": "Are you sure delete user? This will cannot be recovered.",
 	"dialog_user_delete_confirmation_title": "Delete User Confirmation",
 	"displayable_quests_empty": "No displayable quests.",
-	"displayable_requests_empty": "No displayable ReQUESTs.",
+	"displayable_requests_empty": "No displayable requests.",
 	"displayable_templates_empty": "No displayable offers.",
 	"duration_ago": "ago",
 	"duration_days": "%dd ",
@@ -373,9 +373,9 @@
 	"error_quest_title_max_length": "Title max length is %d characters long.",
 	"error_quest_update_failed": "An error occurred during saving quest. Please try again later.",
 	"error_quest_vote_failed": "An error occurred during vote casting. Please try again later.",
-	"error_request_creation_failed": "An error occurred on the ReQUEST creation. Please try again later.",
+	"error_request_creation_failed": "An error occurred on the request creation. Please try again later.",
 	"error_request_private_message_max_length": "Private message max length is %d characters long.",
-	"error_request_withdraw_failed": "An error occurred during to withdraw ReQUEST. Please try again later.",
+	"error_request_withdraw_failed": "An error occurred during to withdraw request. Please try again later.",
 	"error_required_field": "Required field.",
 	"error_send_email_verification_failed": "An error occurred when send verification E-Mail. Please try again later.",
 	"error_signer_address_mismatch": [
@@ -479,18 +479,18 @@
 	"hero_deposit_invoice": "Invoice of boost",
 	"hero_explore_deposits": "Explore boosts",
 	"hero_explore_quests": "Explore quests",
-	"hero_explore_requests": "Explore ReQUESTs",
+	"hero_explore_requests": "Explore requests",
 	"hero_explore_users": "Explore users",
 	"hero_index": "BASECAMP",
 	"hero_index_all": "BASECAMP",
 	"hero_instruction": "Instruction",
 	"hero_new_quest": "Create new quest",
-	"hero_new_request": "Create new ReQUEST",
+	"hero_new_request": "Create new request",
 	"hero_new_template": "Create new offer",
 	"hero_quest_edit": "Edit quest",
 	"hero_remind_password": "Remind password",
-	"hero_request_edit": "Edit ReQUEST",
-	"hero_request_invoice": "Invoice of ReQUEST",
+	"hero_request_edit": "Edit request",
+	"hero_request_invoice": "Invoice of request",
 	"hero_settings": "Settings",
 	"hero_signin": "Sign in",
 	"hero_signup": "Signup",
@@ -551,7 +551,7 @@
 	"html_wallet_saved_note_2": [
 		"<strong>SECURITY NOTICE:</strong> Private key must keep secret. <strong>DO NOT</strong> share it with anyone."
 	],
-	"inbox_requests": "Inbox of ReQUESTs",
+	"inbox_requests": "Inbox of requests",
 	"incoming_deposits": "Incoming boosts",
 	"incoming_deposits_empty": "You got no boosts.",
 	"initial_deposit": "Initial boost",
@@ -587,13 +587,13 @@
 	"notification_quest_ran": "%s started a quest.",
 	"notification_quest_reaching_deadline": "The performing quest reaches deadline soon (1 day left)",
 	"notification_request": [
-		"This ReQUEST hasn't been paid yet.",
-		"To send the ReQUEST to performer, click the right button to complete payment."
+		"This request hasn't been paid yet.",
+		"To send the request to performer, click the right button to complete payment."
 	],
-	"notification_request_invoice": "Invoice of ReQUEST",
-	"notification_request_invoice_content": "ReQUEST %s to %s",
-	"notification_request_perform": "You are allowed to decline this ReQUEST any reason.",
-	"notification_request_received": "%s sent a ReQUEST to you.",
+	"notification_request_invoice": "Invoice of request",
+	"notification_request_invoice_content": "Request %s to %s",
+	"notification_request_perform": "You are allowed to decline this request any reason.",
+	"notification_request_received": "%s sent a request to you.",
 	"notification_start_vote": "Voting has began.",
 	"notification_template_cannot_apply": "You cannot apply because the offer reached its limitation.",
 	"notification_template_cannot_start": [
@@ -613,7 +613,7 @@
 		"Vote has been began. Please vote 'Acknowledge' or 'Denial'. ",
 		"You can change your vote at any time until the voting is closed."
 	],
-	"open_request_notification": "To enable ReQUEST, you should completed at least one quest and be accepted.",
+	"open_request_notification": "To enable request, you should completed at least one quest and be accepted.",
 	"outdoor": "Outdoor Activity",
 	"outgoing_deposits": "Outgoing boosts",
 	"outgoing_deposits_empty": "You have done no boosts.",
@@ -636,7 +636,7 @@
 	"payment_wallet_app_mosaic": "Mosaic",
 	"payment_wallet_app_to": "To",
 	"payment_wallet_apps": "Wallet apps",
-	"pending_requests": "Pending ReQUESTs",
+	"pending_requests": "Pending requests",
 	"performer": "Performer",
 	"performer_comments": "Comments from performer",
 	"phy-sports": "Physical Sports",
@@ -677,7 +677,7 @@
 	"quest_disabled_deadline_hint": "* Deadline cannot be modified after creation.",
 	"quest_event_on_involved_quest_completed": "When boosted quest has started voting",
 	"quest_event_on_performing_quest_reaching_deadline": "When performing quest is reaching its deadline (1 day left)",
-	"quest_event_on_request_received": "When received a ReQUEST",
+	"quest_event_on_request_received": "When received a request",
 	"quest_event_on_subscribed_quest_started": "When following user has started a quest",
 	"quest_event_on_template_quest_started": "When user has started a quest by your offer",
 	"quest_language": "Language",
@@ -732,7 +732,7 @@
 	"quest_receipt_policy_follow_vote_result": "Type B",
 	"quest_receipt_quest": "Quest",
 	"quest_receipt_refunded_amount": "Refunded amount",
-	"quest_receipt_request": "ReQUEST",
+	"quest_receipt_request": "Request",
 	"quest_receipt_status": "Status",
 	"quest_receipt_status_all": "All",
 	"quest_receipt_status_3": "Waiting decision",
@@ -777,7 +777,7 @@
 	"quest_vote_none": "No vote",
 	"quest_vote_positive": "Acknowledge",
 	"quest_vote_succeed": "You've casted %s vote.",
-	"quest_withdraw_succeed": "You've withdraw the ReQUEST.",
+	"quest_withdraw_succeed": "You've withdraw the request.",
 	"quests": "Quests",
 	"quests_empty": "No quests found.",
 	"quests_explore": "Explore quests",
@@ -794,17 +794,17 @@
 	"remind_password": "Remind password",
 	"remind_password_failed": "Failed to send email. Please double check your E-Mail.",
 	"remind_password_succeed": "Confirmation E-Mail has been sent. Please check your mailbox.",
-	"request": "ReQUEST",
-	"request_created_successfully": "Your ReQUEST has been created.",
-	"request_initial_min": "Minimum amount: %s XYM (For initial boost of ReQUEST)",
-	"request_invoice": "Invoice of ReQUEST",
+	"request": "Request",
+	"request_created_successfully": "Your request has been created.",
+	"request_initial_min": "Minimum amount: %s XYM (For initial boost of request)",
+	"request_invoice": "Invoice of request",
 	"request_invoice_notification": [
-		"This ReQUEST hasn't been completed yet. ",
-		"Once payment has been done, the ReQUEST will be sent to performer."
+		"This request hasn't been completed yet. ",
+		"Once payment has been done, the request will be sent to performer."
 	],
 	"request_private_message": "Private message",
 	"request_private_message_placeholder": "Private message",
-	"requests_explore": "Explore ReQUESTs",
+	"requests_explore": "Explore requests",
 	"required_field": "Required field",
 	"running_quests": "Performing quests",
 	"save_address_and_public_key": "Save address and public key (Optional)",
@@ -946,7 +946,7 @@
 	"transaction_fee": "Transaction fee",
 	"txuri_copy_clipboard_succeed": "Transaction URI has been copied!",
 	"unpaid_invoices": "Unpaid boosts",
-	"unpaid_request_invoices": "Unpaid ReQUEST invoices",
+	"unpaid_request_invoices": "Unpaid request invoices",
 	"user_create_succeed": "Your user profile has been created.",
 	"user_created_at": "Created at",
 	"user_delete_succeed": "Your user profile has been deleted! Thank you for using QUEST.",
@@ -1020,8 +1020,8 @@
 	"you_offers": "Your offers",
 	"your_quests": "Your quests",
 	"your_quests_empty": "You have no quests.",
-	"your_requests": "Your ReQUESTs",
-	"your_requests_empty": "You have no ReQUESTs.",
+	"your_requests": "Your requests",
+	"your_requests_empty": "You have no requests.",
 	"your_templates_empty": "You have no offers.",
 	"achievements": "Achievements",
 	"achievements_empty": "No achievements found.",
@@ -1199,5 +1199,7 @@
 	"waiting_symbol_confirmation": [
 		"Please transfer activation code via Desktop Wallet or something. ",
 		"Waiting for completion(This may takes 5 minutes after transfer~) ..."
-	]
+	],
+	"subscribed_journals": "Subscribed journals",
+	"subscribed_journals_empty": "No subscribed journals found."
 }
