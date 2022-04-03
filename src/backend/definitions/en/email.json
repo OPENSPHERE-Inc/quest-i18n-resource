@@ -190,9 +190,9 @@
       "body_text": [
         "Dear {recipient.name}",
         "",
-        "{receipt.payer.name} has boosted your quest.",
+        "{payer.name} has boosted your quest.",
         "",
-        "Amount: {receipt.amount} XYM",
+        "Amount: {amount} XYM",
         "",
         "{quest.title}",
         "{origin}/quest/{quest.id}",

@@ -190,9 +190,9 @@
       "body_text": [
         "{recipient.name} 様",
         "",
-        "{receipt.payer.name} があなたのクエストをブーストしました。",
+        "{payer.name} があなたのクエストをブーストしました。",
         "",
-        "金額: {receipt.amount} XYM",
+        "金額: {amount} XYM",
         "",
         "{quest.title}",
         "{origin}/quest/{quest.id}",
