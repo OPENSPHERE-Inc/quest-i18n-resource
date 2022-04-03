@@ -184,6 +184,24 @@
         "",
         "QUEST運営 - ※本メールに返信することはできません。"
       ]
+    },
+    "on_boosted": {
+      "subject": "[QUEST] ブーストを受け取りました。",
+      "body_text": [
+        "{recipient.name} 様",
+        "",
+        "{receipt.payer.name} があなたのクエストをブーストしました。",
+        "",
+        "金額: {receipt.amount} XYM",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "本メールはユーザーの通知設定に基づき自動送信されています。送信設定は下記URLより行えます。",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST運営 - ※本メールに返信することはできません。"
+      ]
     }
   },
   "promoters_quest_notifications": {

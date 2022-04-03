@@ -184,6 +184,24 @@
         "",
         "QUEST Official - *This mail cannot be replied."
       ]
+    },
+    "on_boosted": {
+      "subject": "[QUEST] You have received a boost.",
+      "body_text": [
+        "Dear {recipient.name}",
+        "",
+        "{receipt.payer.name} has boosted your quest.",
+        "",
+        "Amount: {receipt.amount} XYM",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST Official - *This mail cannot be replied."
+      ]
     }
   },
   "promoters_quest_notifications": {
