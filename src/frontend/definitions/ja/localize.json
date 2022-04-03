@@ -1176,5 +1176,7 @@
 		"完了を待っています（送信後から 5 分間程度掛かる場合があります）・・・"
 	],
 	"subscribed_journals": "購読中のジャーナル",
-	"subscribed_journals_empty": "購読中のジャーナルはありません。"
+	"subscribed_journals_empty": "購読中のジャーナルはありません。",
+	"notification_quest_deposited": "%s があなたのクエストを %s XYM ブーストしました。",
+	"quest_event_on_performing_quest_boosted": "実行中のクエストがブーストされた時"
 }

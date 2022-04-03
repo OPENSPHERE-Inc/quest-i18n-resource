@@ -1201,5 +1201,7 @@
 		"Waiting for completion(This may takes 5 minutes after transfer~) ..."
 	],
 	"subscribed_journals": "Subscribed journals",
-	"subscribed_journals_empty": "No subscribed journals found."
+	"subscribed_journals_empty": "No subscribed journals found.",
+	"notification_quest_deposited": "%s has boosted your quest by %s XYM.",
+	"quest_event_on_performing_quest_boosted": "When performing quest has been boosted."
 }
