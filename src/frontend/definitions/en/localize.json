@@ -1203,5 +1203,13 @@
 	"subscribed_journals": "Subscribed journals",
 	"subscribed_journals_empty": "No subscribed journals found.",
 	"notification_quest_deposited": "%s has boosted your quest by %s XYM.",
-	"quest_event_on_performing_quest_boosted": "When performing quest has been boosted."
+	"quest_event_on_performing_quest_boosted": "When performing quest has been boosted.",
+	"quest_subscribe_succeed": "You've subscribed %s.",
+	"error_quest_subscribe_failed": "An error occurred during subscribing the quest. Please try again later.",
+	"quest_unsubscribe_succeed": "You've unsubscribed %s.",
+	"error_quest_unsubscribe_failed": "An error occurred during unsubscribing the quest. Please try again later.",
+	"button_subscribe_quest_title": "Subscribe the quest",
+	"button_subscribe_quest": "Subscribe",
+	"button_unsubscribe_quest_title": "Unsubscribe the quest",
+	"button_unsubscribe_quest": "Unsubscribe"
 }

@@ -1178,5 +1178,13 @@
 	"subscribed_journals": "購読中のジャーナル",
 	"subscribed_journals_empty": "購読中のジャーナルはありません。",
 	"notification_quest_deposited": "%s があなたのクエストを %s XYM ブーストしました。",
-	"quest_event_on_performing_quest_boosted": "実行中のクエストがブーストされた時"
+	"quest_event_on_performing_quest_boosted": "実行中のクエストがブーストされた時",
+	"quest_subscribe_succeed": "%s の購読を開始しました。",
+	"error_quest_subscribe_failed": "クエストを購読開始中にエラーが発生しました。時間をおいてから再度お試しください。",
+	"quest_unsubscribe_succeed": "%s の購読を取り消しました。",
+	"error_quest_unsubscribe_failed": "クエストの購読取り消し中にエラーが発生しました。時間をおいてから再度お試しください。",
+	"button_subscribe_quest_title": "クエストを購読する",
+	"button_subscribe_quest": "購読",
+	"button_unsubscribe_quest_title": "クエストの購読を取り消す",
+	"button_unsubscribe_quest": "購読取消"
 }
