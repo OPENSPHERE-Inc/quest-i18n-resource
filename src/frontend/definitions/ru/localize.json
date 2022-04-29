@@ -1211,5 +1211,13 @@
 	"button_subscribe_quest_title": "Subscribe the quest",
 	"button_subscribe_quest": "Subscribe",
 	"button_unsubscribe_quest_title": "Unsubscribe the quest",
-	"button_unsubscribe_quest": "Unsubscribe"
+	"button_unsubscribe_quest": "Unsubscribe",
+	"quest_respect_create_succeed": "Your respect has been added.",
+	"quest_respect_create_failed": "An error occurred when adding your respect. Please try again later.",
+	"quest_respect_remove_succeed": "Your respect has been canceled.",
+	"quest_respect_remove_failed": "An error occurred when canceling your respect. Please try again later.",
+	"button_respect": "Respect",
+	"button_unrespect": "Cancel respect",
+	"a_respect": "%s Respect",
+	"n_respects": "%s Respects"
 }
