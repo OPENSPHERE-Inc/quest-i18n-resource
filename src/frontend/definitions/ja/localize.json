@@ -1186,7 +1186,7 @@
 	"button_subscribe_quest_title": "クエストを購読する",
 	"button_subscribe_quest": "購読",
 	"button_unsubscribe_quest_title": "クエストの購読を取り消す",
-	"button_unsubscribe_quest": "購読取消",
+	"button_unsubscribe_quest": "購読中",
 	"quest_respect_create_succeed": "あなたのリスペクトを追加しました。",
 	"quest_respect_create_failed": "リスペクト追加中にエラーが発生しました。時間をおいてから再度お試しください。",
 	"quest_respect_remove_succeed": "あなたのリスペクトを取り消しました。",
