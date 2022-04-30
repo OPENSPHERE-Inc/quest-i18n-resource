@@ -1219,5 +1219,6 @@
 	"button_respect": "Respect",
 	"button_unrespect": "Cancel respect",
 	"a_respect": "%s Respect",
-	"n_respects": "%s Respects"
+	"n_respects": "%s Respects",
+	"profile": "Profile"
 }

@@ -1194,5 +1194,6 @@
 	"button_respect": "リスペクトする",
 	"button_unrespect": "リスペクト取消",
 	"a_respect": "%s リスペクト",
-	"n_respects": "%s リスペクト"
+	"n_respects": "%s リスペクト",
+	"profile": "プロフィール"
 }
