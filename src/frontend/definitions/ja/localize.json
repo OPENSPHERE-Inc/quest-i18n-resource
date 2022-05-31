@@ -618,7 +618,6 @@
 	"payment_wallet_apps": "ウォレットアプリ",
 	"pending_requests": "保留中のリクエスト",
 	"performer": "実行者",
-	"performer_comments": "実行者コメント",
 	"phy-sports": "スポーツ",
 	"platform_fee": "プラットフォーム手数料",
 	"privacy_policy": "プライバシーポリシー",
@@ -1195,5 +1194,12 @@
 	"button_unrespect": "リスペクト取消",
 	"a_respect": "%s リスペクト",
 	"n_respects": "%s リスペクト",
-	"profile": "プロフィール"
+	"profile": "プロフィール",
+	"discussions": "ディスカッション",
+	"button_discussion_add": "ディスカッションを投稿",
+	"discussion_empty": "ディスカッションはまだ投稿されていません。",
+	"button_discussions_load_more": "ディスカッションを更に表示",
+	"button_reply": "返信",
+	"reply_to": "返信先",
+	"performer_comments": "ジャーナル"
 }

@@ -638,7 +638,6 @@
 	"payment_wallet_apps": "Приложения кошелька",
 	"pending_requests": "Ожидающие запросы",
 	"performer": "Исполнитель",
-	"performer_comments": "Комментарии исполнителя",
 	"phy-sports": "Спорт",
 	"platform_fee": "Комиссия за платформу",
 	"privacy_policy": "Политика конфиденциальности",
@@ -1220,5 +1219,12 @@
 	"button_unrespect": "Cancel respect",
 	"a_respect": "%s Respect",
 	"n_respects": "%s Respects",
-	"profile": "Profile"
+	"profile": "Profile",
+	"discussions": "Discussions",
+	"button_discussion_add": "Post discussion",
+	"discussion_empty": "No discussions.",
+	"button_discussions_load_more": "Load More Discussions",
+	"button_reply": "Reply",
+	"reply_to": "Reply to",
+	"performer_comments": "Journals"
 }
