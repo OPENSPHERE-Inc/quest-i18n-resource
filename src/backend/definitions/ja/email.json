@@ -15,6 +15,22 @@
         "",
         "QUEST運営 - ※本メールに返信することはできません。"
       ]
+    },
+    "on_comment_posted": {
+      "subject": "[QUEST] {performer.name} が新たなジャーナルを投稿しました。",
+      "body_text": [
+        "{recipient.name} 様",
+        "",
+        "購読中の以下のクエストで {performer.name} が新しいジャーナルを投稿しました。",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}?jid={comment.id}",
+        "",
+        "本メールはユーザーの通知設定に基づき自動送信されています。送信設定は下記URLより行えます。",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST運営 - ※本メールに返信することはできません。"
+      ]
     }
   },
   "involved_quest_notifications": {
@@ -116,6 +132,22 @@
         "",
         "QUEST運営 - ※本メールに返信することはできません。"
       ]
+    },
+    "on_discussion_posted": {
+      "subject": "[QUEST] あなたのディスカッションに返信があります。",
+      "body_text": [
+        "{recipient.name} 様",
+        "",
+        "{discussion.author.name} があなたのディスカッションに返信しました。",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}#{discussion.id}",
+        "",
+        "本メールはユーザーの通知設定に基づき自動送信されています。送信設定は下記URLより行えます。",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST運営 - ※本メールに返信することはできません。"
+      ]
     }
   },
   "performers_quest_notifications": {
@@ -196,6 +228,22 @@
         "",
         "{quest.title}",
         "{origin}/quest/{quest.id}",
+        "",
+        "本メールはユーザーの通知設定に基づき自動送信されています。送信設定は下記URLより行えます。",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST運営 - ※本メールに返信することはできません。"
+      ]
+    },
+    "on_discussion_posted": {
+      "subject": "[QUEST] クエストにディスカッションが投稿されました。",
+      "body_text": [
+        "{recipient.name} 様",
+        "",
+        "{discussion.author.name} があなたのクエストにディスカッションを投稿しました。",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}#{discussion.id}",
         "",
         "本メールはユーザーの通知設定に基づき自動送信されています。送信設定は下記URLより行えます。",
         "{origin}/user/settings/notifications",

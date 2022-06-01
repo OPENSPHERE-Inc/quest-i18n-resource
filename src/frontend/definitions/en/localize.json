@@ -1226,5 +1226,11 @@
 	"button_discussions_load_more": "Load More Discussions",
 	"button_reply": "Reply",
 	"reply_to": "Reply to",
-	"performer_comments": "Journals"
+	"performer_comments": "Journals",
+	"quest_event_on_performing_quest_discussion_posted": "When a discussion has been posted on performing quest.",
+	"quest_event_on_involved_quest_discussion_posted": "When someone replied to your discussion post.",
+	"quest_event_on_subscribed_quest_comment_posted": "When new journal has been posted on subscribed quest.",
+	"notification_quest_discussion_posted": "%s has posted a discussion.",
+	"notification_quest_discussion_replied": "%s has replied to your discussion post.",
+	"notification_quest_comment_posted": "%s has posted new journal."
 }

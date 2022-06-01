@@ -15,6 +15,22 @@
         "",
         "QUEST Official - *На это письмо не нужно отвечать."
       ]
+    },
+    "on_comment_posted": {
+      "subject": "[QUEST] {performer.name} posted new journal.",
+      "body_text": [
+        "Dear, {recipient.name}",
+        "",
+        "{performer.name} has posted new journal on his quest below.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}?jid={comment.id}",
+        "",
+        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST Official - *This mail cannot be replied."
+      ]
     }
   },
   "involved_quest_notifications": {
@@ -116,6 +132,22 @@
         "",
         "QUEST Official - *This mail cannot be replied."
       ]
+    },
+    "on_discussion_posted": {
+      "subject": "[QUEST] You have a reply on your discussion.",
+      "body_text": [
+        "Dear {recipient.name}",
+        "",
+        "{discussion.author.name} has replied to your discussion post.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}#{discussion.id}",
+        "",
+        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST Official - *This mail cannot be replied."
+      ]
     }
   },
   "performers_quest_notifications": {
@@ -196,6 +228,22 @@
         "",
         "{quest.title}",
         "{origin}/quest/{quest.id}",
+        "",
+        "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST Official - *This mail cannot be replied."
+      ]
+    },
+    "on_discussion_posted": {
+      "subject": "[QUEST] Your quest has new discussion.",
+      "body_text": [
+        "Dear {recipient.name}",
+        "",
+        "{discussion.author.name} has posted new discussion on your quest below.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}#{discussion.id}",
         "",
         "This email was sent automatically by user's notification settings. You can manage these settings in QUEST site below.",
         "{origin}/user/settings/notifications",

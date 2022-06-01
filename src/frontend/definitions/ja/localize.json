@@ -1201,5 +1201,11 @@
 	"button_discussions_load_more": "ディスカッションを更に表示",
 	"button_reply": "返信",
 	"reply_to": "返信先",
-	"performer_comments": "ジャーナル"
+	"performer_comments": "ジャーナル",
+	"quest_event_on_performing_quest_discussion_posted": "実行中のクエストへディスカッションが投稿された時",
+	"quest_event_on_involved_quest_discussion_posted": "投稿したディスカッションへ誰かが返信した時",
+	"quest_event_on_subscribed_quest_comment_posted": "購読中のクエストへ新たなジャーナルが投稿された時",
+	"notification_quest_discussion_posted": "%s がディスカッションを投稿しました。",
+	"notification_quest_discussion_replied": "%s があなたのディスカッション投稿に返信しました。",
+	"notification_quest_comment_posted": "%s が新たなジャーナルを投稿しました。"
 }
