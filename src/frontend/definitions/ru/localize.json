@@ -1133,7 +1133,7 @@
 	"button_journal_remove": "Delete journal",
 	"dialog_remove_journal_title": "Remove journal confirmation",
 	"dialog_remove_journal_message": [
-		"Are you sure to delete this journal? ",
+		"Are you sure to remove this journal? ",
 		"This action cannot rollback."
 	],
 	"quest_journal_remove_succeed": "The journal has been removed.",
@@ -1232,5 +1232,26 @@
 	"quest_event_on_subscribed_quest_comment_posted": "When new journal has been posted on subscribed quest.",
 	"notification_quest_discussion_posted": "%s has posted a discussion.",
 	"notification_quest_discussion_replied": "%s has replied to your discussion post.",
-	"notification_quest_comment_posted": "%s has posted new journal."
+	"notification_quest_comment_posted": "%s has posted new journal.",
+	"quest_discussion_remove_succeed": "The discussion post has been removed.",
+	"quest_discussion_remove_failed": "An error occurred when removing the discussion post. Please try again later.",
+	"dialog_remove_discussion_message": [
+		"Are you sure to remove this discussion post? ",
+		"This action cannot rollback."
+	],
+	"dialog_remove_discussion_title": "Remove discussion confirmation",
+	"button_remove": "Remove",
+	"discussion_removed": "This post was removed.",
+	"discussion_hidden": "This post was hidden by performer.",
+	"discussion_removed_or_hidden": "This post was removed or hidden.",
+	"quest_discussion_hide_succeed": "The discussion post has been hidden.",
+	"quest_discussion_show_succeed": "The discussion post has been shown.",
+	"quest_discussion_hide_failed": "An error occurred when hide the discussion post. Please try again later.",
+	"quest_discussion_show_failed": "An error occurred when show the discussion post. Please try again later.",
+	"dialog_hide_discussion_message": "Are you sure to hide this discussion post?",
+	"dialog_show_discussion_message": "Are you sure to show this discussion post?",
+	"dialog_hide_discussion_title": "Hide discussion confirmation",
+	"dialog_show_discussion_title": "Show discussion confirmation",
+	"button_hide": "Hide",
+	"button_show": "Show"
 }

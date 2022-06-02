@@ -1207,5 +1207,26 @@
 	"quest_event_on_subscribed_quest_comment_posted": "購読中のクエストへ新たなジャーナルが投稿された時",
 	"notification_quest_discussion_posted": "%s がディスカッションを投稿しました。",
 	"notification_quest_discussion_replied": "%s があなたのディスカッション投稿に返信しました。",
-	"notification_quest_comment_posted": "%s が新たなジャーナルを投稿しました。"
+	"notification_quest_comment_posted": "%s が新たなジャーナルを投稿しました。",
+	"quest_discussion_remove_succeed": "ディスカッションの投稿が削除されました。",
+	"quest_discussion_remove_failed": "ディスカッションの投稿を削除している際にエラーが発生しました。時間をおいてから再度お試しください。",
+	"dialog_remove_discussion_message": [
+		"ディスカッションの投稿を削除してもよろしいですか？ ",
+		"この操作は元に戻すことができません。"
+	],
+	"dialog_remove_discussion_title": "ディスカッション削除の確認",
+	"button_remove": "削除",
+	"discussion_removed": "この投稿は削除されました。",
+	"discussion_hidden": "この投稿は実行者によって非表示にされています。",
+	"discussion_removed_or_hidden": "この投稿は削除されたか、または非表示になっています。",
+	"quest_discussion_hide_succeed": "ディスカッションの投稿が非表示になりました。",
+	"quest_discussion_show_succeed": "ディスカッションの投稿が表示になりました。",
+	"quest_discussion_hide_failed": "ディスカッションの投稿を非表示にする際にエラーが発生しました。時間をおいてから再度お試しください。",
+	"quest_discussion_show_failed": "ディスカッションの投稿を表示にする際にエラーが発生しました。時間をおいてから再度お試しください。",
+	"dialog_hide_discussion_message": "このディスカッションの投稿を非表示にしてもよろしいですか？",
+	"dialog_show_discussion_message": "このディスカッションの投稿を表示にしてもよろしいですか？",
+	"dialog_hide_discussion_title": "ディスカッション非表示の確認",
+	"dialog_show_discussion_title": "ディスカッション表示の確認",
+	"button_hide": "非表示にする",
+	"button_show": "表示する"
 }
