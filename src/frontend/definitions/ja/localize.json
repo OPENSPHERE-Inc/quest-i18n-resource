@@ -1228,5 +1228,6 @@
 	"dialog_hide_discussion_title": "ディスカッション非表示の確認",
 	"dialog_show_discussion_title": "ディスカッション表示の確認",
 	"button_hide": "非表示にする",
-	"button_show": "表示する"
+	"button_show": "表示する",
+	"journal_required_quest": "ジャーナルを投稿するには、まずクエストを実行する必要があります。"
 }

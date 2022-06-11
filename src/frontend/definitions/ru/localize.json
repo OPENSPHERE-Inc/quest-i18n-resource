@@ -1253,5 +1253,6 @@
 	"dialog_hide_discussion_title": "Hide discussion confirmation",
 	"dialog_show_discussion_title": "Show discussion confirmation",
 	"button_hide": "Hide",
-	"button_show": "Show"
+	"button_show": "Show",
+	"journal_required_quest": "To post a journal, it's required to start at least one quest."
 }
