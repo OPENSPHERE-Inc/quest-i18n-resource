@@ -98,6 +98,7 @@ export const Header = ({noSignIn}: Props) => {
                                         <option value="en">EN</option>
                                         <option value="ja">JP</option>
 										<option value="ru">RU</option>
+                                        <option value="ko">KO</option>
                                     </select>
                                 </div>
                                 <div className="select is-hidden-desktop is-fullwidth">
@@ -106,6 +107,7 @@ export const Header = ({noSignIn}: Props) => {
                                         <option value="en">English</option>
                                         <option value="ja">日本語</option>
 										<option value="ru">Russian</option>
+                                        <option value="ko">한국어</option>
                                     </select>
                                 </div>
                             </div>
