@@ -18,11 +18,11 @@ export const ListOfExchanges = () => {
         </a>
         <hr className="navbar-divider" />
         <a className="navbar-item"
-           href="https://symbolplatform.com/xym"
+           href="https://coinmarketcap.com/ko/currencies/symbol/markets/"
            target="_blank"
            rel="noreferrer"
         >
-            Full exchanges list
+            모든 거래소 목록
         </a>
     </div>;
 }

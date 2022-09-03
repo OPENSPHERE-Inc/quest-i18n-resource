@@ -254,15 +254,15 @@
   },
   "promoters_quest_notifications": {
     "on_started": {
-      "subject": "[QUEST](중요) 사용자님의 오퍼에 수행자가 등록 되었습니다.",
+      "subject": "[QUEST](중요) 사용자님의 제안에 출연자가 등록 되었습니다.",
       "body_text": [
         "안녕하세요 {recipient.name} 님.",
         "",
-        "수행자가 사용자님이 등록한 오퍼의 작업을 시작했습니다.",
+        "출연자가 사용자님이 등록한 제안의 작업을 시작했습니다.",
         "",
         "{template.title}",
         "",
-        "수행자가 선택한 퀘스트",
+        "출연자가 선택한 퀘스트",
         "",
         "{quest.title}",
         "{origin}/quest/{quest.id}",
