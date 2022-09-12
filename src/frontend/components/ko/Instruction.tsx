@@ -74,7 +74,7 @@ export const Instruction = ({params}: {params: Parameters}) => {
             마지막으로, 프로필 입력을 완료하면 QUEST를 사용할 준비가 끝납니다.
         </p>
 
-        <h2 className="title is-4 mt-6">3. 출연자 용: 새로운 퀘스트를 생성하고 수행합니다.</h2>
+        <h2 className="title is-4 mt-6">3. 수행자 용: 새로운 퀘스트를 생성하고 수행합니다.</h2>
         <p>
             “새로운 퀘스트”를 눌러 퀘스트를 시작하세요.<br />
             최소한 퀘스트의 카테고리, 제목, 설명 그리고 마감일을 입력하세요.<br />
@@ -104,19 +104,19 @@ export const Instruction = ({params}: {params: Parameters}) => {
 
         <h2 className="title is-4 mt-6">4. 시청자 용: 퀘스트를 격려해보세요.</h2>
         <p>
-            출연자로 부터 공유 받은 퀘스트 페이지를 열고 "격려" 버튼을 눌러주세요.<br />
+            수행자로 부터 공유 받은 퀘스트 페이지를 열고 "격려" 버튼을 눌러주세요.<br />
             수량을 입력한 만큼 격려금이 전달 됩니다. 또한 입력한 메시지도 함께 전달됩니다.<br />
         </p>
         <blockquote>
             격려 1회당 최대 {  params.deposit_amount_max } XYM 을 입금 할 수 있지만, <code>Limit Break</code>를 활성화 하면 최대 20배 까지 입금 가능합니다.<br/>
-            또한 출연자는 총 수령할 수 있는 금액을 설정할 수 있습니다.<br />
+            또한 수행자는 총 수령할 수 있는 금액을 설정할 수 있습니다.<br />
             첨부할 수 있는 최대 메시지의 글자 수는 { params.deposit_message_len_max } 입니다.<br />
             퀘스트의 최대 XYM 제한을 초과하지 않는 한 여러번 격려할 수 있습니다.
         </blockquote>
 
         <h3 className="title is-5" id="fees">격려 전략 및 플랫폼 수수료</h3>
         <p>
-            출연자를 격려하는 전략에는 3가지 전략이 있으며, 그중 하나를 선택할 수 있습니다.
+            수행자를 격려하는 전략에는 3가지 전략이 있으며, 그중 하나를 선택할 수 있습니다.
         </p>
         <table className="table">
             <thead>
@@ -128,8 +128,8 @@ export const Instruction = ({params}: {params: Parameters}) => {
             <tbody>
             <tr>
                 <td>
-                    <strong>[유형.A] 출연자를 신뢰함 (수수료가 제일 저렴함)</strong><br />
-                    투표가 완료 된 후, 격려금이 투표 결과와 상관없이 출연자에게 지급됩니다.
+                    <strong>[유형.A] 수행자를 신뢰함 (수수료가 제일 저렴함)</strong><br />
+                    투표가 완료 된 후, 격려금이 투표 결과와 상관없이 수행자에게 지급됩니다.
                     (마감일이 지나거나 중단했을 경우는 예외)
                 </td>
                 <td className="osi-nowrap">
@@ -144,7 +144,7 @@ export const Instruction = ({params}: {params: Parameters}) => {
             <tr>
                 <td>
                     <strong>[유형.B] 투표 결과를 신뢰함 (추천)</strong><br />
-                    퀘스트가 투표를 통해 승인 되면, 격려금이 자동으로 출연자에게 지급 됩니다.
+                    퀘스트가 투표를 통해 승인 되면, 격려금이 자동으로 수행자에게 지급 됩니다.
                 </td>
                 <td className="osi-nowrap">
                     <strong>
@@ -204,7 +204,7 @@ export const Instruction = ({params}: {params: Parameters}) => {
 
         <h2 className="title is-4 mt-6">5. 시청자 용: 투표 진행해보세요.</h2>
         <p>
-            출연자가 퀘스트를 완료하면, 시청자가 퀘스트 성공 또는 실패에 투표할 수 있습니다.<br />
+            수행자가 퀘스트를 완료하면, 시청자가 퀘스트 성공 또는 실패에 투표할 수 있습니다.<br />
             퀘스트 페이지를 열고 "승인 투표" 또는 "거절 투표" 중 하나를 눌러주세요.<br />
         </p>
         <blockquote>
@@ -212,7 +212,7 @@ export const Instruction = ({params}: {params: Parameters}) => {
             투표 기간은 퀘스트 완료 후 24시간 동안 진행됩니다.
         </blockquote>
         <p>
-            승인이 과반수일 경우에는 출연자에게 격려금 금고가 지급됩니다.<br />
+            승인이 과반수일 경우에는 수행자에게 격려금 금고가 지급됩니다.<br />
             반면에 거절되면, 유형.B와 유형.C를 선택한 시청자의 환불 절차를 진행하게 됩니다.
         </p>
 
@@ -224,7 +224,7 @@ export const Instruction = ({params}: {params: Parameters}) => {
             투표 종료 후 24시간 이내에 결정해야 합니다. 기한까지 결정 하지 않을 경우 "환불 받기" 버튼을 누른 것으로 간주합니다.
         </blockquote>
 
-        <h2 className="title is-4 mt-6">7. 출연자 용 : 금고 자금 획득</h2>
+        <h2 className="title is-4 mt-6">7. 수행자 용 : 금고 자금 획득</h2>
         <p>
             퀘스트가 완료되고 투표로 승인되면 금고 자금이 지급 됩니다. 트랜잭션 절차는 투표 종료부터 이체 완료까지 약 1일 정도 소모 될 수 있습니다. 또한 격려금의 결제 상황에 따라 조금 더 지연될 수도 있습니다.<br />
             또한, 지불자의 격려 전략에 따라 총 금액이 변경 됩니다. 자세한 내용은 <a href="#fees">격려 전략 및 플랫폼 수수료</a>를 참조하세요.
