@@ -108,7 +108,7 @@ export const Instruction = ({params}: {params: Parameters}) => {
             수량을 입력한 만큼 격려금이 전달 됩니다. 또한 입력한 메시지도 함께 전달됩니다.<br />
         </p>
         <blockquote>
-            격려 1회당 최대 {  params.deposit_amount_max } XYM 을 입금 할 수 있지만, <code>Limit Break</code>를 활성화 하면 최대 20배 까지 입금 가능합니다.<br/>
+            격려 1회당 최대 {  params.deposit_amount_max } XYM 을 입금 할 수 있지만, <code>리밋 브레이크</code>를 활성화 하면 최대 20배 까지 입금 가능합니다.<br/>
             또한 수행자는 총 수령할 수 있는 금액을 설정할 수 있습니다.<br />
             첨부할 수 있는 최대 메시지의 글자 수는 { params.deposit_message_len_max } 입니다.<br />
             퀘스트의 최대 XYM 제한을 초과하지 않는 한 여러번 격려할 수 있습니다.
@@ -178,28 +178,28 @@ export const Instruction = ({params}: {params: Parameters}) => {
 
         <h3 className="title is-5">결제</h3>
         <p>
-            You can done the payment either of inputting private key every transactions or QUEST's browser wallet.
+        결제는 매 거래마다 개인 키를 입력하거나 QUEST의 브라우저 지갑으로 할 수 있습니다.
         </p>
         <p>
-            Latter needs some settings on the site before use. Open "Symbol account" settings from settings page.
-            Choose "I use browser wallet" then register your private key and passphrase.<br />
-            Browser wallet will encrypts and saves your private key to the browser storage only.
-            Therefore you can use the wallet on registered browser only.
+        사용하기 전에 사이트에서 몇 가지 설정이 필요합니다. 설정 페이지에서 "심볼 계정" 설정을 엽니다.
+        "브라우저 지갑 사용"을 선택한 다음 개인 키와 암호문을 등록합니다.<br />
+        브라우저 지갑은 개인 키를 암호화하여 브라우저 저장소에만 저장합니다.
+        따라서 등록된 브라우저에서만 지갑을 사용할 수 있습니다.
         </p>
 
         <h4 className="title is-6">개인 키 입력을 통한 결제</h4>
         <p>
-            Open issued boost invoice then you can get payment form.
-            Input your private key of Symbol account.<br />
-            Also choose transaction fee which you want use.
-            Higher fee can make faster the speed of transaction confirmation.
-            If it unnecessary, you can keep lower fee by longer waiting time.
+        발행된 격려금 인보이스를 열면 결제 양식을 받을 수 있습니다.
+            이후 심볼 계좌의 개인 키를 입력합니다.<br />
+            또한 사용하고 싶은 트랜잭션 수수료를 선택해주세요.
+            많은 수수료를 지불하게 되면 트랜잭션 컨펌 속도가 더욱 빨라집니다.
+            만약 필요하지않다면, 낮은 수수료를 내고 좀더 긴 대기 시간을 보내면됩니다.
         </p>
 
         <h4 className="title is-6">브라우저 지갑을 통한 결제</h4>
         <p>
-            Same as above, open boost invoice then you'll get browser wallet payment form.<br />
-            Done the payment by inputting transaction fee and passphrase of your private key.
+        위와 동일하게 격려금 인보이스를 열면 브라우저 지갑 결제 양식이 나옵니다.<br />
+        거래 수수료와 개인 키의 암호문을 입력하여 결제를 완료합니다.
         </p>
 
         <h2 className="title is-4 mt-6">5. 시청자 용: 투표 진행해보세요.</h2>

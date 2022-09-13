@@ -47,7 +47,7 @@ export const Introduction = ({params}: {params: Parameters}) => {
                             Symbol은 비즈니스를 위해 신뢰 된 안전한 자산 관리 네트워크입니다. Symbol은 비즈니스 마찰을 줄여주고 데이터 흐름을 증가시켜 주며, 혁신적인 자산의 생성, 교환 및 안전을 보장합니다.
                         </p>
                         <p className="has-text-right">
-                            <i><a href="https://symbolplatform.com/">공식 홈 페이지</a></i>
+                            <i><a href="https://symbolplatform.com/">공식 홈페이지</a></i>
                         </p>
                     </blockquote>
                     <p>
