@@ -21,7 +21,7 @@ export const Header = ({noSignIn}: Props) => {
     }, [setLanguage])
 
     return <nav className="navbar is-primary" role="navigation" aria-label="main navigation">
-        <div className="container is-max-desktop">
+        <div className="container">
             <div className="navbar-brand">
                 <Link to="/" className="navbar-item">
                     <img src="/quest.svg" className="osi-quest-logo" alt="QUEST" />
@@ -76,9 +76,26 @@ export const Header = ({noSignIn}: Props) => {
                             </Link>
                         </div>
                     </div>
-                    <Link to="/instruction" className="navbar-item">
-                        { str('header_instruction', 'Instruction') }
-                    </Link>
+                    <div className="navbar-item has-dropdown is-hoverable">
+                        <Link to="/docs" className="navbar-link">
+                            { str('header_documentation', 'Docs') }
+                        </Link>
+
+                        <div className="navbar-dropdown">
+                            <Link to={`/docs`} className="navbar-item">
+                                { str('introduction', 'Introduction') }
+                            </Link>
+                            <Link to={`/docs/guide`} className="navbar-item">
+                                { str('guide', 'Guide') }
+                            </Link>
+                            <Link to={`/docs/reference`} className="navbar-item">
+                                { str('reference', 'Reference') }
+                            </Link>
+                            <Link to={`/docs/supplement`} className="navbar-item">
+                                { str('supplement', 'Supplement') }
+                            </Link>
+                        </div>
+                    </div>
                     <div className="navbar-item has-dropdown is-hoverable">
                         <a className="navbar-link">
                             { str('header_exchanges', 'Charge XYM') }

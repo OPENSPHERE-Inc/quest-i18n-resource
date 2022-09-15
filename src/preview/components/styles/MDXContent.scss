@@ -1,0 +1,50 @@
+
+.osi-mdx-content {
+  img:not(.inline) {
+    max-width: 70%;
+    max-height: 30em;
+    display: block;
+    margin: 1.25em auto;
+
+    &:not(.noborder) {
+      border: 1px solid $border;
+    }
+  }
+
+  h1 {
+    margin-bottom: 2em;
+    &:not(:first-child) {
+      margin-top: 2em;
+    }
+  }
+  h2 {
+    margin-bottom: 2em;
+    &:not(:first-child) {
+      margin-top: 2em;
+    }
+  }
+  h3 {
+    margin-bottom: 2em;
+    &:not(:first-child) {
+      margin-top: 2em;
+    }
+  }
+  h4 {
+    margin-bottom: 2em;
+    &:not(:first-child) {
+      margin-top: 2em;
+    }
+  }
+  h5 {
+    margin-bottom: 2em;
+    &:not(:first-child) {
+      margin-top: 2em;
+    }
+  }
+  h6 {
+    margin-bottom: 2em;
+    &:not(:first-child) {
+      margin-top: 2em;
+    }
+  }
+}

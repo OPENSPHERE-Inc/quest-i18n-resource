@@ -1,4 +1,4 @@
-import React, {createContext, useCallback, useContext, useState} from "react";
+import React, {createContext, PropsWithChildren, useCallback, useContext, useState} from "react";
 import ja from "../../../frontend/definitions/ja/localize.json";
 import en from "../../../frontend/definitions/en/localize.json";
 import ru from "../../../frontend/definitions/ru/localize.json";
@@ -50,7 +50,7 @@ interface PageContextStore {
 
 const PageContext = createContext({} as PageContextStore);
 
-export const PageProvider: React.FC = (props) => {
+export const PageProvider = (props: PropsWithChildren) => {
     const [ proceeding, setProceeding ] = useState(false);
     const [ loading, setLoading ] = useState(true);
     const [ language, setLanguage ] = useState<SupportedLanguages>(defaultLanguage);

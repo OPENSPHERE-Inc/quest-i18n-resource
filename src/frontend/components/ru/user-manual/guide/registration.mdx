@@ -1,0 +1,171 @@
+# ガイド - ユーザー登録
+
+> #### ご注意
+>
+> AdBlock 等のブロック系ブラウザープラグインを使用している場合は、正常にユーザー登録プロセスを進めることができない場合があります。
+> 手順を進める前に、これらのプラグインをOFFにするか、
+> `https://asia-northeast1-quest-main.cloudfunctions.net` をホワイトリストに入れる等の対策をお願いします。
+
+---
+
+## 1. メールアドレスでサインアップ
+
+1. QUEST サイトヘッダーの「[サインアップ](/signup)」ボタンを押してください。
+
+   ![Registration 001](/user-manual/ja/guide/registration-001.png)
+
+2. フォームに①登録したいメールアドレスと、②サインイン用のパスワードを決めて入力してください。
+3. ③を押して「利用規約」を一読し、チェックボックスにチェックを入れてください。「同意する」ボタンを押すと自動的にチェックが入ります。
+4. ④を押して「プライバシーポリシー」を一読し、チェックボックスにチェックを入れてください。「同意する」ボタンを押すと自動的にチェックが入ります。
+5. 「続行」を押して次に進んでください。
+
+   ![Registration 002](/user-manual/ja/guide/registration-002.png)
+
+   ![Registration 003](/user-manual/ja/guide/registration-003.png)
+
+---
+
+## 2. Symbolアカウントの登録
+
+次に決済に使用するためのSymbolアカウントを登録します。
+
+> QUEST は投げ銭用に **Symbolブロックチェーン** を基盤とした決済システムを利用しています。
+
+### 2.1. 始めてSymbolブロックチェーンに触れる方（または、新しくSymbolアカウントを作成したい方）
+
+1. **Symbolアカウント** フォームで「新しいアカウントを1つ生成する」にチェックを入れてください。
+2. 「ブラウザウォレットを使用」が選択されます（強制）
+3. 「パスフレーズ」に決済を行う時に使用するパスフレーズを決めて入力してください。
+4. 「続行」を押して次に進んでください。
+
+   ![Registration 004](/user-manual/ja/guide/registration-004.png)
+
+5. **以下のSymbolアカウントを保存してください** のページが表示されますので、表示された「秘密鍵」をローカルディスクに保存してください。<br />
+   自動的に秘密鍵が記載されたテキストファイルが **ダウンロードフォルダ** に保存されます。
+6. 「続行」を押して次に進んでください。
+
+   ![Registration 007](/user-manual/ja/guide/registration-007.png)
+
+### 2.2. 既存のSymbolアカウントを使いたい方
+
+> 始めてSymbolブロックチェーンに触れる方は、この項目を飛ばしてください。
+
+既存のSymbolアカウントを QUEST に登録する方法は、秘密鍵を入力するものと、パブリックキーを入力するものの二通りがあります。
+秘密鍵を入力する方が比較的手順が少なく済みます。
+
+パブリックキーを入力する方法は、パフォーマー専用アカウントでブーストはしないので、
+秘密鍵を一切入力したくない方が使用する、比較的安全な方法です。
+
+#### A. 秘密鍵をブラウザに保存する「ブラウザウォレット」を使用する
+
+1. **Symbolアカウント** フォームで「新しいアカウントを1つ生成する」のチェックを **外したまま** にしてください。
+2. 「ブラウザウォレットを使用」を選択してください。
+3. 「秘密鍵」に既存のSymbolアカウントの秘密鍵をコピー＆ペーストしてください。
+4. 「パスフレーズ」に決済を行うときに使用するパスフレーズを決めて入力してください。
+5. 「続行」を押して次に進んでください。
+
+   ![Registration 005](/user-manual/ja/guide/registration-005.png)
+
+> #### 秘密鍵の調べ方
+>
+> **デスクトップウォレット**
+>
+> 1. **デスクトップウォレット** にログインし、「アカウント」→ 目的のアカウントを選択してください。
+> 2. **秘密鍵** の「表示」を押してください。
+>
+>    ![Registration 009](/user-manual/ja/guide/registration-009.png)
+>
+> 3. **デスクトップウォレット** にログインした時と同じパスワードを入力して「確認」を押してください。
+>
+>    ![Registration 010](/user-manual/ja/guide/registration-010.png)
+>
+> 4. **秘密鍵** が表示されますので、「<img src="/user-manual/clone-solid.svg" height="12" className="inline" />」を押して、クリップボードにコピーしてください。
+>
+>    ![Registration 011](/user-manual/ja/guide/registration-011.png)
+>
+> 5. QUEST のフォームに戻って「秘密鍵」にペーストしてください。
+>
+> **モバイルウォレット**
+>
+> 1. **モバイルウォレット** を開き、左上の「<img src="/user-manual/wallet-solid.svg" className="inline" height="12" />」を押してください。
+>
+>    ![Registration 013](/user-manual/ja/guide/registration-013.png)
+>
+> 2. **左サイドナビゲーション** が開きますので、右上の「<img src="/user-manual/ellipsis-v-solid.svg" className="inline" height="12" />」を押して、更に「詳細」を押してください。
+>
+>    ![Registration 014](/user-manual/ja/guide/registration-014.png)
+>
+> 3. **秘密鍵**の「Show」を押して鍵を表示し、「<img src="/user-manual/copy-regular.svg" className="inline" height="12" />」を押してクリップボードにコピーしてください。
+>
+>    ![Registration 015](/user-manual/ja/guide/registration-015.png)
+>
+> 4. QUEST に戻って「秘密鍵」にペーストしてください。
+
+#### B. 秘密鍵を決済の度に入力する「ワンタイムウォレット」を使用する
+
+1. **Symbolアカウント** フォームで「新しいアカウントを1つ生成する」のチェックを **外したまま** にしてください。
+2. 「ワンタイムウォレットを使用」を選択してください。
+3. 「パブリックキー」に既存のSymbolアカウントのパブリックキーをコピー＆ペーストしてください。
+4. 「続行」を押して次に進んでください。
+
+    ![Registration 006](/user-manual/ja/guide/registration-006.png)
+
+5. **アクティベーションコードをデスクトップウォレット等で送信してください** という画面が表示されます。<br/>
+   その下に **デスクトップウォレットを使用してアクティベーションコードを送信する方法** が記載されているので、指示に従って送信を行ってください。<br />
+   Symbolアカウントを登録し直したい場合は「キャンセル」ボタンを押してください。**Symbolアカウント** フォームに戻ります。
+6. アクティベーションコードを送信後、しばらく（5分くらい掛かる場合があります）すると QUEST がコードを認識し、自動的に次に進みます。<br/>
+   認識されない場合は、送信方法が間違っている可能性があります。
+
+   ![Registration 021](/user-manual/ja/guide/registration-021.png)
+
+> #### パブリックキーの調べ方
+>
+> **デスクトップウォレット**
+>
+> 1. **デスクトップウォレット** にログインし、「アカウント」→ 目的のアカウントを選択してください。
+> 2. **公開鍵** の「<img src="/user-manual/clone-solid.svg" className="inline" height="12" />」を押してしてクリップボードにコピーしてください。
+>
+>    ![Registration 012](/user-manual/ja/guide/registration-012.png)
+>
+> 3. QUEST に戻って「パブリックキー」にペーストしてください。
+>
+> **モバイルウォレット**
+>
+> 1. **モバイルウォレット** を開き、左上の「<img src="/user-manual/wallet-solid.svg" className="inline" height="12" />」を押してください。
+>
+>    ![Registration 017](/user-manual/ja/guide/registration-017.png)
+>
+> 2. **左サイドナビゲーション** が開きますので、右上の「<img src="/user-manual/ellipsis-v-solid.svg" className="inline" height="12" />」を押して、更に「詳細」を押してください。
+>
+>    ![Registration 018](/user-manual/ja/guide/registration-018.png)
+>
+> 3. **公開鍵**の「<img src="/user-manual/copy-regular.svg" className="inline" height="12" />」を押して、クリップボードにコピーしてください。
+>
+>    ![Registration 019](/user-manual/ja/guide/registration-019.png)
+>
+> 4. QUEST に戻って「パブリックキー」にペーストしてください。
+
+> #### 「続行」する前に誤ってブラウザを閉じてしまいました！一体どうすれば・・・
+>
+> 「メールアドレスでサインアップ」で登録したメールアドレスとパスワードでサインインすれば続きを進められますのでご安心ください。
+
+---
+
+## 3. ユーザープロフィールの作成
+
+1. **ユーザープロフィールの新規作成** フォームで以下のように入力してください。
+   - ①名前: 他のユーザーから見えるあなたの名前を決めて入力してください。
+   - ②言語: 普段使用する言語を選択してください。デフォルトでブラウザの優先言語が選択されます。
+   - ③アクセスURL: 必要に応じて、Twitter や Facebook、Twitch、YouTube channel 等、あなたのSNSプロフィールのURLを追加してください。<br/>
+     「フィールドの追加」で入力欄を 10 個まで増やせます。
+2. 「作成」を押して次に進んでください。
+
+   ![Registration 007](/user-manual/ja/guide/registration-008.png)
+
+---
+
+## 4. サインアップ完了
+
+**DASHBOARD** が開き、サインアップ完了となります。
+
+![Registration 020](/user-manual/ja/guide/registration-020.png)

@@ -22,13 +22,15 @@ $button-text-hover-background-color: rgb(0, 0, 0, 0.2);
 $navbar-bottom-box-shadow-size: 0 0 0 0;
 $input-icon-active-color: $text;
 
+@import '~bulma-slider';  // FIXME: Must be appeared before '~bulma'
 @import "~bulma";
-@import "~bulmaswatch/superhero/overrides";
 @import '~@creativebulma/bulma-tagsinput';
-@import '~bulma-slider';
+@import "~bulmaswatch/superhero/overrides";
 
-@import "./preview/components/Common.scss";
+@import "./preview/components/styles/Common.scss";
+@import "./preview/components/styles/MDXContent.scss";
 @import "./preview/components/layout/Header.scss";
 @import "./preview/components/layout/Layout.scss";
 @import "./preview/components/localized/IntroductionI18N.scss";
+@import "./preview/components/TableOfContents.scss";
 @import "./preview/pages/Index.scss";

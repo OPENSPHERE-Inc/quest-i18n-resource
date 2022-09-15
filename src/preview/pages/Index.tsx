@@ -11,7 +11,7 @@ const Index = () => {
 
     return <Layout hero={() => <div className="hero is-primary is-small">
         <div className="hero-body">
-            <div className="container is-max-desktop">
+            <div className="container">
                 <div className="columns is-desktop">
                     <div className="column">
                         <h1 className="title is-3 osi-hero-title">

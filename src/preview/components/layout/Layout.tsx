@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, {PropsWithChildren, useEffect} from "react";
 import {Helmet} from "react-helmet";
 import {Header} from "./Header";
 import {Footer} from "./Footer";
@@ -12,12 +12,12 @@ interface Props {
     hero?: React.FC,
 }
 
-export const Layout: React.FC<Props> = (
+export const Layout = (
     {
         children,
         noSignIn,
         hero: Hero,
-    },
+    }: PropsWithChildren<Props>,
 ) => {
     const { siteTitle, str } = usePage();
     const location = useLocation();

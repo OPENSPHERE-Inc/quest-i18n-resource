@@ -12,6 +12,34 @@
   top: 0;
 }
 
+.osi-opacity-10 {
+  opacity: 0.10;
+}
+
+.osi-opacity-15 {
+  opacity: 0.15;
+}
+
+.osi-opacity-20 {
+  opacity: 0.20;
+}
+
+.osi-opacity-25 {
+  opacity: 0.25;
+}
+
+.osi-opacity-50 {
+  opacity: 0.5;
+}
+
+.osi-opacity-70 {
+  opacity: 0.7;
+}
+
+.osi-opacity-75 {
+  opacity: 0.75;
+}
+
 input.is-static {
   color: #dee5ed;
 }
@@ -40,7 +68,30 @@ figure.osi-user-avatar {
   }
 }
 
+figure.osi-fullhd-image {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+
+  img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-50%);
+    object-fit: contain;
+    max-height: initial;
+  }
+}
+
 figure.image {
+  &.osi-is-320x180 {
+    width: 320px;
+    height: 180px;
+  }
+
   &.osi-is-256x256 {
     width: 256px;
     height: 256px;
@@ -189,7 +240,7 @@ ul.osi-ul-without-dot {
   }
 }
 
-.osi-plus-block {
+.osi-block-center {
   width: 100%;
   height: 100%;
   display: flex;
@@ -206,6 +257,104 @@ button.button.is-ghost.osi-noborder-button {
     &:focus {
       box-shadow: none;
     }
+}
+
+.dropdown.is-fullwidth {
+  width: 100%;
+  .dropdown-trigger {
+    width: 100%;
+    button.button {
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
+
+  .dropdown-menu {
+    width: 100%;
+  }
+}
+
+.osi-scrollbar {
+  &.osi-scrollbar-y {
+    overflow-y: scroll;
+  }
+  &.osi-scrollbar-x {
+    overflow-y: scroll;
+  }
+
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.button.osi-circle-button-large {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.button.osi-circle-button {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.message a:not(.button):not(.tag):not(.dropdown-item) {
+  text-decoration: unset;
+}
+
+.modal {
+  .modal-card {
+    .modal-card-body {
+      @extend .osi-scrollbar;
+      @extend .osi-scrollbar-y;
+      max-height: 70vh;
+    }
+  }
+}
+
+.osi-has-text-outlined {
+  text-shadow: 1px 1px 1px $dark,
+              -1px 1px 1px $dark,
+              1px -1px 1px $dark,
+              -1px -1px 1px $dark;
+}
+
+.osi-has-text-outlined-danger {
+  text-shadow: 1px 1px 1px $danger,
+  -1px 1px 1px $danger,
+  1px -1px 1px $danger,
+  -1px -1px 1px $danger;
+}
+
+.osi-no-pointer-events {
+  pointer-events: none;
+}
+
+.icon {
+  img {
+    height: 1em;
+  }
+}
+
+@include tablet() {
+  .osi-scrollbar {
+    &.osi-scrollbar-y-tablet {
+      overflow-y: scroll;
+    }
+
+    &.osi-scrollbar-x-tablet {
+      overflow-y: scroll;
+    }
+  }
 }
 
 @include touch() {
@@ -233,5 +382,13 @@ button.button.is-ghost.osi-noborder-button {
 
   .modal .modal-card .modal-card-title {
     font-size: 1.0em;
+  }
+}
+
+@include mobile() {
+  .osi-expand-on-mobile {
+    position: relative;
+    left: -1.5rem !important;
+    width: 100vw !important;
   }
 }

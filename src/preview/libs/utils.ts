@@ -21,3 +21,7 @@ export const getDefaultLanguage = () => {
     return (window.navigator.languages && window.navigator.languages[0]) ||
         window.navigator.language;
 }
+
+export const isUrl = (url: string) => {
+    return url.match(/^http(s)?:\/\/([\w\-]+\.)+[\w\-]+(:\d+)?(\/[\w\-.\/?%&=~]*)?(#[\w\-.\/?%&=~#]*)?$/g) !== null;
+};
