@@ -1,0 +1,277 @@
+{
+  "subscribed_quest_notifications": {
+    "on_started": {
+      "subject": "[QUEST] {performer.name} 님이 퀘스트를 시작 했습니다.",
+      "body_text": [
+        "안녕하세요 {recipient.name} 님.",
+        "",
+        "{performer.name} 님이 아래 퀘스트를 시작 했습니다.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "해당 메일은 사용자 알림 설정에 따라 자동으로 발신된 메일입니다. 아래 주소에서 QUEST 사이트의 구독 목록을 관리할 수 있습니다.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST 오피셜 - *해당 메일은 답변하지 않아도 됩니다."
+      ]
+    },
+    "on_comment_posted": {
+      "subject": "[QUEST] {performer.name} 님이 새로운 저널을 게시했습니다.",
+      "body_text": [
+        "안녕하세요 {recipient.name} 님.",
+        "",
+        "{performer.name} 님이 아래 퀘스트에 새로운 저널을 게시했습니다.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}?jid={comment.id}",
+        "",
+        "해당 메일은 사용자 알림 설정에 따라 자동으로 발신된 메일입니다. 아래 주소에서 설정을 관리할 수 있습니다.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST 오피셜 - *해당 메일은 회신할 수 없습니다."
+      ]
+    }
+  },
+  "involved_quest_notifications": {
+    "on_aborted": {
+      "subject": "[QUEST] 퀘스트가 중단되었습니다.",
+      "body_text": [
+        "안녕하세요 {recipient.name} 님.",
+        "",
+        "다음 퀘스트가 중단되었습니다. 잠금 기간이 만료되면 부스팅한 금액은 모두 반환 됩니다.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "해당 메일은 사용자 알림 설정에 따라 자동으로 발신된 메일입니다. 아래 주소에서 설정을 관리할 수 있습니다.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST 오피셜 - *해당 메일은 회신할 수 없습니다."
+      ]
+    },
+    "on_completed": {
+      "subject": "[QUEST](액션 필요함) 투표가 시작되었습니다.",
+      "body_text": [
+        "안녕하세요 {recipient.name} 님.",
+        "",
+        "다음 퀘스트의 투표가 시작되었습니다. QUEST 사이트를 통해서 투표를 진행해 주세요.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "해당 메일은 사용자 알림 설정에 따라 자동으로 발신된 메일입니다. 아래 주소에서 QUEST 사이트의 구독 목록을 관리할 수 있습니다.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST 오피셜 - *해당 메일은 답변하지 않아도 됩니다."
+      ]
+    },
+    "on_succeeded_decision": {
+      "subject": "[QUEST](액션 필요함) 사용자님의 결정이 필요합니다.",
+      "body_text": [
+        "안녕하세요 {recipient.name} 님.",
+        "",
+        "투표가 종료되었고, 사용자님의 최종 결정이 필요합니다. QUEST 사이트를 통해 최종 결정을 보내주세요.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "해당 메일은 사용자 알림 설정에 따라 자동으로 발신된 메일입니다. 아래 주소에서 QUEST 사이트의 구독 목록을 관리할 수 있습니다.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST 오피셜 - *해당 메일은 답변하지 않아도 됩니다."
+      ]
+    },
+    "on_succeeded_award": {
+      "subject": "[QUEST] {performer.name} 님이 최종 결정을 통해 퀘스트를 완료했습니다.",
+      "body_text": [
+        "안녕하세요 {recipient.name} 님.",
+        "",
+        "다음 퀘스트가 최종 결정을 통해 완료 되었습니다 !",
+        "사용자님의 부스팅 보상은 {performer.name} 님에게 잠시후 지급될 예정입니다.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "해당 메일은 사용자 알림 설정에 따라 자동으로 발신된 메일입니다. 아래 주소에서 설정을 관리할 수 있습니다.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST 오피셜 - *해당 메일은 회신할 수 없습니다."
+      ]
+    },
+    "on_failed_refund": {
+      "subject": "[QUEST] {performer.name} 님의 퀘스트가 별도 승인 없이 종료되었습니다. 사용자님은 A 유형 부스팅이 아니기 때문에 반환 됩니다.",
+      "body_text": [
+        "안녕하세요 {recipient.name} 님.",
+        "",
+        "다음 퀘스트가 별도 승인 없이 종료되었습니다.",
+        "A 유형 부스트가 아니라면 부스팅 한 금액은 모두 잠금 기간 만료 후 반환됩니다.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "해당 메일은 사용자 알림 설정에 따라 자동으로 발신된 메일입니다. 아래 주소에서 설정을 관리할 수 있습니다.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST 오피셜 - *해당 메일은 회신할 수 없습니다."
+      ]
+    },
+    "on_failed_award": {
+      "subject": "[QUEST] {performer.name} 님의 퀘스트가 별도 승인 없이 종료되었습니다. 사용자님은 A 유형 부스팅을 진행하여 전액 상금으로 지급됩니다.",
+      "body_text": [
+        "안녕하세요 {recipient.name} 님.",
+        "",
+        "다음 퀘스트가 별도 승인 없이 종료되었습니다.",
+        "사용자님의 부스팅은 A 유형이기 때문에 잠시 후 상금으로 사용됩니다.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "해당 메일은 사용자 알림 설정에 따라 자동으로 발신된 메일입니다. 아래 주소에서 설정을 관리할 수 있습니다.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST 오피셜 - *해당 메일은 회신할 수 없습니다."
+      ]
+    },
+    "on_discussion_posted": {
+      "subject": "[QUEST] 토론에 대한 답변이 있습니다.",
+      "body_text": [
+        "안녕하세요 {recipient.name} 님.",
+        "",
+        "{discussion.author.name} 님께서 사용자님이 작성한 토론에 답변을 게시했습니다.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}#{discussion.id}",
+        "",
+        "해당 메일은 사용자 알림 설정에 따라 자동으로 발신된 메일입니다. 아래 주소에서 설정을 관리할 수 있습니다.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST 오피셜 - *해당 메일은 회신할 수 없습니다."
+      ]
+    }
+  },
+  "performers_quest_notifications": {
+    "on_requested": {
+      "subject": "[QUEST](중요) {promoter.name} 님이 ReQUEST를 보냈습니다.",
+      "body_text": [
+        "안녕하세요 {recipient.name} 님.",
+        "",
+        "{promoter.name} 님이 아래 ReQUEST를 보냈습니다. QUEST 사이트를 통해 자세한 내용을 확인해 보세요.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "해당 메일은 사용자 알림 설정에 따라 자동으로 발신된 메일입니다. 아래 주소에서 QUEST 사이트의 구독 목록을 관리할 수 있습니다.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST 오피셜 - *해당 메일은 답변하지 않아도 됩니다."
+      ]
+    },
+    "on_reaching_deadline": {
+      "subject": "[QUEST](Important) The performing quest reaches deadline soon (1 day left)",
+      "body_text": [
+        "안녕하세요 {recipient.name} 님.",
+        "",
+        "아래 퀘스트가 곧 데드라인(마감일)에 도달합니다.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "해당 퀘스트가 완료되면, <<완료>> 버튼을 QUEST 웹사이트에서 클릭해 주시길 바랍니다.",
+        "",
+        "해당 메일은 사용자 알림 설정에 따라 자동으로 발신된 메일입니다. 아래 주소에서 QUEST 사이트의 구독 목록을 관리할 수 있습니다.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST 오피셜 - *해당 메일은 답변하지 않아도 됩니다."
+      ]
+    },
+    "on_succeeded": {
+      "subject": "[QUEST] 사용자님의 퀘스트가 승인되었습니다.",
+      "body_text": [
+        "안녕하세요 {recipient.name} 님.",
+        "",
+        "축하합니다! 다음 퀘스트가 승인되었습니다!",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "해당 메일은 사용자 알림 설정에 따라 자동으로 발신된 메일입니다. 아래 주소에서 설정을 관리할 수 있습니다.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST 오피셜 - *해당 메일은 회신할 수 없습니다."
+      ]
+    },
+    "on_failed": {
+      "subject": "[QUEST] 사용자님의 퀘스트가 완료되었습니다.",
+      "body_text": [
+        "안녕하세요 {recipient.name} 님.",
+        "",
+        "다음 퀘스트가 완료되었습니다.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "해당 메일은 사용자 알림 설정에 따라 자동으로 발신된 메일입니다. 아래 주소에서 설정을 관리할 수 있습니다.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST 오피셜 - *해당 메일은 회신할 수 없습니다."
+      ]
+    },
+    "on_boosted": {
+      "subject": "[QUEST] 사용자님에게 부스트가 전달했습니다.",
+      "body_text": [
+        "안녕하세요 {recipient.name} 님.",
+        "",
+        "{payer.name} 님이 사용자님의 퀘스트에 부스팅 했습니다.",
+        "",
+        "수량: {amount} XYM",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "해당 메일은 사용자 알림 설정에 따라 자동으로 발신된 메일입니다. 아래 주소에서 설정을 관리할 수 있습니다.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST 오피셜 - *해당 메일은 회신할 수 없습니다."
+      ]
+    },
+    "on_discussion_posted": {
+      "subject": "[QUEST] 사용자님의 퀘스트에 새로운 토론이 작성되었습니다.",
+      "body_text": [
+        "안녕하세요 {recipient.name} 님.",
+        "",
+        "{discussion.author.name} 님이 다음 퀘스트에 새로운 토론을 게시했습니다.",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}#{discussion.id}",
+        "",
+        "해당 메일은 사용자 알림 설정에 따라 자동으로 발신된 메일입니다. 아래 주소에서 설정을 관리할 수 있습니다.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST 오피셜 - *해당 메일은 회신할 수 없습니다."
+      ]
+    }
+  },
+  "promoters_quest_notifications": {
+    "on_started": {
+      "subject": "[QUEST](중요) 사용자님의 제안에 출연자가 등록 되었습니다.",
+      "body_text": [
+        "안녕하세요 {recipient.name} 님.",
+        "",
+        "출연자가 사용자님이 등록한 제안의 작업을 시작했습니다.",
+        "",
+        "{template.title}",
+        "",
+        "출연자가 선택한 퀘스트",
+        "",
+        "{quest.title}",
+        "{origin}/quest/{quest.id}",
+        "",
+        "해당 메일은 사용자 알림 설정에 따라 자동으로 발신된 메일입니다. 아래 주소에서 QUEST 사이트의 구독 목록을 관리할 수 있습니다.",
+        "{origin}/user/settings/notifications",
+        "",
+        "QUEST 오피셜 - *해당 메일은 답변하지 않아도 됩니다."
+      ]
+    }
+  }
+}

@@ -2,6 +2,7 @@ import React, {createContext, useCallback, useContext, useState} from "react";
 import ja from "../../../frontend/definitions/ja/localize.json";
 import en from "../../../frontend/definitions/en/localize.json";
 import ru from "../../../frontend/definitions/ru/localize.json";
+import ko from "../../../frontend/definitions/ko/localize.json";
 import {format} from "util";
 import {getDefaultLanguage} from "../../libs/utils";
 import {useMedia} from "use-media";
@@ -11,6 +12,7 @@ export enum SupportedLanguages {
     ENGLISH = 'en',
     JAPANESE = 'ja',
     RUSSIAN = 'ru',
+    KOREAN = 'ko'
 }
 
 const isSupportedLanguage = (value: any): value is SupportedLanguages =>
@@ -29,6 +31,7 @@ const resources: { [language: string]: { [id: string]: string | string[] } } = {
     "ja": ja,
     "en": en,
 	"ru": ru,
+    "ko": ko
 }
 
 interface PageContextStore {
