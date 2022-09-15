@@ -42,22 +42,13 @@ export const Introduction = ({params}: {params: Parameters}) => {
             <h3 className="title is-5">QUEST uses Symbol block chain</h3>
             <div className="columns">
                 <div className="column">
-                    <blockquote>
-                        <p>
-                            Symbol is the trusted, secure value exchange network for business. Symbol smooths business friction,
-                            increasing the flow of data and innovation to supercharge the creation, exchange and protection of assets.
-                        </p>
-                        <p className="has-text-right">
-                            <i><a href="https://symbolplatform.com/">Official web site</a></i>
-                        </p>
-                    </blockquote>
                     <p>
                         Symbol allowed us rapid developments, secure asset handling, and fine usability.<br />
                         Also, QUEST uses Symbol’s native currency ‘XYM’ to transact with our users.
                     </p>
                 </div>
                 <div className="column is-4 p-6">
-                    <a href="https://symbolplatform.com/" target="_blank" rel="noreferrer">
+                    <a href="https://docs.symbol.dev/" target="_blank" rel="noreferrer">
                         <img src="/Symbol_Logo-wordmark-stacked-dark-BG.svg" alt="Symbol" />
                     </a>
                 </div>
@@ -73,7 +64,7 @@ export const Introduction = ({params}: {params: Parameters}) => {
                 </div> : <p>
                     You can buy XYM from exchanges such as <a href="https://zaif.jp/" target="_blank" rel="noreferrer">Zaif</a>
                     , <a href="https://gate.io" target="_blank" rel="noreferrer">Gate.io</a>.
-                    Complete list is <a href="https://symbolplatform.com/xym" target="_blank" rel="noreferrer">here</a>.
+                    Complete list is <a href="https://coinmarketcap.com/currencies/symbol/markets/" target="_blank" rel="noreferrer">here</a>.
                 </p> }
             </div>
         </div>

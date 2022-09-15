@@ -42,21 +42,13 @@ export const Introduction = ({params}: {params: Parameters}) => {
             <h3 className="title is-5">QUEST는 Symbol(심볼) 블록체인을 사용합니다</h3>
             <div className="columns">
                 <div className="column">
-                    <blockquote>
-                        <p>
-                            Symbol은 비즈니스를 위해 신뢰 된 안전한 자산 관리 네트워크입니다. Symbol은 비즈니스 마찰을 줄여주고 데이터 흐름을 증가시켜 주며, 혁신적인 자산의 생성, 교환 및 안전을 보장합니다.
-                        </p>
-                        <p className="has-text-right">
-                            <i><a href="https://symbolplatform.com/">공식 홈페이지</a></i>
-                        </p>
-                    </blockquote>
                     <p>
                         Symbol을 사용해 빠른 개발, 안전한 자산 관리 및 우수한 사용성을 실현했습니다.<br />
                         또한, QUEST는 Symbol의 기본 통화인 ‘XYM’을 사용해 사용자간 거래가 가능합니다.
                     </p>
                 </div>
                 <div className="column is-4 p-6">
-                    <a href="https://symbolplatform.com/" target="_blank" rel="noreferrer">
+                    <a href="https://docs.symbol.dev/" target="_blank" rel="noreferrer">
                         <img src="/Symbol_Logo-wordmark-stacked-dark-BG.svg" alt="Symbol" />
                     </a>
                 </div>

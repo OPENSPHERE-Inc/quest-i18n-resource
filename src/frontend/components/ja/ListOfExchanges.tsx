@@ -39,7 +39,7 @@ export const ListOfExchanges = () => {
         </a>
         <hr className="navbar-divider" />
         <a className="navbar-item"
-           href="https://symbolplatform.com/xym"
+           href="https://coinmarketcap.com/ja/currencies/symbol/markets/"
            target="_blank"
            rel="noreferrer"
         >

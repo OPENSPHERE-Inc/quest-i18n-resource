@@ -42,21 +42,12 @@ export const Introduction = ({params}: {params: Parameters}) => {
             <h3 className="title is-5">QUEST использует блокчейн Symbol</h3>
             <div className="columns">
                 <div className="column">
-                    <blockquote>
-                        <p>
-                            Symbol - это надежная и безопасная сеть обмена ценностями.
-                            Блокчейн Symbol сглаживает деловые трения, увеличивая поток данных и инноваций.
-                        </p>
-                        <p className="has-text-right">
-                            <i><a href="https://symbolplatform.com/">Официальный сайт</a></i>
-                        </p>
-                    </blockquote>
                     <p>
                         Symbol позволяет нам быстро развиваться и безопасно работать с активами XYM, имея при этом отличное юзабилити.<br />
                     </p>
                 </div>
                 <div className="column is-4 p-6">
-                    <a href="https://symbolplatform.com/" target="_blank" rel="noreferrer">
+                    <a href="https://docs.symbol.dev/" target="_blank" rel="noreferrer">
                         <img src="/Symbol_Logo-wordmark-stacked-dark-BG.svg" alt="Symbol" />
                     </a>
                 </div>
@@ -72,7 +63,7 @@ export const Introduction = ({params}: {params: Parameters}) => {
                 </div> : <p>
                     Вы можете купить XYM на таких биржах, как <a href="https://zaif.jp/" target="_blank" rel="noreferrer">Zaif</a>
                     , <a href="https://gate.io" target="_blank" rel="noreferrer">Gate.io</a>.
-                    Полный список бирж <a href="https://symbolplatform.com/xym" target="_blank" rel="noreferrer">здесь</a>.
+                    Полный список бирж <a href="https://coinmarketcap.com/ru/currencies/symbol/markets/" target="_blank" rel="noreferrer">здесь</a>.
                 </p> }
             </div>
         </div>

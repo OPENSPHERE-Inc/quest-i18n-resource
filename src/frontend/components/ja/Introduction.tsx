@@ -43,22 +43,13 @@ export const Introduction = ({params}: {params: Parameters}) => {
             <h3 className="title is-5">QUEST は Symbol ブロックチェーンを使用しています</h3>
             <div className="columns">
                 <div className="column">
-                    <blockquote>
-                        <p>
-                            Symbol is the trusted, secure value exchange network for business. Symbol smooths business friction,
-                            increasing the flow of data and innovation to supercharge the creation, exchange and protection of assets.
-                        </p>
-                        <p className="has-text-right">
-                            <i><a href="https://symbolplatform.com/">公式ウェブサイトより</a></i>
-                        </p>
-                    </blockquote>
                     <p>
                         Symbol が迅速な開発と、安全な資産の移動、そして優れたユーザービリティを可能にしました。<br />
                         また、QUEST は Symbol のネイティブ通貨である「XYM」を使用してユーザーとの取引を行います。<br />
                     </p>
                 </div>
                 <div className="column is-4 p-6">
-                    <a href="https://symbolplatform.com/" target="_blank" rel="noreferrer">
+                    <a href="https://docs.symbol.dev/" target="_blank" rel="noreferrer">
                         <img src="/Symbol_Logo-wordmark-stacked-dark-BG.svg" alt="Symbol" />
                     </a>
                 </div>
@@ -81,7 +72,7 @@ export const Introduction = ({params}: {params: Parameters}) => {
                     <a href="https://www.huobi.co.jp/" target="_blank" rel="noreferrer">Huobi Japan</a>
                     <a href="https://bitflyer.com/" target="_blank" rel="noreferrer">bitFlyer</a>
                     で取り扱いがあります。
-                    海外も含めて、XYMを取り扱っている取引所一覧は<a href="https://symbolplatform.com/xym" target="_blank" rel="noreferrer">こちら</a>で確認してください。
+                    海外も含めて、XYMを取り扱っている取引所一覧は<a href="https://coinmarketcap.com/ja/currencies/symbol/markets/" target="_blank" rel="noreferrer">こちら</a>で確認してください。
                 </p> }
             </div>
         </div>
