@@ -1253,5 +1253,10 @@
 	"dialog_show_discussion_title": "토론 표시 확인",
 	"button_hide": "숨김",
 	"button_show": "표시",
-	"journal_required_quest": "저널을 게시하기 위해서는, 최소한 하나 이상의 퀘스트를 시작해야합니다."
+	"journal_required_quest": "저널을 게시하기 위해서는, 최소한 하나 이상의 퀘스트를 시작해야합니다.",
+	"introduction": "Introduction",
+	"guide": "Guide",
+	"reference": "Reference",
+	"supplement": "Supplement",
+	"header_documentation": "Docs"
 }

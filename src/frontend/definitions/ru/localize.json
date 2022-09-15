@@ -1254,5 +1254,10 @@
 	"dialog_show_discussion_title": "Show discussion confirmation",
 	"button_hide": "Hide",
 	"button_show": "Show",
-	"journal_required_quest": "To post a journal, it's required to start at least one quest."
+	"journal_required_quest": "To post a journal, it's required to start at least one quest.",
+	"introduction": "Introduction",
+	"guide": "Guide",
+	"reference": "Reference",
+	"supplement": "Supplement",
+	"header_documentation": "Docs"
 }
