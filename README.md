@@ -10,20 +10,32 @@
         - localize.json - (string resources)
       - ja/ - (Japanese resources)
         - [Same files above]
+      - ru/ - (Russian resources)
+        - [Same files above] 
+      - ko/ - (Korean resources)
+        - [Same files above]
   - frontend/ - (Frontend resource files)
-    - definitions/ - (There are sub-directories which have 2 chars language id)
+    - definitions/ - (There are subdirectories which have 2 chars language id)
       - en/ - (English resources)
         - localize.json - (string resources)
       - ja/ - (Japanese resources)
         - [Same files above]
+      - ru/ - (Russian resources)
+        - [Same files above]
+      - ko/ - (Korean resources)
+        - [Same files above] 
       - languages.json - (Language id list we can use) **\* DO NOT MODIFY**
-    - components/ - (There are sub-directories which have 2 chars language id)
+    - components/ - (There are subdirectories which have 2 chars language id)
       - en/ - (English resources)
         - Instruction.tsx
         - Introduction.tsx
         - ListOfExchanges.tsx
       - ja/ - (Japanese resources)
         - [Same files above]
+      - ru/ - (Russian resources)
+        - [Same files above]
+      - ko/ - (Korean resources)
+        - [Same files above] 
       - parameters.ts - (Template parameters definition) **\* DO NOT MODIFY**
 
 **Please DO NOT MODIFY any files other than those listed above**
@@ -105,7 +117,7 @@ $ yarn start
 or
 
 ```
-$ node run start
+$ npm run start
 ```
 
 Now you can preview pages on http://localhost:3000
