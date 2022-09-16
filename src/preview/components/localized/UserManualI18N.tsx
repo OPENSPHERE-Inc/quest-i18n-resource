@@ -101,6 +101,7 @@ export const UserManualI18N = () => {
             <MDXProvider components={components}>
                 <Routes>
                     <Route path="/supplement/symbol-blockchain" element={<Pages.SupplementSymbolBlockchainMdx />} />
+                    <Route path="/supplement/glossary" element={<Pages.SupplementGlossaryMdx />} />
                     <Route path="/supplement" element={<Pages.SupplementIndexMdx />} />
                     <Route path="/reference/user-profile-page" element={<Pages.ReferenceUserProfilePageMdx />} />
                     <Route path="/reference/settings" element={<Pages.ReferenceSettingsMdx />} />

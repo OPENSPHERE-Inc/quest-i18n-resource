@@ -20,6 +20,7 @@ import ReferenceSettingsMdx from "./user-manual/reference/settings.mdx";
 import ReferenceUserProfilePageMdx from "./user-manual/reference/user-profile-page.mdx";
 import SupplementIndexMdx from "./user-manual/supplement/index.mdx";
 import SupplementSymbolBlockchainMdx from "./user-manual/supplement/symbol-blockchain.mdx";
+import SupplementGlossaryMdx from "./user-manual/supplement/glossary.mdx";
 
 
 export default {
@@ -45,4 +46,5 @@ export default {
     ReferenceUserProfilePageMdx,
     SupplementIndexMdx,
     SupplementSymbolBlockchainMdx,
+    SupplementGlossaryMdx,
 }
