@@ -7,7 +7,7 @@ export const Introduction = ({params}: {params: Parameters}) => {
     return <div className="content">
         <h1 className="title is-3">Boost epic challenges!</h1>
         <p>
-            QUEST is a novel tipping platform for streamers that build on block chain technologies.
+            QUEST is a novel "contingency fee basis" tipping platform that build on block chain technologies.
         </p>
         <div className="block my-6">
             <figure className="image osi-quest-figure">
@@ -26,13 +26,13 @@ export const Introduction = ({params}: {params: Parameters}) => {
             <div className="column is-three-fifths is-offset-one-fifth">
                 <h3 className="title is-5">What's QUEST?</h3>
                 <p>
-                    What’s you are aimed on your stream? What would you like to achieve?
+                    What’s you are aimed on your challenge? What would you like to achieve?
                 </p>
                 <p>
-                    “The quest” is an achievement you are aiming on the stream.<br/>
-                    Viewers who expecting your struggle journey and successful finale boosts vault of the quest by donation.<br/>
-                    After you accomplish the quest, you’ll acquire the vault contents. If you don't make it... it'll be refunded to the viewer who donated.<br/>
-                    But who judge the quest was succeeded or failed? It’s viewer’s vote.<br/>
+                    “The quest” is an achievement you are aiming on the challenge.<br/>
+                    Supporters who expecting your struggle journey and successful finale boosts vault of the quest by donation.<br/>
+                    After you accomplish the quest, you’ll acquire the vault contents. If you don't make it... it'll be refunded to the supporter who donated.<br/>
+                    But who judge the quest was succeeded or failed? It’s supporter’s vote.<br/>
                     QUEST main features are full automatic and safe processing that realized by block chain technologies.
                 </p>
             </div>
