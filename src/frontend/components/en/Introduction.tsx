@@ -41,13 +41,13 @@ export const Introduction = ({params}: {params: Parameters}) => {
         <div className="my-6">
             <h3 className="title is-5">QUEST uses Symbol block chain</h3>
             <div className="columns">
-                <div className="column">
+                <div className="column is-align-self-center">
                     <p>
                         Symbol allowed us rapid developments, secure asset handling, and fine usability.<br />
                         Also, QUEST uses Symbol’s native currency ‘XYM’ to transact with our users.
                     </p>
                 </div>
-                <div className="column is-4 p-6">
+                <div className="column is-3 p-6">
                     <a href="https://docs.symbol.dev/" target="_blank" rel="noreferrer">
                         <img src="/Symbol_Logo-wordmark-stacked-dark-BG.svg" alt="Symbol" />
                     </a>

@@ -7,7 +7,7 @@ export const Introduction = ({params}: {params: Parameters}) => {
     return <div className="content">
         <h1 className="title is-3">偉大なチャレンジをブースト！</h1>
         <p>
-            QUEST はブロックチェーン技術を使用した、配信者向けの全く新しい投げ銭プラットフォームです。
+            QUEST はブロックチェーン技術を使用した、全く新しい「成功報酬型」投げ銭プラットフォームです。
         </p>
         <div className="block my-6">
             <figure className="image osi-quest-figure">
@@ -26,14 +26,14 @@ export const Introduction = ({params}: {params: Parameters}) => {
             <div className="column is-three-fifths is-offset-one-fifth">
                 <h3 className="title is-5">QUESTとは？</h3>
                 <p>
-                    あなたは配信で何を目指しますか？何を成し遂げようと考えていますか？
+                    あなたは日々の挑戦で何を目指しますか？何を成し遂げようと考えていますか？
                 </p>
                 <p>
-                    クエストとは配信であなたが目指す成果の事です。<br/>
-                    あなたの奮闘や最終的な成功に期待している視聴者が、投げ銭によってクエストの「金庫」をブーストします。<br />
+                    クエストとは挑戦であなたが目指す成果の事です。<br/>
+                    あなたの奮闘や最終的な成功に期待しているサポーターが、投げ銭によってクエストの「金庫」をブーストします。<br />
                     そして、あなたが見事クエストを達成した暁に、金庫の中身を獲得できるのです。
-                    もしも達成できなければ・・・金庫の中身は投げ銭を行った視聴者に返金されます。<br />
-                    しかし、一体誰がクエストの成否を判断するのでしょうか？それは視聴者の投票によって行われます。<br />
+                    もしも達成できなければ・・・金庫の中身はサポーターに返金されます。<br />
+                    しかし、一体誰がクエストの成否を判断するのでしょうか？それはサポーターの投票によって行われます。<br />
                     ブロックチェーン技術を駆使し、これら一連の仕組みが、全く自動で安全に処理されるのが QUEST の特徴です。
                 </p>
             </div>
@@ -42,13 +42,13 @@ export const Introduction = ({params}: {params: Parameters}) => {
         <div className="my-6">
             <h3 className="title is-5">QUEST は Symbol ブロックチェーンを使用しています</h3>
             <div className="columns">
-                <div className="column">
+                <div className="column is-align-self-center">
                     <p>
                         Symbol が迅速な開発と、安全な資産の移動、そして優れたユーザービリティを可能にしました。<br />
                         また、QUEST は Symbol のネイティブ通貨である「XYM」を使用してユーザーとの取引を行います。<br />
                     </p>
                 </div>
-                <div className="column is-4 p-6">
+                <div className="column is-3 p-6">
                     <a href="https://docs.symbol.dev/" target="_blank" rel="noreferrer">
                         <img src="/Symbol_Logo-wordmark-stacked-dark-BG.svg" alt="Symbol" />
                     </a>
@@ -69,7 +69,7 @@ export const Introduction = ({params}: {params: Parameters}) => {
                     <a href="https://zaif.jp/" target="_blank" rel="noreferrer">Zaif</a>、
                     <a href="https://app.bitbank.cc/" target="_blank" rel="noreferrer">bitbank</a>、
                     <a href="https://coin.z.com/" target="_blank" rel="noreferrer">GMOコイン</a>、
-                    <a href="https://www.huobi.co.jp/" target="_blank" rel="noreferrer">Huobi Japan</a>
+                    <a href="https://www.huobi.co.jp/" target="_blank" rel="noreferrer">Huobi Japan</a>、
                     <a href="https://bitflyer.com/" target="_blank" rel="noreferrer">bitFlyer</a>
                     で取り扱いがあります。
                     海外も含めて、XYMを取り扱っている取引所一覧は<a href="https://coinmarketcap.com/ja/currencies/symbol/markets/" target="_blank" rel="noreferrer">こちら</a>で確認してください。

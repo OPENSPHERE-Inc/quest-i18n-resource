@@ -41,13 +41,13 @@ export const Introduction = ({params}: {params: Parameters}) => {
         <div className="my-6">
             <h3 className="title is-5">QUEST는 Symbol(심볼) 블록체인을 사용합니다</h3>
             <div className="columns">
-                <div className="column">
+                <div className="column is-align-self-center">
                     <p>
                         Symbol을 사용해 빠른 개발, 안전한 자산 관리 및 우수한 사용성을 실현했습니다.<br />
                         또한, QUEST는 Symbol의 기본 통화인 ‘XYM’을 사용해 사용자간 거래가 가능합니다.
                     </p>
                 </div>
-                <div className="column is-4 p-6">
+                <div className="column is-3 p-6">
                     <a href="https://docs.symbol.dev/" target="_blank" rel="noreferrer">
                         <img src="/Symbol_Logo-wordmark-stacked-dark-BG.svg" alt="Symbol" />
                     </a>
