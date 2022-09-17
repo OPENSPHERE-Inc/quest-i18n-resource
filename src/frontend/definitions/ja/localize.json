@@ -1234,5 +1234,9 @@
 	"guide": "ガイド",
 	"reference": "リファレンス",
 	"supplement": "補足",
-	"header_documentation": "マニュアル"
+	"header_documentation": "マニュアル",
+	"html_user_manual_notification": [
+		"Currently, this page is written only in Japanese.",
+		"Old instruction is <a href=\"/instruction\">here</a>."
+	]
 }

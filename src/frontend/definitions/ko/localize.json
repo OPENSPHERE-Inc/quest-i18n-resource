@@ -1258,5 +1258,9 @@
 	"guide": "Guide",
 	"reference": "Reference",
 	"supplement": "Supplement",
-	"header_documentation": "Docs"
+	"header_documentation": "Docs",
+	"html_user_manual_notification": [
+		"Currently, this page is written only in Japanese.",
+		"Old instruction is <a href=\"/instruction\">here</a>."
+	]
 }
