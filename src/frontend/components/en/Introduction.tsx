@@ -35,13 +35,16 @@ export const Introduction = ({params}: {params: Parameters}) => {
                     But who judge the quest was succeeded or failed? It’s supporter’s vote.<br/>
                     QUEST main features are full automatic and safe processing that realized by block chain technologies.
                 </p>
+                <div className="buttons is-centered">
+                    <Link to="/docs" className="button is-primary is-medium">Documentation</Link>
+                </div>
             </div>
         </div>
 
         <div className="my-6">
-            <h3 className="title is-5">QUEST uses Symbol block chain</h3>
             <div className="columns">
                 <div className="column is-align-self-center">
+                    <h3 className="title is-5">QUEST uses Symbol block chain</h3>
                     <p>
                         Symbol allowed us rapid developments, secure asset handling, and fine usability.<br />
                         Also, QUEST uses Symbol’s native currency ‘XYM’ to transact with our users.

@@ -35,13 +35,16 @@ export const Introduction = ({params}: {params: Parameters}) => {
                     Но кто решает, будет ли квест исполнителя успешным или неудачным? Это решаете Вы.<br/>
                     QUEST - это полностью автоматизированная и безопасная среда, реализованная с помощью технологий Symbol.
                 </p>
+                <div className="buttons is-centered">
+                    <Link to="/docs" className="button is-primary is-medium">Документация</Link>
+                </div>
             </div>
         </div>
 
         <div className="my-6">
-            <h3 className="title is-5">QUEST использует блокчейн Symbol</h3>
             <div className="columns">
                 <div className="column is-align-self-center">
+                    <h3 className="title is-5">QUEST использует блокчейн Symbol</h3>
                     <p>
                         Symbol позволяет нам быстро развиваться и безопасно работать с активами XYM, имея при этом отличное юзабилити.<br />
                     </p>

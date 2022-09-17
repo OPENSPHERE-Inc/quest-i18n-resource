@@ -36,13 +36,16 @@ export const Introduction = ({params}: {params: Parameters}) => {
                     しかし、一体誰がクエストの成否を判断するのでしょうか？それはサポーターの投票によって行われます。<br />
                     ブロックチェーン技術を駆使し、これら一連の仕組みが、全く自動で安全に処理されるのが QUEST の特徴です。
                 </p>
+                <div className="buttons is-centered">
+                    <Link to="/docs" className="button is-primary is-medium">ユーザーマニュアル</Link>
+                </div>
             </div>
         </div>
 
         <div className="my-6">
-            <h3 className="title is-5">QUEST は Symbol ブロックチェーンを使用しています</h3>
             <div className="columns">
                 <div className="column is-align-self-center">
+                    <h3 className="title is-5">QUEST は Symbol ブロックチェーンを使用しています</h3>
                     <p>
                         Symbol が迅速な開発と、安全な資産の移動、そして優れたユーザービリティを可能にしました。<br />
                         また、QUEST は Symbol のネイティブ通貨である「XYM」を使用してユーザーとの取引を行います。<br />

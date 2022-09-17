@@ -35,13 +35,16 @@ export const Introduction = ({params}: {params: Parameters}) => {
                     하지만 퀘스트의 성공 여부는 누가 판단하게 될까요? 바로 시청자들의 투표에 의해 결정 됩니다.<br/>
                     QUEST는 위에서 설명한 과정을 블록체인 기술을 사용해 안전하면서 자동으로 진행될 수 있게 해주는 기술 입니다.
                 </p>
+                <div className="buttons is-centered">
+                    <Link to="/docs" className="button is-primary is-medium">사용자 매뉴얼</Link>
+                </div>
             </div>
         </div>
 
         <div className="my-6">
-            <h3 className="title is-5">QUEST는 Symbol(심볼) 블록체인을 사용합니다</h3>
             <div className="columns">
                 <div className="column is-align-self-center">
+                    <h3 className="title is-5">QUEST는 Symbol(심볼) 블록체인을 사용합니다</h3>
                     <p>
                         Symbol을 사용해 빠른 개발, 안전한 자산 관리 및 우수한 사용성을 실현했습니다.<br />
                         또한, QUEST는 Symbol의 기본 통화인 ‘XYM’을 사용해 사용자간 거래가 가능합니다.
