@@ -1238,5 +1238,7 @@
 	"html_user_manual_notification": [
 		"Currently, this page is written only in Japanese.",
 		"Old instruction is <a href=\"/instruction\">here</a>."
-	]
+	],
+	"button_open_docs_index": "索引",
+	"user_manual": "ユーザーマニュアル"
 }
