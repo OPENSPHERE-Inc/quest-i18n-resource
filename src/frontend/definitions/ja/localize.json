@@ -1240,5 +1240,12 @@
 		"Old instruction is <a href=\"/instruction\">here</a>."
 	],
 	"button_open_docs_index": "索引",
-	"user_manual": "ユーザーマニュアル"
+	"user_manual": "ユーザーマニュアル",
+	"rss_feed": "RSS フィード",
+	"available_quests_feed": "有効なクエストのフィード（最大 %d 件)",
+	"available_boosts_feed": "有効なブーストのフィード（最大 %d 件）",
+	"available_users_feed": "有効なユーザーのフィード（最大 %d 件）",
+	"active_performers_feed": "アクティブなパフォーマーのフィード（最大 %d 件）",
+	"available_templates_feed": "有効なオファーのフィード（最大 %d 件）",
+	"footer_i18n_project": "国際化プロジェクト"
 }

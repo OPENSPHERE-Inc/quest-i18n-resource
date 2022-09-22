@@ -1265,5 +1265,12 @@
 		"Old instruction is <a href=\"/instruction\">here</a>."
 	],
 	"button_open_docs_index": "Index",
-	"user_manual": "Documentation"
+	"user_manual": "Documentation",
+	"rss_feed": "RSS Feed",
+	"available_quests_feed": "Available quests feed (Max %d items)",
+	"available_boosts_feed": "Available boosts feed (Max %d items)",
+	"available_users_feed": "Available users feed (Max %d items)",
+	"active_performers_feed": "Active performers feed (Max %d items)",
+	"available_templates_feed": "Available offers feed (Max %d items)",
+	"footer_i18n_project": "I18N Project"
 }
