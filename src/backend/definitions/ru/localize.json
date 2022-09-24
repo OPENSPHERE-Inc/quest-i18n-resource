@@ -4,5 +4,7 @@
   "user_profile_description": "%s Сайт QUEST, использует новую платформу для пожертвований, с использованием технологии блокчейн Symbol.",
   "twitter": "@QUESTofficial5",
   "site_title": "QUEST",
-  "site_title_test": "QUEST в тестовой сети"
+  "site_title_test": "QUEST в тестовой сети",
+  "rss_receipts_feed_title": "%s boosted %s with %s XYM",
+  "rss_user_quests_feed_title": "%s is performing %s"
 }

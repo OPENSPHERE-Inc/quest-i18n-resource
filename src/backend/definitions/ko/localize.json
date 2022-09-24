@@ -4,5 +4,7 @@
   "user_profile_description": "%s 님은 블록체인 기술로 구축된 새로운 팁 지급 플랫폼인 QUEST 사용 중입니다.",
   "twitter": "@QUESTofficial5",
   "site_title": "QUEST",
-  "site_title_test": "Testnet으로 QUEST 접속하기"
+  "site_title_test": "Testnet으로 QUEST 접속하기",
+  "rss_receipts_feed_title": "%s boosted %s with %s XYM",
+  "rss_user_quests_feed_title": "%s is performing %s"
 }

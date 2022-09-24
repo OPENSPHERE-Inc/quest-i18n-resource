@@ -4,5 +4,7 @@
   "user_profile_description": "%sは、ブロックチェーンテクノロジーを使用した、全く新しい投げ銭プラットフォームQUESTを使用しています。",
   "twitter": "@QUESTofficial5",
   "site_title": "QUEST",
-  "site_title_test": "QUEST on Testnet"
+  "site_title_test": "QUEST on Testnet",
+  "rss_receipts_feed_title": "%s さんが %s を %s XYM ブースト",
+  "rss_user_quests_feed_title": "%s は %s を実行しています"
 }
