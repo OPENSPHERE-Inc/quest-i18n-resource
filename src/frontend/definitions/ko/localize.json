@@ -770,7 +770,6 @@
 	"quest_title_placeholder": "제목",
 	"quest_update_succeed": "퀘스트가 업데이트 되었습니다.",
 	"quest_updated_at": "업데이트 일",
-	"quest_vault": "금고",
 	"quest_vote_negative": "거절",
 	"quest_vote_none": "투표 없음",
 	"quest_vote_positive": "승인",
@@ -1292,5 +1291,6 @@
 	"history": "History",
 	"original_post": "Original post",
 	"current_post": "Current post",
-	"quest_description_history": "Quest detail update history"
+	"quest_description_history": "Quest detail update history",
+	"quest_vault": "Boosts"
 }

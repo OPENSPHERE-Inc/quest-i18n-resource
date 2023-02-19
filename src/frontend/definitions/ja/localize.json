@@ -750,7 +750,6 @@
 	"quest_title_placeholder": "タイトル",
 	"quest_update_succeed": "クエストを更新しました。",
 	"quest_updated_at": "更新日時",
-	"quest_vault": "金庫",
 	"quest_vote_negative": "否認",
 	"quest_vote_none": "無投票",
 	"quest_vote_positive": "承認",
@@ -1270,5 +1269,6 @@
 	"history": "履歴",
 	"original_post": "初期の投稿",
 	"current_post": "現在の投稿",
-	"quest_description_history": "クエスト詳細更新履歴"
+	"quest_description_history": "クエスト詳細更新履歴",
+	"quest_vault": "ブースト"
 }

@@ -770,7 +770,6 @@
 	"quest_title_placeholder": "Title",
 	"quest_update_succeed": "Your quest has been updated.",
 	"quest_updated_at": "Updated at",
-	"quest_vault": "Vault",
 	"quest_vote_negative": "Denial",
 	"quest_vote_none": "No vote",
 	"quest_vote_positive": "Acknowledge",
@@ -1295,5 +1294,6 @@
 	"history": "History",
 	"original_post": "Original post",
 	"current_post": "Current post",
-	"quest_description_history": "Quest detail update history"
+	"quest_description_history": "Quest detail update history",
+	"quest_vault": "Boosts"
 }
