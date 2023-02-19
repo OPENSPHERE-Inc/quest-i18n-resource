@@ -10,7 +10,7 @@ export interface Parameters {
                                     // .format(str('duration_format_long', 'd [days] h [hours] m [minutes]'), { trim: 'both' })
     deadline_duration_max: string;  // moment.duration(globalConfig.quest.deadline_minutes_max, 'minutes')
                                     // .format(str('duration_format_long', 'd [days] h [hours] m [minutes]'), { trim: 'both' })
-    quest_runnings_max: number;  // globalConfig.quest.runnings_max
+    quest_concurrent_max: number;  // globalConfig.quest.concurrent_max
     deposit_amount_max: string;  // toXYM(Long.fromString(globalConfig.quest.deposit.amount_max))
     deposit_balance_max: string;  // toXYM(Long.fromString(globalConfig.quest.deposit.balance_max))
     deposit_message_len_max: number;  // globalConfig.quest.deposit.message_len_max

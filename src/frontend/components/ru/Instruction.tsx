@@ -97,8 +97,8 @@ export const Instruction = ({params}: {params: Parameters}) => {
             Как только вы создали квест, поделитесь им со своими зрителями и нажмите кнопку “Выполнить”.
         </p>
         <blockquote>
-            { params.quest_runnings_max
-                ? `Maximum number of performing is ${params.quest_runnings_max}.`
+            { params.quest_concurrent_max
+                ? `Maximum number of performing is ${params.quest_concurrent_max}.`
                 : `Maximum number of performing is unlimited.` }
         </blockquote>
         <p>

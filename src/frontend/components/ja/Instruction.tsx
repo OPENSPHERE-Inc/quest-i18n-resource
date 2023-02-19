@@ -98,8 +98,8 @@ export const Instruction = ({params}: {params: Parameters}) => {
             クエストを作成したらそれを視聴者と共有し、「実行」ボタンをクリックしてください。
         </p>
         <blockquote>
-            { params.quest_runnings_max
-                ? `同時に実行できるクエスト最大数は ${params.quest_runnings_max} 件です。`
+            { params.quest_concurrent_max
+                ? `同時に実行できるクエスト最大数は ${params.quest_concurrent_max} 件です。`
                 : `同時に実行できるクエスト最大数は無制限です。` }
         </blockquote>
         <p>

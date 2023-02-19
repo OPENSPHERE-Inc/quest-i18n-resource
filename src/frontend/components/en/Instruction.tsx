@@ -97,8 +97,8 @@ export const Instruction = ({params}: {params: Parameters}) => {
             Once you created quest, share it with your viewers and click “Perform” button.
         </p>
         <blockquote>
-            { params.quest_runnings_max
-                ? `Maximum number of performing is ${params.quest_runnings_max}.`
+            { params.quest_concurrent_max
+                ? `Maximum number of performing is ${params.quest_concurrent_max}.`
                 : `Maximum number of performing is unlimited.` }
         </blockquote>
         <p>

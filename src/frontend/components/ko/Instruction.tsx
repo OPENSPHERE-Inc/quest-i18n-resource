@@ -93,8 +93,8 @@ export const Instruction = ({params}: {params: Parameters}) => {
             퀘스트를 생성한 뒤 시청자에게 공유하기 위해서 "시작" 버튼을 눌러주세요.
         </p>
         <blockquote>
-            { params.quest_runnings_max
-                ? `최대 시작 가능한 퀘스트 수는 ${params.quest_runnings_max}개 입니다.`
+            { params.quest_concurrent_max
+                ? `최대 시작 가능한 퀘스트 수는 ${params.quest_concurrent_max}개 입니다.`
                 : `최대 시작 가능한 퀘스트 수는 제한이 없습니다.` }
         </blockquote>
         <p>

@@ -22,7 +22,7 @@ export const useParameters = (): Parameters => {
         deadline_duration_max:
             moment.duration(60 * 24 * 60, 'minutes')
                 .format(str('duration_format_long', 'd [days] h [hours] m [minutes]'), { trim: 'both' }),
-        quest_runnings_max: 19,
+        quest_concurrent_max: 19,
         deposit_amount_max: toXYM(Long.fromString('5000000000')),
         deposit_balance_max: toXYM(Long.fromString('50000000000')),
         deposit_message_len_max: 140,
