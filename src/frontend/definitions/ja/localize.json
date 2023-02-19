@@ -1270,5 +1270,6 @@
 	"original_post": "初期の投稿",
 	"current_post": "現在の投稿",
 	"quest_description_history": "クエスト詳細更新履歴",
-	"quest_vault": "ブースト"
+	"quest_vault": "ブースト",
+	"drafting_quests": "実行前クエスト"
 }
