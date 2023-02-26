@@ -1303,5 +1303,9 @@
 	"tx_cosignatures_needed": "The transaction needs more cosignatures.",
 	"hash_lock": "Hash Lock",
 	"button_retry_announce": "Resend",
-	"retry_announce_succeeded": "The transaction has been resent."
+	"retry_announce_succeeded": "The transaction has been resent.",
+	"error_not_cosignatory": [
+		"The Symbol account that specified by private key isn't valid cosignatory of multisig.",
+		"Please input proper private key."
+	]
 }

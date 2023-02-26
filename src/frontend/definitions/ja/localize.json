@@ -1280,5 +1280,9 @@
 	"tx_cosignatures_needed": "トランザクションには更なる連署が必要です。",
 	"hash_lock": "ハッシュロック",
 	"button_retry_announce": "再送信",
-	"retry_announce_succeeded": "トランザクションを再送信しました。"
+	"retry_announce_succeeded": "トランザクションを再送信しました。",
+	"error_not_cosignatory": [
+		"秘密鍵で指定されたSymbolアカウントは、有効なマルチシグ署名者ではありません。",
+		"適切な秘密鍵を入力してください。"
+	]
 }
