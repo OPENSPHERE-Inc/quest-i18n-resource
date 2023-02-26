@@ -1271,5 +1271,14 @@
 	"current_post": "現在の投稿",
 	"quest_description_history": "クエスト詳細更新履歴",
 	"quest_vault": "ブースト",
-	"drafting_quests": "実行前クエスト"
+	"drafting_quests": "実行前クエスト",
+	"error_received_from_network": "ネットワークエラー: %s",
+	"multisig_account": "マルチシグアカウント",
+	"multisig_private_key": "マルチシグ署名者の秘密鍵",
+	"plus_hash_lock_amount": "ハッシュロック: 10 XYM",
+	"success_tx_announced": "トランザクションのアナウンスに成功しました。",
+	"tx_cosignatures_needed": "トランザクションには更なる連署が必要です。",
+	"hash_lock": "ハッシュロック",
+	"button_retry_announce": "再送信",
+	"retry_announce_succeeded": "トランザクションを再送信しました。"
 }

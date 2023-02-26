@@ -1293,5 +1293,14 @@
 	"current_post": "Current post",
 	"quest_description_history": "Quest detail update history",
 	"quest_vault": "Boosts",
-	"drafting_quests": "Drafting quests"
+	"drafting_quests": "Drafting quests",
+	"error_received_from_network": "Error from network: %s",
+	"multisig_account": "Multisig account",
+	"multisig_private_key": "Multisig signer's private key",
+	"plus_hash_lock_amount": "Hash Lock: 10 XYM",
+	"success_tx_announced": "The transaction announcement succeeded.",
+	"tx_cosignatures_needed": "The transaction needs more cosignatures.",
+	"hash_lock": "Hash Lock",
+	"button_retry_announce": "Resend",
+	"retry_announce_succeeded": "The transaction has been resent."
 }
