@@ -217,8 +217,8 @@ export const Instruction = ({params}: {params: Parameters}) => {
             Откройте страницу квеста и нажмите "Подтвердить голосование" или "Отклонить голосование".<br />
         </p>
         <blockquote>
-            Вы можете изменить свой голос в любое время до окончания периода голосования.<br />
-            Период голосования - 24 часа с момента завершения квеста
+            You can change your vote at any time until the voting period has end.<br />
+            Voting period is 48h from the quest completion (from v2. Previously 24 hours after quest completion)
         </blockquote>
         <p>
             Голосование будет признано успешным, если будет большинство голосов, с положительным результатом и исполнитель получит вознаграждение.<br />
@@ -230,8 +230,8 @@ export const Instruction = ({params}: {params: Parameters}) => {
             После успешного завершения периода голосования откройте страницу квеста и нажмите «Награда» или «Получить возврат».
         </p>
         <blockquote>
-            Вы должны принять решение в течение 24 часов после окончания голосования.
-            Если вы не приняли решение к установленному сроку, это равносильно выбору «Получить возмещение».
+            You should decide in 7 days after voting end (from v2. Previously 24 hours after voting end)
+            If you didn't make decision by the deadline, it's same as you chose "Get a Refund".
         </blockquote>
 
         <h2 className="title is-4 mt-6">7. Исполнителю квеста：Заработок за счет донатов</h2>

@@ -208,8 +208,8 @@ export const Instruction = ({params}: {params: Parameters}) => {
             퀘스트 페이지를 열고 "승인 투표" 또는 "거절 투표" 중 하나를 눌러주세요.<br />
         </p>
         <blockquote>
-            투표 기간이 종료되기 전에는 언제든 결정을 변경할 수 있습니다.<br />
-            투표 기간은 퀘스트 완료 후 24시간 동안 진행됩니다.
+            You can change your vote at any time until the voting period has end.<br />
+            Voting period is 48h from the quest completion (from v2. Previously 24 hours after quest completion)
         </blockquote>
         <p>
             승인이 과반수일 경우에는 수행자에게 격려금 금고가 지급됩니다.<br />
@@ -221,7 +221,8 @@ export const Instruction = ({params}: {params: Parameters}) => {
             투표가 성공적으로 마무리 된다면, 퀘스트 페이지를 열어 "보상 지급" 또는 "환불 받기" 버튼을 눌러주세요.
         </p>
         <blockquote>
-            투표 종료 후 24시간 이내에 결정해야 합니다. 기한까지 결정 하지 않을 경우 "환불 받기" 버튼을 누른 것으로 간주합니다.
+            You should decide in 7 days after voting end (from v2. Previously 24 hours after voting end)
+            If you didn't make decision by the deadline, it's same as you chose "Get a Refund".
         </blockquote>
 
         <h2 className="title is-4 mt-6">7. 수행자 용 : 금고 자금 획득</h2>

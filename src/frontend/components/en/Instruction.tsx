@@ -219,7 +219,7 @@ export const Instruction = ({params}: {params: Parameters}) => {
         </p>
         <blockquote>
             You can change your vote at any time until the voting period has end.<br />
-            Voting period is 24h from the quest completion.
+            Voting period is 48h from the quest completion (from v2. Previously 24 hours after quest completion)
         </blockquote>
         <p>
             It’ll succeed if acknowledge is majority, as a result, boosts will be awarded to performer.<br />
@@ -231,7 +231,7 @@ export const Instruction = ({params}: {params: Parameters}) => {
             After the voting period has end with succeed, open the quest page and click “Award” or “Get a Refund”.
         </p>
         <blockquote>
-            You should decide in 24 hours after voting end.
+            You should decide in 7 days after voting end (from v2. Previously 24 hours after voting end)
             If you didn't make decision by the deadline, it's same as you chose "Get a Refund".
         </blockquote>
 
