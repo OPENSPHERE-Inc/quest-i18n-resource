@@ -1307,5 +1307,8 @@
 		"The Symbol account that specified by private key isn't valid cosignatory of multisig.",
 		"Please input proper private key."
 	],
-	"past_boost_showing": "Showing boosts prior to %s"
+	"past_boost_showing": "Showing boosts prior to %s",
+	"quest_contributions": "Contributions",
+	"quest_contributions_not_found": "No quest contributions found.",
+	"button_quest_contributes_load_more": "Load More Quest Contributions."
 }

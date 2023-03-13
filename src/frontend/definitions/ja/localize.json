@@ -1285,5 +1285,8 @@
 		"秘密鍵で指定されたSymbolアカウントは、有効なマルチシグ署名者ではありません。",
 		"適切な秘密鍵を入力してください。"
 	],
-	"past_boost_showing": "%s までのブーストを表示中"
+	"past_boost_showing": "%s までのブーストを表示中",
+	"quest_contributions": "貢献",
+	"quest_contributions_not_found": "貢献が見つかりませんでした。",
+	"button_quest_contributes_load_more": "貢献を更に表示"
 }
