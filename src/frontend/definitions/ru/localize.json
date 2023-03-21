@@ -1312,5 +1312,8 @@
 	"quest_contributions_not_found": "No quest contributions found.",
 	"button_quest_contributes_load_more": "Load More Quest Contributions.",
 	"quest_contributions": "Contributions (%d)",
-	"contributions": "Contributions"
+	"contributions": "Contributions",
+	"explorer": "Explorer",
+	"recently_contributions": "Recently contributions",
+	"user_quest_contributions": "%s's contributions"
 }
