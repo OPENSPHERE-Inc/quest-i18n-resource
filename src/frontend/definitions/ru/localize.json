@@ -1315,5 +1315,12 @@
 	"contributions": "Contributions",
 	"explorer": "Explorer",
 	"recently_contributions": "Recently contributions",
-	"user_quest_contributions": "%s's contributions"
+	"user_quest_contributions": "%s's contributions",
+	"button_hide_options": "Hide options",
+	"target_amount": "Target boost amount",
+	"target_amount_placeholder": "Target boost amount (Total)",
+	"vote_choice_id": "Vote choice name (Unique)",
+	"vote_choice_id_placeholder": "Vote choice name",
+	"button_show_options": "Show options",
+	"error_vote_choice_id_duplicated": "Vote choice name must be unique."
 }
