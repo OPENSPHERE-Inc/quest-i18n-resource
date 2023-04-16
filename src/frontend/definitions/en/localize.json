@@ -1324,5 +1324,9 @@
 	"vote_choice_id": "Vote choice name (Unique)",
 	"vote_choice_id_placeholder": "Vote choice name",
 	"button_show_options": "Show options",
-	"error_vote_choice_id_duplicated": "Vote choice name must be unique."
+	"error_vote_choice_id_duplicated": "Vote choice name must be unique.",
+	"quests_ongoing": "Ongoing Quests",
+	"quests_succeeded": "Approved Quests",
+	"receipts_paid": "Boosted XYM",
+	"receipts_awarded": "Awarded XYM"
 }
