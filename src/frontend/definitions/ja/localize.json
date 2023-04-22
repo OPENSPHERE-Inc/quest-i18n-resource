@@ -1300,9 +1300,9 @@
 	"vote_choice_id_placeholder": "投票候補名",
 	"button_show_options": "オプションを表示する",
 	"error_vote_choice_id_duplicated": "投票候補名は他と被りが無いように設定してください。",
-	"quests_ongoing": "進行中のクエスト",
-	"quests_succeeded": "承認されたクエスト",
-	"receipts_paid": "ブーストされたXYM",
-	"receipts_awarded": "授与されたXYM",
+	"quests_ongoing": "進行中クエスト",
+	"quests_succeeded": "承認クエスト",
+	"receipts_paid": "全ブーストXYM",
+	"receipts_awarded": "授与XYM",
 	"quests_all": "全クエスト"
 }
