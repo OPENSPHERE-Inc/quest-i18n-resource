@@ -1326,5 +1326,6 @@
 	"quests_ongoing": "Ongoing Quests",
 	"quests_succeeded": "Approved Quests",
 	"receipts_paid": "Boosted XYM",
-	"receipts_awarded": "Awarded XYM"
+	"receipts_awarded": "Awarded XYM",
+	"quests_all": "All Quests"
 }

@@ -1303,5 +1303,6 @@
 	"quests_ongoing": "進行中のクエスト",
 	"quests_succeeded": "承認されたクエスト",
 	"receipts_paid": "ブーストされたXYM",
-	"receipts_awarded": "授与されたXYM"
+	"receipts_awarded": "授与されたXYM",
+	"quests_all": "全クエスト"
 }
