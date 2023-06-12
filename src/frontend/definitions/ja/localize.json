@@ -1304,5 +1304,12 @@
 	"quests_succeeded": "承認クエスト",
 	"receipts_paid": "全ブーストXYM",
 	"receipts_awarded": "授与XYM",
-	"quests_all": "全クエスト"
+	"quests_all": "全クエスト",
+	"deposit_policy_3": "D. 承認後の追いブースト",
+	"deposit_policy_3_description": [
+		"承認されたクエストは、後からいつでも追いブーストすることができます。",
+		"実行者は即座にブーストを受け取ります。"
+	],
+	"quest_receipt_late_deposit": "タイプD",
+	"quest_receipt_status_7": "送金済み"
 }

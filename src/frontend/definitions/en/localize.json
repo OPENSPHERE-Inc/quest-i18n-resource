@@ -1329,5 +1329,12 @@
 	"quests_succeeded": "Approved Quests",
 	"receipts_paid": "Boosted XYM",
 	"receipts_awarded": "Awarded XYM",
-	"quests_all": "All Quests"
+	"quests_all": "All Quests",
+	"deposit_policy_3": "D. Post approval boost",
+	"deposit_policy_3_description": [
+		"You can send a chip to approved quest. ",
+		"The performer will receive your boost immediately."
+	],
+	"quest_receipt_late_deposit": "Post approval boost",
+	"quest_receipt_status_7": "Transferred"
 }
