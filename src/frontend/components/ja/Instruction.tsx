@@ -168,6 +168,18 @@ export const Instruction = ({params}: {params: Parameters}) => {
                         : null }
                 </td>
             </tr>
+            <tr>
+                <td>
+                    <strong>[タイプD] 承認後の追いブースト（承認クエストのみ選択可）</strong><br />
+                    承認されたクエストは、後からいつでも追いブーストすることができます。 実行者は即座にブーストを受け取ります。
+                </td>
+                <td className="osi-nowrap">
+                    { fees.deposit[3] } XYM
+                    { fees.deposit_rate[3]
+                        ? <><br /> + ブースト額の{fees.deposit_rate[3] * 100}%</>
+                        : null }
+                </td>
+            </tr>
             </tbody>
         </table>
         <blockquote>

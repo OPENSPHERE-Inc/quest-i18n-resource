@@ -177,6 +177,20 @@ export const Instruction = ({params}: {params: Parameters}) => {
                     </strong>
                 </td>
             </tr>
+            <tr>
+                <td>
+                    <strong>[Type.D] Post approval boost (Approved quest only)</strong><br />
+                    You can send a chip to approved quest. The performer will receive your boost immediately.
+                </td>
+                <td className="osi-nowrap">
+                    <strong>
+                        { fees.deposit[3] } XYM
+                        { fees.deposit_rate[3]
+                            ? <><br /> + {fees.deposit_rate[3] * 100}% of amount</>
+                            : null }
+                    </strong>
+                </td>
+            </tr>
             </tbody>
         </table>
         <blockquote>
