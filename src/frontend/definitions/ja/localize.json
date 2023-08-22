@@ -1311,5 +1311,17 @@
 		"実行者は即座にブーストを受け取ります。"
 	],
 	"quest_receipt_late_deposit": "タイプD",
-	"quest_receipt_status_7": "送金済み"
+	"quest_receipt_status_7": "送金済み",
+	"button_settle_quest_title": "投票を終了する",
+	"button_settle_quest": "投票終了",
+	"quest_settle_succeed": "投票を終了しました",
+	"error_quest_settle_failed": "投票終了中にエラーが発生しました。時間をおいてから再度お試しください。",
+	"button_settle_quest_progress": "%d%%",
+	"button_settle_quest_timer": "%s",
+	"duration_hours_format": "h[時間 ]m[分 ]",
+	"dialog_quest_settle_confirmation_title": "投票終了の確認",
+	"dialog_quest_settle_confirmation_message": [
+		"本当に投票を終了してもよろしいですか? ",
+		"投票を終了すると、未だ投票していない有権者の投票権が消滅します。"
+	]
 }

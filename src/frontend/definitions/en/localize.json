@@ -1336,5 +1336,17 @@
 		"The performer will receive your boost immediately."
 	],
 	"quest_receipt_late_deposit": "Post approval boost",
-	"quest_receipt_status_7": "Transferred"
+	"quest_receipt_status_7": "Transferred",
+	"button_settle_quest_title": "Close voting",
+	"button_settle_quest": "Close Vote",
+	"quest_settle_succeed": "You've closed voting.",
+	"error_quest_settle_failed": "An error occurred during close voting. Please try again later.",
+	"button_settle_quest_progress": "%d%%",
+	"button_settle_quest_timer": "%s",
+	"duration_hours_format": "h[h ]m[m ]",
+	"dialog_quest_settle_confirmation_title": "Close Voting Confirmation",
+	"dialog_quest_settle_confirmation_message": [
+		"Are you sure to close voting? ",
+		"That results voters who hasn't voted yet lost his voting power."
+	]
 }
