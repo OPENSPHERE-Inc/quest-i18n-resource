@@ -126,7 +126,7 @@ export const Instruction = ({params}: {params: Parameters}) => {
             </tr>
             </thead>
             <tbody>
-            <tr>
+            { /*<tr>
                 <td>
                     <strong>[유형.A] 수행자를 신뢰함 (수수료가 제일 저렴함)</strong><br />
                     투표가 완료 된 후, 격려금이 투표 결과와 상관없이 수행자에게 지급됩니다.
@@ -140,7 +140,7 @@ export const Instruction = ({params}: {params: Parameters}) => {
                             : null }
                     </strong>
                 </td>
-            </tr>
+            </tr>*/ }
             <tr>
                 <td>
                     <strong>[유형.B] 투표 결과를 신뢰함 (추천)</strong><br />

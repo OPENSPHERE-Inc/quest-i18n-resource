@@ -131,7 +131,7 @@ export const Instruction = ({params}: {params: Parameters}) => {
             </tr>
             </thead>
             <tbody>
-            <tr>
+            { /*<tr>
                 <td>
                     <strong>[Type.A] Trust the performer (Cheapest fee)</strong><br />
                     After end of voting, your boosts will be awarded to performer regardless of voting result
@@ -145,7 +145,7 @@ export const Instruction = ({params}: {params: Parameters}) => {
                             : null }
                     </strong>
                 </td>
-            </tr>
+            </tr>*/ }
             <tr>
                 <td>
                     <strong>[Type.B] Trust the vote result (Recommended)</strong><br />

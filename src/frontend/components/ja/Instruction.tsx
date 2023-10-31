@@ -131,7 +131,7 @@ export const Instruction = ({params}: {params: Parameters}) => {
             </tr>
             </thead>
             <tbody>
-            <tr>
+            { /*<tr>
                 <td>
                     <strong>[タイプA] 実行者を信頼（最も低料金）</strong><br />
                     投票終了後、投票結果に関わらず、あなたのブーストは実行者に授与されます（ただしクエスト中止や期限切れを除きます）
@@ -142,7 +142,7 @@ export const Instruction = ({params}: {params: Parameters}) => {
                         ? <><br /> + ブースト額の{fees.deposit_rate[2] * 100}%</>
                         : null }
                 </td>
-            </tr>
+            </tr>*/ }
             <tr>
                 <td>
                     <strong>[タイプB] 投票結果を信頼（お勧め）</strong><br />

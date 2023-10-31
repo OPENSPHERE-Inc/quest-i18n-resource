@@ -130,7 +130,7 @@ export const Instruction = ({params}: {params: Parameters}) => {
             </tr>
             </thead>
             <tbody>
-            <tr>
+            { /*<tr>
                 <td>
                     <strong>[Тип.A] Поверить исполнителю квеста (Самая дешевая плата)</strong><br />
                   По окончании голосования ваши XYM будут вручены исполнителю вне зависимости от результата голосования.
@@ -144,7 +144,7 @@ export const Instruction = ({params}: {params: Parameters}) => {
                             : null }
                     </strong>
                 </td>
-            </tr>
+            </tr>*/ }
             <tr>
                 <td>
                     <strong>[Тип.B] Доверяйте результату голосования (Рекомендуется)</strong><br />
