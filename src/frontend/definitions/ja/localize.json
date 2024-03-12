@@ -1323,5 +1323,7 @@
 	"dialog_quest_settle_confirmation_message": [
 		"本当に投票を終了してもよろしいですか? ",
 		"投票を終了すると、未だ投票していない有権者の投票権が消滅します。"
-	]
+	],
+	"button_detail_settings": "詳細設定 (任意)",
+	"template_expiry_date_unlimited": "無期限"
 }

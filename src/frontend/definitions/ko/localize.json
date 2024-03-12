@@ -1345,5 +1345,7 @@
 	"dialog_quest_settle_confirmation_message": [
 		"Are you sure to close voting? ",
 		"That results voters who hasn't voted yet lost his voting power."
-	]
+	],
+	"button_detail_settings": "Detail settings (Optional)",
+	"template_expiry_date_unlimited": "Unlimited"
 }
