@@ -1325,5 +1325,6 @@
 		"投票を終了すると、未だ投票していない有権者の投票権が消滅します。"
 	],
 	"button_detail_settings": "詳細設定 (任意)",
-	"template_expiry_date_unlimited": "無期限"
+	"template_expiry_date_unlimited": "無期限",
+	"button_share_on_social": "ソーシャルメディアで共有"
 }

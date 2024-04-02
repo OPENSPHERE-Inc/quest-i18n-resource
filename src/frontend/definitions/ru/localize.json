@@ -1348,5 +1348,6 @@
 		"That results voters who hasn't voted yet lost his voting power."
 	],
 	"button_detail_settings": "Detail settings (Optional)",
-	"template_expiry_date_unlimited": "Unlimited"
+	"template_expiry_date_unlimited": "Unlimited",
+	"button_share_on_social": "Share on social media"
 }
