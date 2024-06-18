@@ -34,7 +34,7 @@ export const Footer = () => {
                 </p>
                 <p>
                     Copyright &copy; {(new Date()).getFullYear()} &nbsp;
-                    <a href="https://www.opensphere.co.jp/">OPENSPHERE Inc.</a>
+                    <a href="https://opensphere.co.jp/">OPENSPHERE Inc.</a>
                 </p>
             </div>
         </div>
