@@ -13,5 +13,8 @@
   "rss_title_user_quests": "QUEST - パフォーマーフィード",
   "rss_title_templates": "QUEST - オファーフィード",
   "rss_description": "QUESTは、ブロックチェーンテクノロジーを使用した、全く新しい「成功報酬型」投げ銭プラットフォームです。",
-  "rss_copyright": "Copyright © %s OPENSPHERE Inc."
+  "rss_copyright": "Copyright © %s OPENSPHERE Inc.",
+  "discord_quest_comment": "%s さんがジャーナルを投稿しました",
+  "discord_quest_perform": "%s さんがクエストを実行しました",
+  "discord_template": "%s さんがオファーを開始しました"
 }

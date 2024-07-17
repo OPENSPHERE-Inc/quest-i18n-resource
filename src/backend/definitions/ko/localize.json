@@ -13,5 +13,8 @@
   "rss_title_user_quests": "QUEST - Performers Feed",
   "rss_title_templates": "QUEST - Offers Feed",
   "rss_description": "QUEST is a novel 'contingency fee basis' tipping platform that build on block chain technologies.",
-  "rss_copyright": "Copyright © %s OPENSPHERE Inc."
+  "rss_copyright": "Copyright © %s OPENSPHERE Inc.",
+  "discord_quest_comment": "%s has post a journal",
+  "discord_quest_perform": "%s has start a quest",
+  "discord_template": "%s has start an offer"
 }
